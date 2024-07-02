@@ -7,6 +7,10 @@ on:
       - 'main'
     tags:
       - '*'
+  pull_request:
+    branches: [ "*" ]
+
+
 
 jobs:
   docker:
