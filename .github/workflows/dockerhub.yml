@@ -1,14 +1,15 @@
 name: Push Image to DockerHub 
 
 on:
-  push: 
-    branches: 
-      - 'dev'
-      - 'main'
+  push:
     tags:
       - '*'
   pull_request:
-    branches: [ "*" ]
+    types:
+      - closed
+    branches:
+      - 'dev'
+      - 'main'
 
 
 
