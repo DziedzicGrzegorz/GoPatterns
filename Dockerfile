@@ -1,7 +1,7 @@
 # syntax=docker/dockerfile:1
 
 # Build the application from source
-FROM golang:1.22.4 AS build-stage
+FROM golang:1.22.5 AS build-stage
 WORKDIR /app
 
 COPY go.mod go.sum ./
