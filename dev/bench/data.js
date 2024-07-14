@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720917687081,
+  "lastUpdate": 1720917688509,
   "repoUrl": "https://github.com/DziedzicGrzegorz/GoPatterns",
   "entries": {
     "Go Benchmark": [
@@ -599,6 +599,78 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/d4ba5476c40067f713ecaec63669962cccdca201"
         },
         "date": 1720917686359,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_1",
+            "value": 59.68,
+            "unit": "ns/op",
+            "extra": "19783056 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_2",
+            "value": 92.83,
+            "unit": "ns/op",
+            "extra": "12251716 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_4",
+            "value": 135.6,
+            "unit": "ns/op",
+            "extra": "8758262 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_8",
+            "value": 252.1,
+            "unit": "ns/op",
+            "extra": "4751564 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_16",
+            "value": 1360,
+            "unit": "ns/op",
+            "extra": "796573 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_32",
+            "value": 3092,
+            "unit": "ns/op",
+            "extra": "361932 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_64",
+            "value": 6668,
+            "unit": "ns/op",
+            "extra": "178040 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_128",
+            "value": 13444,
+            "unit": "ns/op",
+            "extra": "88195 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "DziedzicGrzegorz",
+            "username": "DziedzicGrzegorz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d4ba5476c40067f713ecaec63669962cccdca201",
+          "message": "Merge pull request #19 from DziedzicGrzegorz/CI/benchmark\n\nAdd comprehensive benchmark tests for performance evaluation via GitHub Actions",
+          "timestamp": "2024-07-14T02:40:51+02:00",
+          "tree_id": "555e369235d1df0ad71e3a8ecc7b478479807681",
+          "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/d4ba5476c40067f713ecaec63669962cccdca201"
+        },
+        "date": 1720917687862,
         "tool": "go",
         "benches": [
           {
