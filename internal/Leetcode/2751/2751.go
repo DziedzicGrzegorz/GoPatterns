@@ -4,6 +4,7 @@ import (
 	"slices"
 )
 
+// This leetcode was added with branch CI/benchmar (d4ba5476c40067f713ecaec63669962cccdca201) to test the performance of the solution by mistake
 // cpu: 13th Gen Intel(R) Core(TM) i7-13700KF
 // Benchmark_survivedRobotsHealths/length_1-24             35179855                34.85 ns/op           16 B/op          2 allocs/op
 // Benchmark_survivedRobotsHealths/length_2-24             31971685                37.59 ns/op            8 B/op          1 allocs/op
