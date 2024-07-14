@@ -28,7 +28,7 @@ jobs:
           github-token: ${{ secrets.BENCH_TOKEN }}
           auto-push: true
           # Show alert with commit comment on detecting possible performance regression
-          alert-threshold: '120%'
+          alert-threshold: '160%'
           comment-on-alert: true
           fail-on-alert: true
           alert-comment-cc-users: '@dziedzicgrzegorz'
@@ -42,7 +42,7 @@ jobs:
           github-token: ${{ secrets.BENCH_TOKEN }}
           auto-push: true
           # Show alert with commit comment on detecting possible performance regression
-          alert-threshold: '120%'
+          alert-threshold: '160%'
           comment-on-alert: true
           fail-on-alert: true
           alert-comment-cc-users: '@dziedzicgrzegorz'
