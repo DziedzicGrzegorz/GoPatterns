@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720917334846,
+  "lastUpdate": 1720917336043,
   "repoUrl": "https://github.com/DziedzicGrzegorz/GoPatterns",
   "entries": {
     "Go Benchmark": [
@@ -311,6 +311,78 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/bfabafb14942728ee2e093f0305de5acefb7b36b"
         },
         "date": 1720917334293,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_1",
+            "value": 73.36,
+            "unit": "ns/op",
+            "extra": "14524606 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_2",
+            "value": 97.66,
+            "unit": "ns/op",
+            "extra": "12862022 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_4",
+            "value": 139.8,
+            "unit": "ns/op",
+            "extra": "8748085 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_8",
+            "value": 239.7,
+            "unit": "ns/op",
+            "extra": "4966255 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_16",
+            "value": 1342,
+            "unit": "ns/op",
+            "extra": "783958 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_32",
+            "value": 3083,
+            "unit": "ns/op",
+            "extra": "372898 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_64",
+            "value": 6526,
+            "unit": "ns/op",
+            "extra": "173485 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_128",
+            "value": 13107,
+            "unit": "ns/op",
+            "extra": "90522 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Grzegorz Dziedzic",
+            "username": "DziedzicGrzegorz"
+          },
+          "committer": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Grzegorz Dziedzic",
+            "username": "DziedzicGrzegorz"
+          },
+          "distinct": true,
+          "id": "bfabafb14942728ee2e093f0305de5acefb7b36b",
+          "message": "docs(bench): correct name for action",
+          "timestamp": "2024-07-14T02:35:08+02:00",
+          "tree_id": "e4c6a1f3c31601211af4a2e215e3536e204ec4cb",
+          "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/bfabafb14942728ee2e093f0305de5acefb7b36b"
+        },
+        "date": 1720917335557,
         "tool": "go",
         "benches": [
           {
