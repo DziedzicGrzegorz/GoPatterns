@@ -1,6 +1,6 @@
 module github.com/dziedzicgrzegorz/goPatterns
 
-go 1.22.4
+go 1.22.5
 
 require (
 	go.uber.org/multierr v1.11.0 // indirect
