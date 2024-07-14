@@ -30,7 +30,7 @@ func survivedRobotsHealths(positions []int, healths []int, directions string) []
 	}
 	slices.Sort(positions)
 
-	stack := make([]int, 0)
+	stack := make([]int, 0, len(positions))
 
 	for _, position := range positions {
 		key := indexMap[position]
@@ -61,7 +61,7 @@ func survivedRobotsHealths(positions []int, healths []int, directions string) []
 			}
 		}
 	}
-	result := make([]int, 0)
+	result := make([]int, 0, len(healths))
 
 	for _, health := range healths {
 		if health > 0 {
