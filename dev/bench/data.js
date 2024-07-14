@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720918271660,
+  "lastUpdate": 1720918272582,
   "repoUrl": "https://github.com/DziedzicGrzegorz/GoPatterns",
   "entries": {
     "Go Benchmark": [
@@ -1175,6 +1175,78 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/9bb6153eaadf7e66f4665d07ec3087f9e82d45d3"
         },
         "date": 1720918271177,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_1",
+            "value": 57.86,
+            "unit": "ns/op",
+            "extra": "20160890 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_2",
+            "value": 92.64,
+            "unit": "ns/op",
+            "extra": "12982596 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_4",
+            "value": 134.7,
+            "unit": "ns/op",
+            "extra": "8853333 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_8",
+            "value": 239.6,
+            "unit": "ns/op",
+            "extra": "4978282 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_16",
+            "value": 1368,
+            "unit": "ns/op",
+            "extra": "776860 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_32",
+            "value": 3113,
+            "unit": "ns/op",
+            "extra": "371586 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_64",
+            "value": 6538,
+            "unit": "ns/op",
+            "extra": "173276 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_128",
+            "value": 13159,
+            "unit": "ns/op",
+            "extra": "90160 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "DziedzicGrzegorz",
+            "username": "DziedzicGrzegorz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9bb6153eaadf7e66f4665d07ec3087f9e82d45d3",
+          "message": "Merge pull request #21 from DziedzicGrzegorz/feat/Leetcode-1701\n\nfeat(1701): Medium",
+          "timestamp": "2024-07-14T02:50:46+02:00",
+          "tree_id": "bd8558c0686e042a0c4793316b8ddf479771f811",
+          "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/9bb6153eaadf7e66f4665d07ec3087f9e82d45d3"
+        },
+        "date": 1720918272250,
         "tool": "go",
         "benches": [
           {
