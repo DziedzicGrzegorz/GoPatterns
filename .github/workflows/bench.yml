@@ -1,4 +1,4 @@
-name: Go Example
+name: Go Benchmark
 on:
   push:
     branches: [ "**" ]
@@ -9,7 +9,7 @@ permissions:
 
 jobs:
   benchmark:
-    name: Run Go benchmark example
+    name: Run Go benchmark
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
