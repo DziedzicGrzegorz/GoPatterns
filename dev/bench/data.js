@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720918272582,
+  "lastUpdate": 1720919223051,
   "repoUrl": "https://github.com/DziedzicGrzegorz/GoPatterns",
   "entries": {
     "Go Benchmark": [
@@ -1296,6 +1296,78 @@ window.BENCHMARK_DATA = {
             "value": 13159,
             "unit": "ns/op",
             "extra": "90160 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "DziedzicGrzegorz",
+            "username": "DziedzicGrzegorz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3c9640f40f245bf3db7de345a6136b64918d1070",
+          "message": "Merge pull request #23 from DziedzicGrzegorz/dev\n\nAdd Leetcode solutions and comprehensive benchmark tests",
+          "timestamp": "2024-07-14T03:06:15+02:00",
+          "tree_id": "acdabb8647f8b43c92bc6a06fb9afb894732e6d5",
+          "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/3c9640f40f245bf3db7de345a6136b64918d1070"
+        },
+        "date": 1720919221851,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_1",
+            "value": 57.76,
+            "unit": "ns/op",
+            "extra": "19402971 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_2",
+            "value": 92.03,
+            "unit": "ns/op",
+            "extra": "12654069 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_4",
+            "value": 135.2,
+            "unit": "ns/op",
+            "extra": "8809009 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_8",
+            "value": 242.2,
+            "unit": "ns/op",
+            "extra": "4926728 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_16",
+            "value": 1350,
+            "unit": "ns/op",
+            "extra": "796150 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_32",
+            "value": 3065,
+            "unit": "ns/op",
+            "extra": "369494 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_64",
+            "value": 6538,
+            "unit": "ns/op",
+            "extra": "179769 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_128",
+            "value": 13979,
+            "unit": "ns/op",
+            "extra": "88741 times\n2 procs"
           }
         ]
       }
