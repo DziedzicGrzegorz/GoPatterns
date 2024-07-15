@@ -7,13 +7,15 @@ type TreeNode struct {
 }
 
 func createBinaryTree(descriptions [][]int) *TreeNode {
-	nodeMap := make(map[int]*TreeNode)
-	childrens := make(map[int]bool)
+	nodeMap := make(map[int]*TreeNode, len(descriptions))
+	childrens := make(map[int]bool, len(descriptions))
 
-	//value that is in parents but not in childrens is the root
+	var root *TreeNode
+
 	for _, description := range descriptions {
 		parentValue := description[0]
 		currValue := description[1]
+		isLeft := description[2]
 
 		childrens[currValue] = true
 
@@ -29,18 +31,20 @@ func createBinaryTree(descriptions [][]int) *TreeNode {
 			nodeMap[currValue] = son
 		}
 
-		if description[2] == 1 {
+		if isLeft == 1 {
 			parent.Left = son
 		} else {
 			parent.Right = son
 		}
 	}
 
-	var root *TreeNode
-	for _, desc := range descriptions {
-		if childrens[desc[0]] == false {
-			root = nodeMap[desc[0]]
+	for _, description := range descriptions {
+		parentValue := description[0]
+		if !childrens[parentValue] {
+			root = nodeMap[parentValue]
+			break
 		}
 	}
+
 	return root
 }
