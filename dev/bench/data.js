@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1721161582238,
+  "lastUpdate": 1721161584118,
   "repoUrl": "https://github.com/DziedzicGrzegorz/GoPatterns",
   "entries": {
     "Go Benchmark": [
@@ -1931,6 +1931,84 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/acc871ee2f0066d690c4b26d01558ae2f02f4b34"
         },
         "date": 1721161580985,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "Benchmark_getDirections",
+            "value": 310,
+            "unit": "ns/op",
+            "extra": "3333750 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_1",
+            "value": 58.44,
+            "unit": "ns/op",
+            "extra": "19471869 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_2",
+            "value": 93.47,
+            "unit": "ns/op",
+            "extra": "12664626 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_4",
+            "value": 135.5,
+            "unit": "ns/op",
+            "extra": "8800612 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_8",
+            "value": 243.4,
+            "unit": "ns/op",
+            "extra": "4925758 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_16",
+            "value": 1372,
+            "unit": "ns/op",
+            "extra": "778420 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_32",
+            "value": 3139,
+            "unit": "ns/op",
+            "extra": "353277 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_64",
+            "value": 6773,
+            "unit": "ns/op",
+            "extra": "176251 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_128",
+            "value": 15075,
+            "unit": "ns/op",
+            "extra": "89109 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Grzegorz Dziedzic",
+            "username": "DziedzicGrzegorz"
+          },
+          "committer": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Grzegorz Dziedzic",
+            "username": "DziedzicGrzegorz"
+          },
+          "distinct": true,
+          "id": "acc871ee2f0066d690c4b26d01558ae2f02f4b34",
+          "message": "feat(2196): Medium\n\nYou are given the root of a binary tree with n nodes. Each node is uniquely assigned a value from 1 to n. You are also given an integer startValue representing the value of the start node s, and a different integer destValue representing the value of the destination node t.\n\nFind the shortest path starting from node s and ending at node t. Generate step-by-step directions of such path as a string consisting of only the uppercase letters 'L', 'R', and 'U'. Each letter indicates a specific direction:\n\n'L' means to go from a node to its left child node.\n'R' means to go from a node to its right child node.\n'U' means to go from a node to its parent node.\nReturn the step-by-step directions of the shortest path from node s to node t.",
+          "timestamp": "2024-07-16T22:25:38+02:00",
+          "tree_id": "584c1259b8a570ee41477c1cb0e57669b794f99d",
+          "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/acc871ee2f0066d690c4b26d01558ae2f02f4b34"
+        },
+        "date": 1721161583148,
         "tool": "go",
         "benches": [
           {
