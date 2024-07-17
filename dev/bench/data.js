@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1721234952061,
+  "lastUpdate": 1721234953194,
   "repoUrl": "https://github.com/DziedzicGrzegorz/GoPatterns",
   "entries": {
     "Go Benchmark": [
@@ -2087,6 +2087,78 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/cd73f3cdecf8e2e6445be65e0aba14a81c5b51ce"
         },
         "date": 1721234951482,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_1",
+            "value": 59.53,
+            "unit": "ns/op",
+            "extra": "20395186 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_2",
+            "value": 93.61,
+            "unit": "ns/op",
+            "extra": "12826082 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_4",
+            "value": 134.7,
+            "unit": "ns/op",
+            "extra": "8819215 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_8",
+            "value": 240,
+            "unit": "ns/op",
+            "extra": "4979168 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_16",
+            "value": 1356,
+            "unit": "ns/op",
+            "extra": "799675 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_32",
+            "value": 3069,
+            "unit": "ns/op",
+            "extra": "372442 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_64",
+            "value": 6538,
+            "unit": "ns/op",
+            "extra": "175058 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_128",
+            "value": 13793,
+            "unit": "ns/op",
+            "extra": "90685 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Grzegorz Dziedzic",
+            "username": "DziedzicGrzegorz"
+          },
+          "committer": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Grzegorz Dziedzic",
+            "username": "DziedzicGrzegorz"
+          },
+          "distinct": true,
+          "id": "cd73f3cdecf8e2e6445be65e0aba14a81c5b51ce",
+          "message": "feat(1110): Medium\n\nGiven the root of a binary tree, each node in the tree has a distinct value.\n\nAfter deleting all nodes with a value in to_delete, we are left with a forest (a disjoint union of trees).\n\nReturn the roots of the trees in the remaining forest. You may return the result in any order.\n\nExample 1:\n\nInput: root = [1,2,3,4,5,6,7], to_delete = [3,5]\nOutput: [[1,2,null,4],[6],[7]]\n\nExample 2:\n\nInput: root = [1,2,4,null,3], to_delete = [3]\nOutput: [[1,2,4]]",
+          "timestamp": "2024-07-17T18:48:38+02:00",
+          "tree_id": "da3d212f7aaba82f27e91c358846f35d79e2d34d",
+          "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/cd73f3cdecf8e2e6445be65e0aba14a81c5b51ce"
+        },
+        "date": 1721234952784,
         "tool": "go",
         "benches": [
           {
