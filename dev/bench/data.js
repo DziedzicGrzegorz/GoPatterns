@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1721234953194,
+  "lastUpdate": 1721330503778,
   "repoUrl": "https://github.com/DziedzicGrzegorz/GoPatterns",
   "entries": {
     "Go Benchmark": [
@@ -2208,6 +2208,78 @@ window.BENCHMARK_DATA = {
             "value": 13793,
             "unit": "ns/op",
             "extra": "90685 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "DziedzicGrzegorz",
+            "username": "DziedzicGrzegorz"
+          },
+          "committer": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "DziedzicGrzegorz",
+            "username": "DziedzicGrzegorz"
+          },
+          "distinct": true,
+          "id": "27709d531de55615945e8f99f47d3e9ef69f358c",
+          "message": "feat(1530): Medium\n\nYou are given the root of a binary tree and an integer distance. A pair of two different leaf nodes of a binary tree is said to be good if the length of the shortest path between them is less than or equal to distance.\n\nReturn the number of good leaf node pairs in the tree.\n\nExample 1:\n\nInput: root = [1,2,3,null,4], distance = 3\nOutput: 1\nExplanation: The leaf nodes of the tree are 3 and 4 and the length of the shortest path between them is 3. This is the only good pair.\n\nExample 2:\n\nInput: root = [1,2,3,4,5,6,7], distance = 3\nOutput: 2\nExplanation: The good pairs are [4,5] and [6,7] with shortest path = 2. The pair [4,6] is not good because the length of ther shortest path between them is 4.\n\nExample 3:\n\nInput: root = [7,1,4,6,null,5,3,null,null,null,null,null,2], distance = 3\nOutput: 1\nExplanation: The only good pair is [2,5].\n\nConstraints:\n\nThe number of nodes in the tree is in the range [1, 210].\n1 <= Node.val <= 100\n1 <= distance <= 10",
+          "timestamp": "2024-07-18T21:21:06+02:00",
+          "tree_id": "68e62ae15759bed45e9deccfe86fbf96004c0c34",
+          "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/27709d531de55615945e8f99f47d3e9ef69f358c"
+        },
+        "date": 1721330503259,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_1",
+            "value": 57.97,
+            "unit": "ns/op",
+            "extra": "20436876 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_2",
+            "value": 92.38,
+            "unit": "ns/op",
+            "extra": "12693895 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_4",
+            "value": 147.8,
+            "unit": "ns/op",
+            "extra": "8106150 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_8",
+            "value": 241.4,
+            "unit": "ns/op",
+            "extra": "4925272 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_16",
+            "value": 1346,
+            "unit": "ns/op",
+            "extra": "797671 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_32",
+            "value": 3102,
+            "unit": "ns/op",
+            "extra": "367496 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_64",
+            "value": 6979,
+            "unit": "ns/op",
+            "extra": "179667 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_128",
+            "value": 14809,
+            "unit": "ns/op",
+            "extra": "80708 times\n2 procs"
           }
         ]
       }
