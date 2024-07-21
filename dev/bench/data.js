@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1721593445874,
+  "lastUpdate": 1721593650237,
   "repoUrl": "https://github.com/DziedzicGrzegorz/GoPatterns",
   "entries": {
     "Go Benchmark": [
@@ -2796,6 +2796,84 @@ window.BENCHMARK_DATA = {
             "value": 13100,
             "unit": "ns/op",
             "extra": "90210 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "DziedzicGrzegorz",
+            "username": "DziedzicGrzegorz"
+          },
+          "committer": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "DziedzicGrzegorz",
+            "username": "DziedzicGrzegorz"
+          },
+          "distinct": true,
+          "id": "c3df21b5d759772b33968ac732118a7cdb76045f",
+          "message": "feat(2392): Hard\n\nYou are given a positive integer k. You are also given:\n\na 2D integer array rowConditions of size n where rowConditions[i] = [abovei, belowi], and\na 2D integer array colConditions of size m where colConditions[i] = [lefti, righti].\nThe two arrays contain integers from 1 to k.\n\nYou have to build a k x k matrix that contains each of the numbers from 1 to k exactly once. The remaining cells should have the value 0.\n\nThe matrix should also satisfy the following conditions:\n\nThe number abovei should appear in a row that is strictly above the row at which the number belowi appears for all i from 0 to n - 1.\nThe number lefti should appear in a column that is strictly left of the column at which the number righti appears for all i from 0 to m - 1.\nReturn any matrix that satisfies the conditions. If no answer exists, return an empty matrix.\n\nExample 1:\n\nInput: k = 3, rowConditions = [[1,2],[3,2]], colConditions = [[2,1],[3,2]]\nOutput: [[3,0,0],[0,0,1],[0,2,0]]\nExplanation: The diagram above shows a valid example of a matrix that satisfies all the conditions.\nThe row conditions are the following:\n- Number 1 is in row 1, and number 2 is in row 2, so 1 is above 2 in the matrix.\n- Number 3 is in row 0, and number 2 is in row 2, so 3 is above 2 in the matrix.\nThe column conditions are the following:\n- Number 2 is in column 1, and number 1 is in column 2, so 2 is left of 1 in the matrix.\n- Number 3 is in column 0, and number 2 is in column 1, so 3 is left of 2 in the matrix.\nNote that there may be multiple correct answers.\nExample 2:\n\nInput: k = 3, rowConditions = [[1,2],[2,3],[3,1],[2,3]], colConditions = [[2,1]]\nOutput: []\nExplanation: From the first two conditions, 3 has to be below 1 but the third conditions needs 3 to be above 1 to be satisfied.\nNo matrix can satisfy all the conditions, so we return the empty matrix.\n\nConstraints:\n\n2 <= k <= 400\n1 <= rowConditions.length, colConditions.length <= 104\nrowConditions[i].length == colConditions[i].length == 2\n1 <= abovei, belowi, lefti, righti <= k\nabovei != belowi\nlefti != righti",
+          "timestamp": "2024-07-21T22:26:51+02:00",
+          "tree_id": "7cd11247c9e215ddadd9a99e7631daa4723f78ae",
+          "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/c3df21b5d759772b33968ac732118a7cdb76045f"
+        },
+        "date": 1721593649648,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "Benchmark_buildMatrix",
+            "value": 1097,
+            "unit": "ns/op",
+            "extra": "1086922 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_1",
+            "value": 58.05,
+            "unit": "ns/op",
+            "extra": "20291011 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_2",
+            "value": 93.01,
+            "unit": "ns/op",
+            "extra": "12765214 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_4",
+            "value": 144,
+            "unit": "ns/op",
+            "extra": "8745259 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_8",
+            "value": 241.1,
+            "unit": "ns/op",
+            "extra": "4906105 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_16",
+            "value": 1379,
+            "unit": "ns/op",
+            "extra": "757966 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_32",
+            "value": 3127,
+            "unit": "ns/op",
+            "extra": "372243 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_64",
+            "value": 6571,
+            "unit": "ns/op",
+            "extra": "178916 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_128",
+            "value": 13171,
+            "unit": "ns/op",
+            "extra": "90795 times\n2 procs"
           }
         ]
       }
