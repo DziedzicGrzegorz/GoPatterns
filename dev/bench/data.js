@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1721593662022,
+  "lastUpdate": 1721679685979,
   "repoUrl": "https://github.com/DziedzicGrzegorz/GoPatterns",
   "entries": {
     "Go Benchmark": [
@@ -3096,6 +3096,84 @@ window.BENCHMARK_DATA = {
             "value": 13235,
             "unit": "ns/op",
             "extra": "90927 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Grzegorz Dziedzic",
+            "username": "DziedzicGrzegorz"
+          },
+          "committer": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Grzegorz Dziedzic",
+            "username": "DziedzicGrzegorz"
+          },
+          "distinct": true,
+          "id": "12806215c89d46f4b634db370dd1659309c58871",
+          "message": "feat(2418): Easy\n\nYou are given an array of strings names, and an array heights that consists of distinct positive integers. Both arrays are of length n.\n\nFor each index i, names[i] and heights[i] denote the name and height of the ith person.\n\nReturn names sorted in descending order by the people's heights.\n\nExample 1:\n\nInput: names = [\"Mary\",\"John\",\"Emma\"], heights = [180,165,170]\nOutput: [\"Mary\",\"Emma\",\"John\"]\nExplanation: Mary is the tallest, followed by Emma and John.\nExample 2:\n\nInput: names = [\"Alice\",\"Bob\",\"Bob\"], heights = [155,185,150]\nOutput: [\"Bob\",\"Alice\",\"Bob\"]\nExplanation: The first Bob is the tallest, followed by Alice and the second Bob.\n\nConstraints:\n\nn == names.length == heights.length\n1 <= n <= 103\n1 <= names[i].length <= 20\n1 <= heights[i] <= 105\nnames[i] consists of lower and upper case English letters.\nAll the values of heights are distinct.",
+          "timestamp": "2024-07-22T22:20:49+02:00",
+          "tree_id": "4f74b54940b613f2112caf7085b1a952a3f37836",
+          "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/12806215c89d46f4b634db370dd1659309c58871"
+        },
+        "date": 1721679684965,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "Benchmark_sortPeople",
+            "value": 246.2,
+            "unit": "ns/op",
+            "extra": "4853372 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_1",
+            "value": 57.91,
+            "unit": "ns/op",
+            "extra": "20474504 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_2",
+            "value": 92.37,
+            "unit": "ns/op",
+            "extra": "12561270 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_4",
+            "value": 135.6,
+            "unit": "ns/op",
+            "extra": "8810091 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_8",
+            "value": 240.2,
+            "unit": "ns/op",
+            "extra": "4936530 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_16",
+            "value": 1498,
+            "unit": "ns/op",
+            "extra": "776690 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_32",
+            "value": 3116,
+            "unit": "ns/op",
+            "extra": "367366 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_64",
+            "value": 6525,
+            "unit": "ns/op",
+            "extra": "180321 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_128",
+            "value": 13072,
+            "unit": "ns/op",
+            "extra": "89487 times\n2 procs"
           }
         ]
       }
