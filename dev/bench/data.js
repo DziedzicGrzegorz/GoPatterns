@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1721680841430,
+  "lastUpdate": 1721680843366,
   "repoUrl": "https://github.com/DziedzicGrzegorz/GoPatterns",
   "entries": {
     "Go Benchmark": [
@@ -3275,6 +3275,84 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/3e0ba876f45a851995cf66aaafaa71da35e20929"
         },
         "date": 1721680840224,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "Benchmark_sortPeople",
+            "value": 40.48,
+            "unit": "ns/op",
+            "extra": "29250150 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_1",
+            "value": 62.38,
+            "unit": "ns/op",
+            "extra": "19207958 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_2",
+            "value": 92.28,
+            "unit": "ns/op",
+            "extra": "12870582 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_4",
+            "value": 145.1,
+            "unit": "ns/op",
+            "extra": "8864977 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_8",
+            "value": 240.8,
+            "unit": "ns/op",
+            "extra": "4982858 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_16",
+            "value": 1359,
+            "unit": "ns/op",
+            "extra": "789614 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_32",
+            "value": 3064,
+            "unit": "ns/op",
+            "extra": "364329 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_64",
+            "value": 6513,
+            "unit": "ns/op",
+            "extra": "181849 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_128",
+            "value": 13088,
+            "unit": "ns/op",
+            "extra": "90813 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Grzegorz Dziedzic",
+            "username": "DziedzicGrzegorz"
+          },
+          "committer": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Grzegorz Dziedzic",
+            "username": "DziedzicGrzegorz"
+          },
+          "distinct": true,
+          "id": "3e0ba876f45a851995cf66aaafaa71da35e20929",
+          "message": "perf(2418): quick sort",
+          "timestamp": "2024-07-22T22:37:28+02:00",
+          "tree_id": "f80dae00c3bc03c072ccb9dfde4f22a94dd124e7",
+          "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/3e0ba876f45a851995cf66aaafaa71da35e20929"
+        },
+        "date": 1721680842446,
         "tool": "go",
         "benches": [
           {
