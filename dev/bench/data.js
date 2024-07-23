@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1721762474745,
+  "lastUpdate": 1721762494204,
   "repoUrl": "https://github.com/DziedzicGrzegorz/GoPatterns",
   "entries": {
     "Go Benchmark": [
@@ -3900,6 +3900,96 @@ window.BENCHMARK_DATA = {
             "value": 13236,
             "unit": "ns/op",
             "extra": "90496 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "DziedzicGrzegorz",
+            "username": "DziedzicGrzegorz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "423d7ab2285ace6234998c9476a15edf8ae56e1f",
+          "message": "Merge pull request #27 from DziedzicGrzegorz/feat/Leetcode-2392\n\nfeat(2392): Hard",
+          "timestamp": "2024-07-23T21:20:41+02:00",
+          "tree_id": "649981c0c6a7b0ce29eb318e099b13436341101c",
+          "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/423d7ab2285ace6234998c9476a15edf8ae56e1f"
+        },
+        "date": 1721762492984,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "Benchmark_delNodes",
+            "value": 598.7,
+            "unit": "ns/op",
+            "extra": "1821735 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_frequencySort",
+            "value": 206.5,
+            "unit": "ns/op",
+            "extra": "5897196 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_buildMatrix",
+            "value": 1142,
+            "unit": "ns/op",
+            "extra": "1000000 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_1",
+            "value": 57.81,
+            "unit": "ns/op",
+            "extra": "20537032 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_2",
+            "value": 92.47,
+            "unit": "ns/op",
+            "extra": "12798850 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_4",
+            "value": 142.8,
+            "unit": "ns/op",
+            "extra": "8850470 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_8",
+            "value": 243.4,
+            "unit": "ns/op",
+            "extra": "4987951 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_16",
+            "value": 1392,
+            "unit": "ns/op",
+            "extra": "891102 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_32",
+            "value": 3176,
+            "unit": "ns/op",
+            "extra": "366000 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_64",
+            "value": 6538,
+            "unit": "ns/op",
+            "extra": "180387 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_128",
+            "value": 13094,
+            "unit": "ns/op",
+            "extra": "91419 times\n2 procs"
           }
         ]
       }
