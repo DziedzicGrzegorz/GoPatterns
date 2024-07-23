@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1721762363861,
+  "lastUpdate": 1721762364920,
   "repoUrl": "https://github.com/DziedzicGrzegorz/GoPatterns",
   "entries": {
     "Go Benchmark": [
@@ -3587,6 +3587,90 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/b737a6afb5b95e078aa496aea0bda58f73f18537"
         },
         "date": 1721762363323,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "Benchmark_delNodes",
+            "value": 636.2,
+            "unit": "ns/op",
+            "extra": "1956674 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_frequencySort",
+            "value": 204.1,
+            "unit": "ns/op",
+            "extra": "5847140 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_1",
+            "value": 57.62,
+            "unit": "ns/op",
+            "extra": "20557051 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_2",
+            "value": 92.21,
+            "unit": "ns/op",
+            "extra": "12999830 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_4",
+            "value": 134.9,
+            "unit": "ns/op",
+            "extra": "8709735 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_8",
+            "value": 239.7,
+            "unit": "ns/op",
+            "extra": "4987617 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_16",
+            "value": 1345,
+            "unit": "ns/op",
+            "extra": "793009 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_32",
+            "value": 3384,
+            "unit": "ns/op",
+            "extra": "372026 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_64",
+            "value": 6725,
+            "unit": "ns/op",
+            "extra": "180385 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_128",
+            "value": 13040,
+            "unit": "ns/op",
+            "extra": "90876 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Grzegorz Dziedzic",
+            "username": "DziedzicGrzegorz"
+          },
+          "committer": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Grzegorz Dziedzic",
+            "username": "DziedzicGrzegorz"
+          },
+          "distinct": true,
+          "id": "b737a6afb5b95e078aa496aea0bda58f73f18537",
+          "message": "feat(1636): Easy\n\nGiven an array of integers nums, sort the array in increasing order based on the frequency of the values. If multiple values have the same frequency, sort them in decreasing order.\n\nReturn the sorted array.\n\nExample 1:\n\nInput: nums = [1,1,2,2,2,3]\nOutput: [3,1,1,2,2,2]\nExplanation: '3' has a frequency of 1, '1' has a frequency of 2, and '2' has a frequency of 3.\nExample 2:\n\nInput: nums = [2,3,1,3,2]\nOutput: [1,3,3,2,2]\nExplanation: '2' and '3' both have a frequency of 2, so they are sorted in decreasing order.\nExample 3:\n\nInput: nums = [-1,1,-6,4,5,-6,1,4,1]\nOutput: [5,-1,4,4,-6,-6,1,1,1]\n\nConstraints:\n\n1 <= nums.length <= 100\n-100 <= nums[i] <= 100",
+          "timestamp": "2024-07-23T21:18:24+02:00",
+          "tree_id": "5e7f4a453196c81769dc8fd773fab1b99f63cc43",
+          "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/b737a6afb5b95e078aa496aea0bda58f73f18537"
+        },
+        "date": 1721762364530,
         "tool": "go",
         "benches": [
           {
