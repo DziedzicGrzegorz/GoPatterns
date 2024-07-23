@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1721762783394,
+  "lastUpdate": 1721762784708,
   "repoUrl": "https://github.com/DziedzicGrzegorz/GoPatterns",
   "entries": {
     "Go Benchmark": [
@@ -4499,6 +4499,102 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/96f4acf1a3b0009cba6b20bc59bd1ec7a0e932ae"
         },
         "date": 1721762782656,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "Benchmark_frequencySort",
+            "value": 204.7,
+            "unit": "ns/op",
+            "extra": "5869309 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_getDirections",
+            "value": 304.4,
+            "unit": "ns/op",
+            "extra": "3937060 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkCreateBinaryTree",
+            "value": 466,
+            "unit": "ns/op",
+            "extra": "2726204 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_buildMatrix",
+            "value": 1127,
+            "unit": "ns/op",
+            "extra": "1000000 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_1",
+            "value": 58.5,
+            "unit": "ns/op",
+            "extra": "20343445 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_2",
+            "value": 92.42,
+            "unit": "ns/op",
+            "extra": "12799568 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_4",
+            "value": 135.6,
+            "unit": "ns/op",
+            "extra": "8841596 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_8",
+            "value": 245,
+            "unit": "ns/op",
+            "extra": "4970636 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_16",
+            "value": 1353,
+            "unit": "ns/op",
+            "extra": "762804 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_32",
+            "value": 3121,
+            "unit": "ns/op",
+            "extra": "354472 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_64",
+            "value": 7473,
+            "unit": "ns/op",
+            "extra": "161088 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_128",
+            "value": 13186,
+            "unit": "ns/op",
+            "extra": "89176 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "DziedzicGrzegorz",
+            "username": "DziedzicGrzegorz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "96f4acf1a3b0009cba6b20bc59bd1ec7a0e932ae",
+          "message": "Merge pull request #32 from DziedzicGrzegorz/feat/Leetcode-2751\n\ndocs(2751): mistakenly Leetcode added in d4ba5476c40067f713ecaec63669…",
+          "timestamp": "2024-07-23T21:25:46+02:00",
+          "tree_id": "004705f00526860f2d723aca1803af2d136f4551",
+          "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/96f4acf1a3b0009cba6b20bc59bd1ec7a0e932ae"
+        },
+        "date": 1721762784124,
         "tool": "go",
         "benches": [
           {
