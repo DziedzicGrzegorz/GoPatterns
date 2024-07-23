@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1721680843366,
+  "lastUpdate": 1721754809540,
   "repoUrl": "https://github.com/DziedzicGrzegorz/GoPatterns",
   "entries": {
     "Go Benchmark": [
@@ -3408,6 +3408,84 @@ window.BENCHMARK_DATA = {
             "value": 13088,
             "unit": "ns/op",
             "extra": "90813 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Grzegorz Dziedzic",
+            "username": "DziedzicGrzegorz"
+          },
+          "committer": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Grzegorz Dziedzic",
+            "username": "DziedzicGrzegorz"
+          },
+          "distinct": true,
+          "id": "e4b655b6c45803f580040dd1e5f3ae83a94cf28b",
+          "message": "feat(1636): Easy\n\nGiven an array of integers nums, sort the array in increasing order based on the frequency of the values. If multiple values have the same frequency, sort them in decreasing order.\n\nReturn the sorted array.\n\nExample 1:\n\nInput: nums = [1,1,2,2,2,3]\nOutput: [3,1,1,2,2,2]\nExplanation: '3' has a frequency of 1, '1' has a frequency of 2, and '2' has a frequency of 3.\nExample 2:\n\nInput: nums = [2,3,1,3,2]\nOutput: [1,3,3,2,2]\nExplanation: '2' and '3' both have a frequency of 2, so they are sorted in decreasing order.\nExample 3:\n\nInput: nums = [-1,1,-6,4,5,-6,1,4,1]\nOutput: [5,-1,4,4,-6,-6,1,1,1]\n\nConstraints:\n\n1 <= nums.length <= 100\n-100 <= nums[i] <= 100",
+          "timestamp": "2024-07-23T19:12:59+02:00",
+          "tree_id": "4c921e9de740a3b73c89b3169c14baee2f610e4e",
+          "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/e4b655b6c45803f580040dd1e5f3ae83a94cf28b"
+        },
+        "date": 1721754808983,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "Benchmark_frequencySort",
+            "value": 252,
+            "unit": "ns/op",
+            "extra": "5091076 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_1",
+            "value": 57.94,
+            "unit": "ns/op",
+            "extra": "20532663 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_2",
+            "value": 92.01,
+            "unit": "ns/op",
+            "extra": "12854379 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_4",
+            "value": 134.8,
+            "unit": "ns/op",
+            "extra": "8880564 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_8",
+            "value": 240.2,
+            "unit": "ns/op",
+            "extra": "4930664 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_16",
+            "value": 1344,
+            "unit": "ns/op",
+            "extra": "794013 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_32",
+            "value": 3088,
+            "unit": "ns/op",
+            "extra": "375951 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_64",
+            "value": 6522,
+            "unit": "ns/op",
+            "extra": "178012 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_128",
+            "value": 13869,
+            "unit": "ns/op",
+            "extra": "90992 times\n2 procs"
           }
         ]
       }
