@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1721764435081,
+  "lastUpdate": 1721764501668,
   "repoUrl": "https://github.com/DziedzicGrzegorz/GoPatterns",
   "entries": {
     "Go Benchmark": [
@@ -5520,6 +5520,120 @@ window.BENCHMARK_DATA = {
             "value": 13785,
             "unit": "ns/op",
             "extra": "89241 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "DziedzicGrzegorz",
+            "username": "DziedzicGrzegorz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "522f7be59f7856fd2211b91824b1cf59d1a3db3f",
+          "message": "Merge pull request #35 from DziedzicGrzegorz/feat/Leetcode-2418\n\nfeat(2418): Easy",
+          "timestamp": "2024-07-23T21:54:03+02:00",
+          "tree_id": "1fd52bdff1817440f5e3cf2b4ab3a8cf326590a6",
+          "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/522f7be59f7856fd2211b91824b1cf59d1a3db3f"
+        },
+        "date": 1721764500580,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "Benchmark_delNodes",
+            "value": 614.6,
+            "unit": "ns/op",
+            "extra": "1666371 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_frequencySort",
+            "value": 204,
+            "unit": "ns/op",
+            "extra": "5757464 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_getDirections",
+            "value": 310.5,
+            "unit": "ns/op",
+            "extra": "3884646 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkCreateBinaryTree",
+            "value": 432.9,
+            "unit": "ns/op",
+            "extra": "2797537 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_buildMatrix",
+            "value": 1106,
+            "unit": "ns/op",
+            "extra": "989005 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_sortPeople",
+            "value": 42.49,
+            "unit": "ns/op",
+            "extra": "27431811 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_1",
+            "value": 59.97,
+            "unit": "ns/op",
+            "extra": "20486072 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_2",
+            "value": 92.86,
+            "unit": "ns/op",
+            "extra": "12787707 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_4",
+            "value": 136,
+            "unit": "ns/op",
+            "extra": "8744202 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_8",
+            "value": 242.3,
+            "unit": "ns/op",
+            "extra": "4973676 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_16",
+            "value": 1357,
+            "unit": "ns/op",
+            "extra": "794314 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_32",
+            "value": 3086,
+            "unit": "ns/op",
+            "extra": "372967 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_64",
+            "value": 6627,
+            "unit": "ns/op",
+            "extra": "178159 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_128",
+            "value": 13860,
+            "unit": "ns/op",
+            "extra": "87928 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_countOfAtoms",
+            "value": 987.5,
+            "unit": "ns/op",
+            "extra": "1203720 times\n2 procs"
           }
         ]
       }
