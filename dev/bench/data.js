@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1721763475040,
+  "lastUpdate": 1721763476041,
   "repoUrl": "https://github.com/DziedzicGrzegorz/GoPatterns",
   "entries": {
     "Go Benchmark": [
@@ -4691,6 +4691,114 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/cf28608f08a67b4f6a400d8a4e3cfb9df5e63028"
         },
         "date": 1721763474417,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "Benchmark_delNodes",
+            "value": 601.9,
+            "unit": "ns/op",
+            "extra": "1811824 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_frequencySort",
+            "value": 204.7,
+            "unit": "ns/op",
+            "extra": "5890016 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_getDirections",
+            "value": 307,
+            "unit": "ns/op",
+            "extra": "3911468 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkCreateBinaryTree",
+            "value": 430.7,
+            "unit": "ns/op",
+            "extra": "2791527 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_buildMatrix",
+            "value": 1124,
+            "unit": "ns/op",
+            "extra": "1000000 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_1",
+            "value": 59.96,
+            "unit": "ns/op",
+            "extra": "18691762 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_2",
+            "value": 92.67,
+            "unit": "ns/op",
+            "extra": "12745047 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_4",
+            "value": 135.2,
+            "unit": "ns/op",
+            "extra": "8836875 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_8",
+            "value": 240.9,
+            "unit": "ns/op",
+            "extra": "4925761 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_16",
+            "value": 1350,
+            "unit": "ns/op",
+            "extra": "785426 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_32",
+            "value": 3271,
+            "unit": "ns/op",
+            "extra": "355122 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_64",
+            "value": 6649,
+            "unit": "ns/op",
+            "extra": "176458 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_128",
+            "value": 13265,
+            "unit": "ns/op",
+            "extra": "90580 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_countOfAtoms",
+            "value": 1035,
+            "unit": "ns/op",
+            "extra": "1000000 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Grzegorz Dziedzic",
+            "username": "DziedzicGrzegorz"
+          },
+          "committer": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Grzegorz Dziedzic",
+            "username": "DziedzicGrzegorz"
+          },
+          "distinct": true,
+          "id": "cf28608f08a67b4f6a400d8a4e3cfb9df5e63028",
+          "message": "feat(726): Hard\n\nGiven a string formula representing a chemical formula, return the count of each atom.\n\nThe atomic element always starts with an uppercase character, then zero or more lowercase letters, representing the name.\n\nOne or more digits representing that element's count may follow if the count is greater than 1. If the count is 1, no digits will follow.\n\nFor example, \"H2O\" and \"H2O2\" are possible, but \"H1O2\" is impossible.\nTwo formulas are concatenated together to produce another formula.\n\nFor example, \"H2O2He3Mg4\" is also a formula.\nA formula placed in parentheses, and a count (optionally added) is also a formula.\n\nFor example, \"(H2O2)\" and \"(H2O2)3\" are formulas.\nReturn the count of all elements as a string in the following form: the first name (in sorted order), followed by its count (if that count is more than 1), followed by the second name (in sorted order), followed by its count (if that count is more than 1), and so on.\n\nThe test cases are generated so that all the values in the output fit in a 32-bit integer.\n\nExample 1:\n\nInput: formula = \"H2O\"\nOutput: \"H2O\"\nExplanation: The count of elements are {'H': 2, 'O': 1}.\nExample 2:\n\nInput: formula = \"Mg(OH)2\"\nOutput: \"H2MgO2\"\nExplanation: The count of elements are {'H': 2, 'Mg': 1, 'O': 2}.\nExample 3:\n\nInput: formula = \"K4(ON(SO3)2)2\"\nOutput: \"K4N2O14S4\"\nExplanation: The count of elements are {'K': 4, 'N': 2, 'O': 14, 'S': 4}.\n\nConstraints:\n\n1 <= formula.length <= 1000\nformula consists of English letters, digits, '(', and ')'.\nformula is always valid.",
+          "timestamp": "2024-07-23T21:36:28+02:00",
+          "tree_id": "9afe1014ec3e1c50dfb268228299244d35a72edb",
+          "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/cf28608f08a67b4f6a400d8a4e3cfb9df5e63028"
+        },
+        "date": 1721763475671,
         "tool": "go",
         "benches": [
           {
