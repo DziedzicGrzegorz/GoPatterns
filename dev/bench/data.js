@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1721764433567,
+  "lastUpdate": 1721764435081,
   "repoUrl": "https://github.com/DziedzicGrzegorz/GoPatterns",
   "entries": {
     "Go Benchmark": [
@@ -5327,6 +5327,114 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/c8f6fdc291b44ddd13a526188ff75879dc0f731d"
         },
         "date": 1721764432465,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "Benchmark_delNodes",
+            "value": 634.7,
+            "unit": "ns/op",
+            "extra": "1903748 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_frequencySort",
+            "value": 204.5,
+            "unit": "ns/op",
+            "extra": "5884803 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_getDirections",
+            "value": 305.8,
+            "unit": "ns/op",
+            "extra": "3907407 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkCreateBinaryTree",
+            "value": 442.6,
+            "unit": "ns/op",
+            "extra": "2513595 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_buildMatrix",
+            "value": 1152,
+            "unit": "ns/op",
+            "extra": "1000000 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_sortPeople",
+            "value": 40.54,
+            "unit": "ns/op",
+            "extra": "29101398 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_1",
+            "value": 57.8,
+            "unit": "ns/op",
+            "extra": "20613931 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_2",
+            "value": 92.32,
+            "unit": "ns/op",
+            "extra": "12641140 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_4",
+            "value": 150.1,
+            "unit": "ns/op",
+            "extra": "8847052 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_8",
+            "value": 240.2,
+            "unit": "ns/op",
+            "extra": "4996228 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_16",
+            "value": 1358,
+            "unit": "ns/op",
+            "extra": "779462 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_32",
+            "value": 3077,
+            "unit": "ns/op",
+            "extra": "369259 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_64",
+            "value": 6541,
+            "unit": "ns/op",
+            "extra": "179124 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_128",
+            "value": 13785,
+            "unit": "ns/op",
+            "extra": "89241 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Grzegorz Dziedzic",
+            "username": "DziedzicGrzegorz"
+          },
+          "committer": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Grzegorz Dziedzic",
+            "username": "DziedzicGrzegorz"
+          },
+          "distinct": true,
+          "id": "c8f6fdc291b44ddd13a526188ff75879dc0f731d",
+          "message": "feat(2418): Easy\n\nou are given an array of strings names, and an array heights that consists of distinct positive integers. Both arrays are of length n.\n\nFor each index i, names[i] and heights[i] denote the name and height of the ith person.\n\nReturn names sorted in descending order by the people's heights.\n\nExample 1:\n\nInput: names = [\"Mary\",\"John\",\"Emma\"], heights = [180,165,170]\nOutput: [\"Mary\",\"Emma\",\"John\"]\nExplanation: Mary is the tallest, followed by Emma and John.\nExample 2:\n\nInput: names = [\"Alice\",\"Bob\",\"Bob\"], heights = [155,185,150]\nOutput: [\"Bob\",\"Alice\",\"Bob\"]\nExplanation: The first Bob is the tallest, followed by Alice and the second Bob.\n\nConstraints:\n\nn == names.length == heights.length\n1 <= n <= 103\n1 <= names[i].length <= 20\n1 <= heights[i] <= 105\nnames[i] consists of lower and upper case English letters.\nAll the values of heights are distinct.",
+          "timestamp": "2024-07-23T21:51:54+02:00",
+          "tree_id": "e81a6cecb372897652d040619897a39bf024baac",
+          "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/c8f6fdc291b44ddd13a526188ff75879dc0f731d"
+        },
+        "date": 1721764434360,
         "tool": "go",
         "benches": [
           {
