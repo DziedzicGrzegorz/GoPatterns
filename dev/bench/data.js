@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1721764503373,
+  "lastUpdate": 1721845018377,
   "repoUrl": "https://github.com/DziedzicGrzegorz/GoPatterns",
   "entries": {
     "Go Benchmark": [
@@ -5748,6 +5748,120 @@ window.BENCHMARK_DATA = {
             "value": 987.5,
             "unit": "ns/op",
             "extra": "1203720 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Grzegorz Dziedzic",
+            "username": "DziedzicGrzegorz"
+          },
+          "committer": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Grzegorz Dziedzic",
+            "username": "DziedzicGrzegorz"
+          },
+          "distinct": true,
+          "id": "59cee517bf3a4bcd4db01618ab033aa826a7e0c4",
+          "message": "feat(2191): Medium\n\nYou are given a 0-indexed integer array mapping which represents the mapping rule of a shuffled decimal system. mapping[i] = j means digit i should be mapped to digit j in this system.\n\nThe mapped value of an integer is the new integer obtained by replacing each occurrence of digit i in the integer with mapping[i] for all 0 <= i <= 9.\n\nYou are also given another integer array nums. Return the array nums sorted in non-decreasing order based on the mapped values of its elements.\n\nNotes:\n\nElements with the same mapped values should appear in the same relative order as in the input.\nThe elements of nums should only be sorted based on their mapped values and not be replaced by them.\n\nExample 1:\n\nInput: mapping = [8,9,4,0,2,1,3,5,7,6], nums = [991,338,38]\nOutput: [338,38,991]\nExplanation:\nMap the number 991 as follows:\n1. mapping[9] = 6, so all occurrences of the digit 9 will become 6.\n2. mapping[1] = 9, so all occurrences of the digit 1 will become 9.\nTherefore, the mapped value of 991 is 669.\n338 maps to 007, or 7 after removing the leading zeros.\n38 maps to 07, which is also 7 after removing leading zeros.\nSince 338 and 38 share the same mapped value, they should remain in the same relative order, so 338 comes before 38.\nThus, the sorted array is [338,38,991].\nExample 2:\n\nInput: mapping = [0,1,2,3,4,5,6,7,8,9], nums = [789,456,123]\nOutput: [123,456,789]\nExplanation: 789 maps to 789, 456 maps to 456, and 123 maps to 123. Thus, the sorted array is [123,456,789].\n\nConstraints:\n\nmapping.length == 10\n0 <= mapping[i] <= 9\nAll the values of mapping[i] are unique.\n1 <= nums.length <= 3 * 104\n0 <= nums[i] < 109",
+          "timestamp": "2024-07-24T20:15:36+02:00",
+          "tree_id": "a54d7aea4adb3562c769b830913b75847ea3ab91",
+          "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/59cee517bf3a4bcd4db01618ab033aa826a7e0c4"
+        },
+        "date": 1721845017834,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "Benchmark_delNodes",
+            "value": 600.7,
+            "unit": "ns/op",
+            "extra": "1716885 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_frequencySort",
+            "value": 205.9,
+            "unit": "ns/op",
+            "extra": "5827002 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_getDirections",
+            "value": 304.7,
+            "unit": "ns/op",
+            "extra": "3960714 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_sortJumbled",
+            "value": 238.9,
+            "unit": "ns/op",
+            "extra": "5072679 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkCreateBinaryTree",
+            "value": 430.8,
+            "unit": "ns/op",
+            "extra": "2790458 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_buildMatrix",
+            "value": 1100,
+            "unit": "ns/op",
+            "extra": "999375 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_1",
+            "value": 57.82,
+            "unit": "ns/op",
+            "extra": "20629626 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_2",
+            "value": 92.86,
+            "unit": "ns/op",
+            "extra": "12751737 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_4",
+            "value": 134.8,
+            "unit": "ns/op",
+            "extra": "8856596 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_8",
+            "value": 239.4,
+            "unit": "ns/op",
+            "extra": "5004685 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_16",
+            "value": 1407,
+            "unit": "ns/op",
+            "extra": "798324 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_32",
+            "value": 3236,
+            "unit": "ns/op",
+            "extra": "366751 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_64",
+            "value": 6540,
+            "unit": "ns/op",
+            "extra": "180043 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_128",
+            "value": 13063,
+            "unit": "ns/op",
+            "extra": "88850 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_countOfAtoms",
+            "value": 1031,
+            "unit": "ns/op",
+            "extra": "1000000 times\n2 procs"
           }
         ]
       }
