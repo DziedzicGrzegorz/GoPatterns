@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1721845019387,
+  "lastUpdate": 1721927848668,
   "repoUrl": "https://github.com/DziedzicGrzegorz/GoPatterns",
   "entries": {
     "Go Benchmark": [
@@ -5976,6 +5976,120 @@ window.BENCHMARK_DATA = {
             "value": 1031,
             "unit": "ns/op",
             "extra": "1000000 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Grzegorz Dziedzic",
+            "username": "DziedzicGrzegorz"
+          },
+          "committer": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Grzegorz Dziedzic",
+            "username": "DziedzicGrzegorz"
+          },
+          "distinct": true,
+          "id": "8bbaa890f8bbce05eb7a61fed3baec4b31419ea8",
+          "message": "feat(912): Medium\n\nGiven an array of integers nums, sort the array in ascending order and return it.\n\nYou must solve the problem without using any built-in functions in O(nlog(n)) time complexity and with the smallest space complexity possible.\n\nExample 1:\n\nInput: nums = [5,2,3,1]\nOutput: [1,2,3,5]\nExplanation: After sorting the array, the positions of some numbers are not changed (for example, 2 and 3), while the positions of other numbers are changed (for example, 1 and 5).\nExample 2:\n\nInput: nums = [5,1,1,2,0,0]\nOutput: [0,0,1,1,2,5]\nExplanation: Note that the values of nums are not necessairly unique.\n\nConstraints:\n\n1 <= nums.length <= 5 * 104\n-5 * 104 <= nums[i] <= 5 * 104",
+          "timestamp": "2024-07-25T19:16:45+02:00",
+          "tree_id": "05a59c2ccfaf260ddd006489cb9470624c2c247e",
+          "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/8bbaa890f8bbce05eb7a61fed3baec4b31419ea8"
+        },
+        "date": 1721927847741,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "Benchmark_delNodes",
+            "value": 601.6,
+            "unit": "ns/op",
+            "extra": "1959585 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_frequencySort",
+            "value": 203.6,
+            "unit": "ns/op",
+            "extra": "5906938 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_getDirections",
+            "value": 303.9,
+            "unit": "ns/op",
+            "extra": "3920377 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkCreateBinaryTree",
+            "value": 430.4,
+            "unit": "ns/op",
+            "extra": "2797914 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_buildMatrix",
+            "value": 1099,
+            "unit": "ns/op",
+            "extra": "997269 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_1",
+            "value": 57.72,
+            "unit": "ns/op",
+            "extra": "20502722 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_2",
+            "value": 91.98,
+            "unit": "ns/op",
+            "extra": "12678588 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_4",
+            "value": 134.5,
+            "unit": "ns/op",
+            "extra": "8847546 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_8",
+            "value": 239.6,
+            "unit": "ns/op",
+            "extra": "4979660 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_16",
+            "value": 1404,
+            "unit": "ns/op",
+            "extra": "789853 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_32",
+            "value": 3100,
+            "unit": "ns/op",
+            "extra": "370621 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_64",
+            "value": 6517,
+            "unit": "ns/op",
+            "extra": "180162 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_128",
+            "value": 13186,
+            "unit": "ns/op",
+            "extra": "91047 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_countOfAtoms",
+            "value": 1088,
+            "unit": "ns/op",
+            "extra": "1000000 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_sortArray",
+            "value": 3976739,
+            "unit": "ns/op",
+            "extra": "295 times\n2 procs"
           }
         ]
       }
