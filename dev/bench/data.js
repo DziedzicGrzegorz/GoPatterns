@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1721927850047,
+  "lastUpdate": 1722011995937,
   "repoUrl": "https://github.com/DziedzicGrzegorz/GoPatterns",
   "entries": {
     "Go Benchmark": [
@@ -6204,6 +6204,120 @@ window.BENCHMARK_DATA = {
             "value": 3976739,
             "unit": "ns/op",
             "extra": "295 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Grzegorz Dziedzic",
+            "username": "DziedzicGrzegorz"
+          },
+          "committer": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Grzegorz Dziedzic",
+            "username": "DziedzicGrzegorz"
+          },
+          "distinct": true,
+          "id": "29fe0556cb2b12c85c8e09dc3f5b5f77204be208",
+          "message": "feat(1334): Medium\n\nThere are n cities numbered from 0 to n-1. Given the array edges where edges[i] = [fromi, toi, weighti] represents a bidirectional and weighted edge between cities fromi and toi, and given the integer distanceThreshold.\n\nReturn the city with the smallest number of cities that are reachable through some path and whose distance is at most distanceThreshold, If there are multiple such cities, return the city with the greatest number.\n\nNotice that the distance of a path connecting cities i and j is equal to the sum of the edges' weights along that path.\n\nExample 1:\n\nInput: n = 4, edges = [[0,1,3],[1,2,1],[1,3,4],[2,3,1]], distanceThreshold = 4\nOutput: 3\nExplanation: The figure above describes the graph.\nThe neighboring cities at a distanceThreshold = 4 for each city are:\nCity 0 -> [City 1, City 2]\nCity 1 -> [City 0, City 2, City 3]\nCity 2 -> [City 0, City 1, City 3]\nCity 3 -> [City 1, City 2]\nCities 0 and 3 have 2 neighboring cities at a distanceThreshold = 4, but we have to return city 3 since it has the greatest number.\nExample 2:\n\nInput: n = 5, edges = [[0,1,2],[0,4,8],[1,2,3],[1,4,2],[2,3,1],[3,4,1]], distanceThreshold = 2\nOutput: 0\nExplanation: The figure above describes the graph.\nThe neighboring cities at a distanceThreshold = 2 for each city are:\nCity 0 -> [City 1]\nCity 1 -> [City 0, City 4]\nCity 2 -> [City 3, City 4]\nCity 3 -> [City 2, City 4]\nCity 4 -> [City 1, City 2, City 3]\nThe city 0 has 1 neighboring city at a distanceThreshold = 2.\n\nConstraints:\n\n2 <= n <= 100\n1 <= edges.length <= n * (n - 1) / 2\nedges[i].length == 3\n0 <= fromi < toi < n\n1 <= weighti, distanceThreshold <= 10^4\nAll pairs (fromi, toi) are distinct.",
+          "timestamp": "2024-07-26T18:38:21+02:00",
+          "tree_id": "88ee6193056d3a1ef0caac6f7c45dec39ba6c931",
+          "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/29fe0556cb2b12c85c8e09dc3f5b5f77204be208"
+        },
+        "date": 1722011995329,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "Benchmark_delNodes",
+            "value": 603.4,
+            "unit": "ns/op",
+            "extra": "1701308 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_findTheCity",
+            "value": 1082,
+            "unit": "ns/op",
+            "extra": "1000000 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_frequencySort",
+            "value": 204.2,
+            "unit": "ns/op",
+            "extra": "5860033 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_getDirections",
+            "value": 327,
+            "unit": "ns/op",
+            "extra": "3888126 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkCreateBinaryTree",
+            "value": 430,
+            "unit": "ns/op",
+            "extra": "2782372 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_buildMatrix",
+            "value": 1119,
+            "unit": "ns/op",
+            "extra": "993778 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_1",
+            "value": 57.81,
+            "unit": "ns/op",
+            "extra": "19627087 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_2",
+            "value": 92.97,
+            "unit": "ns/op",
+            "extra": "12665184 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_4",
+            "value": 136.2,
+            "unit": "ns/op",
+            "extra": "8855386 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_8",
+            "value": 242.2,
+            "unit": "ns/op",
+            "extra": "4992021 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_16",
+            "value": 1368,
+            "unit": "ns/op",
+            "extra": "765873 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_32",
+            "value": 3296,
+            "unit": "ns/op",
+            "extra": "365532 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_64",
+            "value": 6583,
+            "unit": "ns/op",
+            "extra": "179269 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_128",
+            "value": 13470,
+            "unit": "ns/op",
+            "extra": "89426 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_countOfAtoms",
+            "value": 1037,
+            "unit": "ns/op",
+            "extra": "1157188 times\n2 procs"
           }
         ]
       }
