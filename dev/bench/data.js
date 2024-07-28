@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1722112773916,
+  "lastUpdate": 1722195221630,
   "repoUrl": "https://github.com/DziedzicGrzegorz/GoPatterns",
   "entries": {
     "Go Benchmark": [
@@ -7392,6 +7392,120 @@ window.BENCHMARK_DATA = {
             "value": 3961275,
             "unit": "ns/op",
             "extra": "295 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Grzegorz Dziedzic",
+            "username": "DziedzicGrzegorz"
+          },
+          "committer": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Grzegorz Dziedzic",
+            "username": "DziedzicGrzegorz"
+          },
+          "distinct": true,
+          "id": "47c44b064257854a3e054029e55b8d2138155aac",
+          "message": "feat(2045): Hard\n\nA city is represented as a bi-directional connected graph with n vertices where each vertex is labeled from 1 to n (inclusive). The edges in the graph are represented as a 2D integer array edges, where each edges[i] = [ui, vi] denotes a bi-directional edge between vertex ui and vertex vi. Every vertex pair is connected by at most one edge, and no vertex has an edge to itself. The time taken to traverse any edge is time minutes.\n\nEach vertex has a traffic signal which changes its color from green to red and vice versa every change minutes. All signals change at the same time. You can enter a vertex at any time, but can leave a vertex only when the signal is green. You cannot wait at a vertex if the signal is green.\n\nThe second minimum value is defined as the smallest value strictly larger than the minimum value.\n\nFor example the second minimum value of [2, 3, 4] is 3, and the second minimum value of [2, 2, 4] is 4.\nGiven n, edges, time, and change, return the second minimum time it will take to go from vertex 1 to vertex n.\n\nNotes:\n\nYou can go through any vertex any number of times, including 1 and n.\nYou can assume that when the journey starts, all signals have just turned green.\n\nExample 1:\n\n       \nInput: n = 5, edges = [[1,2],[1,3],[1,4],[3,4],[4,5]], time = 3, change = 5\nOutput: 13\nExplanation:\nThe figure on the left shows the given graph.\nThe blue path in the figure on the right is the minimum time path.\nThe time taken is:\n- Start at 1, time elapsed=0\n- 1 -> 4: 3 minutes, time elapsed=3\n- 4 -> 5: 3 minutes, time elapsed=6\nHence the minimum time needed is 6 minutes.\n\nThe red path shows the path to get the second minimum time.\n- Start at 1, time elapsed=0\n- 1 -> 3: 3 minutes, time elapsed=3\n- 3 -> 4: 3 minutes, time elapsed=6\n- Wait at 4 for 4 minutes, time elapsed=10\n- 4 -> 5: 3 minutes, time elapsed=13\nHence the second minimum time is 13 minutes.\nExample 2:\n\nInput: n = 2, edges = [[1,2]], time = 3, change = 2\nOutput: 11\nExplanation:\nThe minimum time path is 1 -> 2 with time = 3 minutes.\nThe second minimum time path is 1 -> 2 -> 1 -> 2 with time = 11 minutes.\n\nConstraints:\n\n2 <= n <= 104\nn - 1 <= edges.length <= min(2 * 104, n * (n - 1) / 2)\nedges[i].length == 2\n1 <= ui, vi <= n\nui != vi\nThere are no duplicate edges.\nEach vertex can be reached directly or indirectly from every other vertex.\n1 <= time, change <= 103",
+          "timestamp": "2024-07-28T21:32:55+02:00",
+          "tree_id": "31b9f0b601c91f4d5bb6fd34047d36102783a495",
+          "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/47c44b064257854a3e054029e55b8d2138155aac"
+        },
+        "date": 1722195220370,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "Benchmark_delNodes",
+            "value": 616.9,
+            "unit": "ns/op",
+            "extra": "1925025 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_frequencySort",
+            "value": 206.7,
+            "unit": "ns/op",
+            "extra": "5881906 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_secondMinimum",
+            "value": 824.5,
+            "unit": "ns/op",
+            "extra": "1451744 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_getDirections",
+            "value": 304.5,
+            "unit": "ns/op",
+            "extra": "3900616 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkCreateBinaryTree",
+            "value": 428.5,
+            "unit": "ns/op",
+            "extra": "2798614 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_buildMatrix",
+            "value": 1096,
+            "unit": "ns/op",
+            "extra": "1000000 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_1",
+            "value": 57.7,
+            "unit": "ns/op",
+            "extra": "20407208 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_2",
+            "value": 92.88,
+            "unit": "ns/op",
+            "extra": "12824211 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_4",
+            "value": 134.9,
+            "unit": "ns/op",
+            "extra": "8824359 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_8",
+            "value": 240.4,
+            "unit": "ns/op",
+            "extra": "4929342 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_16",
+            "value": 1384,
+            "unit": "ns/op",
+            "extra": "795814 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_32",
+            "value": 3139,
+            "unit": "ns/op",
+            "extra": "355645 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_64",
+            "value": 6574,
+            "unit": "ns/op",
+            "extra": "178378 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_128",
+            "value": 13082,
+            "unit": "ns/op",
+            "extra": "88536 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_countOfAtoms",
+            "value": 1007,
+            "unit": "ns/op",
+            "extra": "1000000 times\n2 procs"
           }
         ]
       }
