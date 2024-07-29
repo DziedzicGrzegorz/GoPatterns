@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1722273323525,
+  "lastUpdate": 1722273325126,
   "repoUrl": "https://github.com/DziedzicGrzegorz/GoPatterns",
   "entries": {
     "Go Benchmark": [
@@ -7643,6 +7643,120 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/c599fc686f9c5e67e0c06812a6574d68d817f148"
         },
         "date": 1722273322485,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "Benchmark_delNodes",
+            "value": 600.1,
+            "unit": "ns/op",
+            "extra": "1712631 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkNumTeams",
+            "value": 12.84,
+            "unit": "ns/op",
+            "extra": "92712724 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_frequencySort",
+            "value": 203.9,
+            "unit": "ns/op",
+            "extra": "5864263 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_getDirections",
+            "value": 303.8,
+            "unit": "ns/op",
+            "extra": "3928322 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkCreateBinaryTree",
+            "value": 444,
+            "unit": "ns/op",
+            "extra": "2721398 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_buildMatrix",
+            "value": 1100,
+            "unit": "ns/op",
+            "extra": "994996 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_1",
+            "value": 57.74,
+            "unit": "ns/op",
+            "extra": "20517759 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_2",
+            "value": 92.27,
+            "unit": "ns/op",
+            "extra": "12796803 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_4",
+            "value": 150.9,
+            "unit": "ns/op",
+            "extra": "8732660 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_8",
+            "value": 250.7,
+            "unit": "ns/op",
+            "extra": "4977890 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_16",
+            "value": 1350,
+            "unit": "ns/op",
+            "extra": "793329 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_32",
+            "value": 3077,
+            "unit": "ns/op",
+            "extra": "374575 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_64",
+            "value": 6567,
+            "unit": "ns/op",
+            "extra": "178351 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_128",
+            "value": 13262,
+            "unit": "ns/op",
+            "extra": "90598 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_countOfAtoms",
+            "value": 1042,
+            "unit": "ns/op",
+            "extra": "1000000 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Grzegorz Dziedzic",
+            "username": "DziedzicGrzegorz"
+          },
+          "committer": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Grzegorz Dziedzic",
+            "username": "DziedzicGrzegorz"
+          },
+          "distinct": true,
+          "id": "c599fc686f9c5e67e0c06812a6574d68d817f148",
+          "message": "feat(1395): Medium\n\nThere are n soldiers standing in a line. Each soldier is assigned a unique rating value.\n\nYou have to form a team of 3 soldiers amongst them under the following rules:\n\nChoose 3 soldiers with index (i, j, k) with rating (rating[i], rating[j], rating[k]).\nA team is valid if: (rating[i] < rating[j] < rating[k]) or (rating[i] > rating[j] > rating[k]) where (0 <= i < j < k < n).\nReturn the number of teams you can form given the conditions. (soldiers can be part of multiple teams).\n\nExample 1:\n\nInput: rating = [2,5,3,4,1]\nOutput: 3\nExplanation: We can form three teams given the conditions. (2,3,4), (5,4,1), (5,3,1).\nExample 2:\n\nInput: rating = [2,1,3]\nOutput: 0\nExplanation: We can't form any team given the conditions.\nExample 3:\n\nInput: rating = [1,2,3,4]\nOutput: 4\n\nConstraints:\n\nn == rating.length\n3 <= n <= 1000\n1 <= rating[i] <= 105\nAll the integers in rating are unique.",
+          "timestamp": "2024-07-29T19:14:34+02:00",
+          "tree_id": "12b1774a24019817e0e3aa23bd6d8d53c3ca0d5e",
+          "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/c599fc686f9c5e67e0c06812a6574d68d817f148"
+        },
+        "date": 1722273324413,
         "tool": "go",
         "benches": [
           {
