@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1722273414022,
+  "lastUpdate": 1722273415112,
   "repoUrl": "https://github.com/DziedzicGrzegorz/GoPatterns",
   "entries": {
     "Go Benchmark": [
@@ -8147,6 +8147,150 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/2aaa74107b7b33610e717ea2575b4b7192e554be"
         },
         "date": 1722273413405,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "Benchmark_delNodes",
+            "value": 600.3,
+            "unit": "ns/op",
+            "extra": "1720162 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_findTheCity",
+            "value": 1065,
+            "unit": "ns/op",
+            "extra": "1000000 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkNumTeams",
+            "value": 12.9,
+            "unit": "ns/op",
+            "extra": "90119445 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_frequencySort",
+            "value": 204.4,
+            "unit": "ns/op",
+            "extra": "5849421 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_secondMinimum",
+            "value": 807.3,
+            "unit": "ns/op",
+            "extra": "1479486 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_getDirections",
+            "value": 307,
+            "unit": "ns/op",
+            "extra": "3897523 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_sortJumbled",
+            "value": 250.8,
+            "unit": "ns/op",
+            "extra": "5061852 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkCreateBinaryTree",
+            "value": 441.3,
+            "unit": "ns/op",
+            "extra": "2715987 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_buildMatrix",
+            "value": 1084,
+            "unit": "ns/op",
+            "extra": "1000000 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_sortPeople",
+            "value": 40.59,
+            "unit": "ns/op",
+            "extra": "28898505 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_1",
+            "value": 58.22,
+            "unit": "ns/op",
+            "extra": "20506958 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_2",
+            "value": 92.82,
+            "unit": "ns/op",
+            "extra": "12534921 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_4",
+            "value": 134.8,
+            "unit": "ns/op",
+            "extra": "8846572 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_8",
+            "value": 252.4,
+            "unit": "ns/op",
+            "extra": "4756609 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_16",
+            "value": 1509,
+            "unit": "ns/op",
+            "extra": "774764 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_32",
+            "value": 3497,
+            "unit": "ns/op",
+            "extra": "325996 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_64",
+            "value": 6638,
+            "unit": "ns/op",
+            "extra": "180205 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_128",
+            "value": 13082,
+            "unit": "ns/op",
+            "extra": "90667 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_countOfAtoms",
+            "value": 1026,
+            "unit": "ns/op",
+            "extra": "1000000 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_sortArray",
+            "value": 3966922,
+            "unit": "ns/op",
+            "extra": "297 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "DziedzicGrzegorz",
+            "username": "DziedzicGrzegorz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2aaa74107b7b33610e717ea2575b4b7192e554be",
+          "message": "Merge pull request #40 from DziedzicGrzegorz/feat/Leetcode-2045\n\nfeat(2045): Hard",
+          "timestamp": "2024-07-29T19:16:11+02:00",
+          "tree_id": "15b197ff4da78e11435653db754308fad5791773",
+          "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/2aaa74107b7b33610e717ea2575b4b7192e554be"
+        },
+        "date": 1722273414687,
         "tool": "go",
         "benches": [
           {
