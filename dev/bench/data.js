@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1722273415112,
+  "lastUpdate": 1722358394401,
   "repoUrl": "https://github.com/DziedzicGrzegorz/GoPatterns",
   "entries": {
     "Go Benchmark": [
@@ -8412,6 +8412,120 @@ window.BENCHMARK_DATA = {
             "value": 3966922,
             "unit": "ns/op",
             "extra": "297 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Grzegorz Dziedzic",
+            "username": "DziedzicGrzegorz"
+          },
+          "committer": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Grzegorz Dziedzic",
+            "username": "DziedzicGrzegorz"
+          },
+          "distinct": true,
+          "id": "c77bf01b4a702b0a9da8b48588ef8858b38c67e0",
+          "message": "feat(1653): Medium\n\nYou are given a string s consisting only of characters 'a' and 'b'\n\nYou can delete any number of characters in s to make s balanced. s is balanced if there is no pair of indices (i,j) such that i < j and s[i] = 'b' and s[j]= 'a'.\n\nReturn the minimum number of deletions needed to make s balanced.\n\nExample 1:\n\nInput: s = \"aababbab\"\nOutput: 2\nExplanation: You can either:\nDelete the characters at 0-indexed positions 2 and 6 (\"aababbab\" -> \"aaabbb\"), or\nDelete the characters at 0-indexed positions 3 and 6 (\"aababbab\" -> \"aabbbb\").\nExample 2:\n\nInput: s = \"bbaaaaabb\"\nOutput: 2\nExplanation: The only solution is to delete the first two characters.\n\nConstraints:\n\n1 <= s.length <= 105\ns[i] is 'a' or 'b'​​.",
+          "timestamp": "2024-07-30T18:50:56+02:00",
+          "tree_id": "98ec71cd0a9ad5e089e38321bb000a52f1c30540",
+          "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/c77bf01b4a702b0a9da8b48588ef8858b38c67e0"
+        },
+        "date": 1722358393447,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "Benchmark_delNodes",
+            "value": 603.4,
+            "unit": "ns/op",
+            "extra": "1724042 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_frequencySort",
+            "value": 205.4,
+            "unit": "ns/op",
+            "extra": "5816822 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkMinDel",
+            "value": 52.15,
+            "unit": "ns/op",
+            "extra": "21529339 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_getDirections",
+            "value": 318.6,
+            "unit": "ns/op",
+            "extra": "3889791 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkCreateBinaryTree",
+            "value": 468.3,
+            "unit": "ns/op",
+            "extra": "2727081 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_buildMatrix",
+            "value": 1119,
+            "unit": "ns/op",
+            "extra": "1000000 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_1",
+            "value": 57.81,
+            "unit": "ns/op",
+            "extra": "20472199 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_2",
+            "value": 93.72,
+            "unit": "ns/op",
+            "extra": "12762852 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_4",
+            "value": 135.2,
+            "unit": "ns/op",
+            "extra": "8792689 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_8",
+            "value": 240.8,
+            "unit": "ns/op",
+            "extra": "4969816 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_16",
+            "value": 1349,
+            "unit": "ns/op",
+            "extra": "788994 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_32",
+            "value": 3065,
+            "unit": "ns/op",
+            "extra": "371167 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_64",
+            "value": 7188,
+            "unit": "ns/op",
+            "extra": "178618 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_128",
+            "value": 13186,
+            "unit": "ns/op",
+            "extra": "90729 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_countOfAtoms",
+            "value": 1061,
+            "unit": "ns/op",
+            "extra": "1000000 times\n2 procs"
           }
         ]
       }
