@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1722358395844,
+  "lastUpdate": 1722358776005,
   "repoUrl": "https://github.com/DziedzicGrzegorz/GoPatterns",
   "entries": {
     "Go Benchmark": [
@@ -8640,6 +8640,120 @@ window.BENCHMARK_DATA = {
             "value": 1061,
             "unit": "ns/op",
             "extra": "1000000 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Grzegorz Dziedzic",
+            "username": "DziedzicGrzegorz"
+          },
+          "committer": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Grzegorz Dziedzic",
+            "username": "DziedzicGrzegorz"
+          },
+          "distinct": true,
+          "id": "4a4a562d23c34bd9970469ceb61e2312490406b9",
+          "message": "perf(1653): O(n) time",
+          "timestamp": "2024-07-30T18:58:50+02:00",
+          "tree_id": "41a03bcae7472314c2db129981663161601cca24",
+          "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/4a4a562d23c34bd9970469ceb61e2312490406b9"
+        },
+        "date": 1722358775076,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "Benchmark_delNodes",
+            "value": 604.5,
+            "unit": "ns/op",
+            "extra": "1686600 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_frequencySort",
+            "value": 205.4,
+            "unit": "ns/op",
+            "extra": "5826286 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkMinDel",
+            "value": 9.242,
+            "unit": "ns/op",
+            "extra": "131095543 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_getDirections",
+            "value": 306.5,
+            "unit": "ns/op",
+            "extra": "3910431 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkCreateBinaryTree",
+            "value": 431.4,
+            "unit": "ns/op",
+            "extra": "2748777 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_buildMatrix",
+            "value": 1096,
+            "unit": "ns/op",
+            "extra": "1000000 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_1",
+            "value": 57.85,
+            "unit": "ns/op",
+            "extra": "20485806 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_2",
+            "value": 93.32,
+            "unit": "ns/op",
+            "extra": "12829539 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_4",
+            "value": 134.6,
+            "unit": "ns/op",
+            "extra": "8738751 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_8",
+            "value": 240.5,
+            "unit": "ns/op",
+            "extra": "4943389 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_16",
+            "value": 1351,
+            "unit": "ns/op",
+            "extra": "761886 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_32",
+            "value": 3078,
+            "unit": "ns/op",
+            "extra": "370764 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_64",
+            "value": 6585,
+            "unit": "ns/op",
+            "extra": "181200 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_128",
+            "value": 14413,
+            "unit": "ns/op",
+            "extra": "90494 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_countOfAtoms",
+            "value": 978.5,
+            "unit": "ns/op",
+            "extra": "1207210 times\n2 procs"
           }
         ]
       }
