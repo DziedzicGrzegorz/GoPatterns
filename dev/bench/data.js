@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1722440811245,
+  "lastUpdate": 1722440812484,
   "repoUrl": "https://github.com/DziedzicGrzegorz/GoPatterns",
   "entries": {
     "Go Benchmark": [
@@ -9191,6 +9191,120 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/fcdce91a134652c48831b6c20ac4b977e1216faa"
         },
         "date": 1722440810487,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "Benchmark_delNodes",
+            "value": 641.3,
+            "unit": "ns/op",
+            "extra": "1861111 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkHeightShelves",
+            "value": 0.3126,
+            "unit": "ns/op",
+            "extra": "1000000000 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_frequencySort",
+            "value": 204.8,
+            "unit": "ns/op",
+            "extra": "5839844 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_getDirections",
+            "value": 305.4,
+            "unit": "ns/op",
+            "extra": "3929635 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkCreateBinaryTree",
+            "value": 449.2,
+            "unit": "ns/op",
+            "extra": "2690812 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_buildMatrix",
+            "value": 1095,
+            "unit": "ns/op",
+            "extra": "1096616 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_1",
+            "value": 57.93,
+            "unit": "ns/op",
+            "extra": "20520105 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_2",
+            "value": 102.1,
+            "unit": "ns/op",
+            "extra": "12581132 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_4",
+            "value": 142.1,
+            "unit": "ns/op",
+            "extra": "8513006 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_8",
+            "value": 240.1,
+            "unit": "ns/op",
+            "extra": "4809919 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_16",
+            "value": 1358,
+            "unit": "ns/op",
+            "extra": "777600 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_32",
+            "value": 3060,
+            "unit": "ns/op",
+            "extra": "369852 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_64",
+            "value": 6893,
+            "unit": "ns/op",
+            "extra": "177478 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_128",
+            "value": 13084,
+            "unit": "ns/op",
+            "extra": "88472 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_countOfAtoms",
+            "value": 1030,
+            "unit": "ns/op",
+            "extra": "1000000 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Grzegorz Dziedzic",
+            "username": "DziedzicGrzegorz"
+          },
+          "committer": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Grzegorz Dziedzic",
+            "username": "DziedzicGrzegorz"
+          },
+          "distinct": true,
+          "id": "fcdce91a134652c48831b6c20ac4b977e1216faa",
+          "message": "feat(1150): Medium\n\nYou are given an array books where books[i] = [thicknessi, heighti] indicates the thickness and height of the ith book. You are also given an integer shelfWidth.\n\nWe want to place these books in order onto bookcase shelves that have a total width shelfWidth.\n\nWe choose some of the books to place on this shelf such that the sum of their thickness is less than or equal to shelfWidth, then build another level of the shelf of the bookcase so that the total height of the bookcase has increased by the maximum height of the books we just put down. We repeat this process until there are no more books to place.\n\nNote that at each step of the above process, the order of the books we place is the same order as the given sequence of books.\n\nFor example, if we have an ordered list of 5 books, we might place the first and second book onto the first shelf, the third book on the second shelf, and the fourth and fifth book on the last shelf.\nReturn the minimum possible height that the total bookshelf can be after placing shelves in this manner.\n\nExample 1:\n\nInput: books = [[1,1],[2,3],[2,3],[1,1],[1,1],[1,1],[1,2]], shelfWidth = 4\nOutput: 6\nExplanation:\nThe sum of the heights of the 3 shelves is 1 + 3 + 2 = 6.\nNotice that book number 2 does not have to be on the first shelf.\nExample 2:\n\nInput: books = [[1,3],[2,4],[3,2]], shelfWidth = 6\nOutput: 4\n\nConstraints:\n\n1 <= books.length <= 1000\n1 <= thicknessi <= shelfWidth <= 1000\n1 <= heighti <= 1000",
+          "timestamp": "2024-07-31T17:45:52+02:00",
+          "tree_id": "0846c071895a1b65733248fd37dd193e85b7ae2a",
+          "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/fcdce91a134652c48831b6c20ac4b977e1216faa"
+        },
+        "date": 1722440812076,
         "tool": "go",
         "benches": [
           {
