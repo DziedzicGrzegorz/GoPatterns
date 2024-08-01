@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1722440870837,
+  "lastUpdate": 1722544976432,
   "repoUrl": "https://github.com/DziedzicGrzegorz/GoPatterns",
   "entries": {
     "Go Benchmark": [
@@ -9708,6 +9708,168 @@ window.BENCHMARK_DATA = {
             "value": 4036681,
             "unit": "ns/op",
             "extra": "295 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Grzegorz Dziedzic",
+            "username": "DziedzicGrzegorz"
+          },
+          "committer": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Grzegorz Dziedzic",
+            "username": "DziedzicGrzegorz"
+          },
+          "distinct": true,
+          "id": "1c83d985bd81c59b430004ef0e8a496c125f8d74",
+          "message": "feat(2678): Easy\n\nYou are given a 0-indexed array of strings details. Each element of details provides information about a given passenger compressed into a string of length 15. The system is such that:\n\nThe first ten characters consist of the phone number of passengers.\nThe next character denotes the gender of the person.\nThe following two characters are used to indicate the age of the person.\nThe last two characters determine the seat allotted to that person.\nReturn the number of passengers who are strictly more than 60 years old.\n\nExample 1:\n\nInput: details = [\"7868190130M7522\",\"5303914400F9211\",\"9273338290F4010\"]\nOutput: 2\nExplanation: The passengers at indices 0, 1, and 2 have ages 75, 92, and 40. Thus, there are 2 people who are over 60 years old.\nExample 2:\n\nInput: details = [\"1313579440F2036\",\"2921522980M5644\"]\nOutput: 0\nExplanation: None of the passengers are older than 60.\n\nConstraints:\n\n1 <= details.length <= 100\ndetails[i].length == 15\ndetails[i] consists of digits from '0' to '9'.\ndetails[i][10] is either 'M' or 'F' or 'O'.\nThe phone numbers and seat numbers of the passengers are distinct.",
+          "timestamp": "2024-08-01T22:41:55+02:00",
+          "tree_id": "b3ab7fb74583c94ae0d88a927e1a953bd2443b58",
+          "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/1c83d985bd81c59b430004ef0e8a496c125f8d74"
+        },
+        "date": 1722544975473,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "Benchmark_delNodes",
+            "value": 602.1,
+            "unit": "ns/op",
+            "extra": "1996467 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkHeightShelves",
+            "value": 0.3148,
+            "unit": "ns/op",
+            "extra": "1000000000 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_findTheCity",
+            "value": 1080,
+            "unit": "ns/op",
+            "extra": "1000000 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkNumTeams",
+            "value": 13.4,
+            "unit": "ns/op",
+            "extra": "93271951 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_frequencySort",
+            "value": 204.2,
+            "unit": "ns/op",
+            "extra": "5718428 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkMinDel",
+            "value": 9.299,
+            "unit": "ns/op",
+            "extra": "129627826 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_secondMinimum",
+            "value": 808.5,
+            "unit": "ns/op",
+            "extra": "1485627 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_getDirections",
+            "value": 307.9,
+            "unit": "ns/op",
+            "extra": "3937137 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_sortJumbled",
+            "value": 237.7,
+            "unit": "ns/op",
+            "extra": "4968031 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkCreateBinaryTree",
+            "value": 441.9,
+            "unit": "ns/op",
+            "extra": "2670183 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_buildMatrix",
+            "value": 1098,
+            "unit": "ns/op",
+            "extra": "1000000 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_sortPeople",
+            "value": 41,
+            "unit": "ns/op",
+            "extra": "29331486 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkCountSeniors",
+            "value": 2.583,
+            "unit": "ns/op",
+            "extra": "397598682 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_1",
+            "value": 57.8,
+            "unit": "ns/op",
+            "extra": "20523483 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_2",
+            "value": 92.63,
+            "unit": "ns/op",
+            "extra": "12893924 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_4",
+            "value": 135.1,
+            "unit": "ns/op",
+            "extra": "8859666 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_8",
+            "value": 241.2,
+            "unit": "ns/op",
+            "extra": "4785258 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_16",
+            "value": 1351,
+            "unit": "ns/op",
+            "extra": "797744 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_32",
+            "value": 3114,
+            "unit": "ns/op",
+            "extra": "374731 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_64",
+            "value": 6925,
+            "unit": "ns/op",
+            "extra": "158526 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_128",
+            "value": 13074,
+            "unit": "ns/op",
+            "extra": "91045 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_countOfAtoms",
+            "value": 984.6,
+            "unit": "ns/op",
+            "extra": "1213086 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_sortArray",
+            "value": 3949707,
+            "unit": "ns/op",
+            "extra": "291 times\n2 procs"
           }
         ]
       }
