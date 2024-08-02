@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1722545038821,
+  "lastUpdate": 1722628373907,
   "repoUrl": "https://github.com/DziedzicGrzegorz/GoPatterns",
   "entries": {
     "Go Benchmark": [
@@ -10356,6 +10356,162 @@ window.BENCHMARK_DATA = {
             "value": 4044353,
             "unit": "ns/op",
             "extra": "286 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Grzegorz Dziedzic",
+            "username": "DziedzicGrzegorz"
+          },
+          "committer": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Grzegorz Dziedzic",
+            "username": "DziedzicGrzegorz"
+          },
+          "distinct": true,
+          "id": "9197beb33a05f4c7e53656ea01c67fbd097518fe",
+          "message": "feat(2134): Medium\n\nA swap is defined as taking two distinct positions in an array and swapping the values in them.\n\nA circular array is defined as an array where we consider the first element and the last element to be adjacent.\n\nGiven a binary circular array nums, return the minimum number of swaps required to group all 1's present in the array together at any location.\n\nExample 1:\n\nInput: nums = [0,1,0,1,1,0,0]\nOutput: 1\nExplanation: Here are a few of the ways to group all the 1's together:\n[0,0,1,1,1,0,0] using 1 swap.\n[0,1,1,1,0,0,0] using 1 swap.\n[1,1,0,0,0,0,1] using 2 swaps (using the circular property of the array).\nThere is no way to group all 1's together with 0 swaps.\nThus, the minimum number of swaps required is 1.\nExample 2:\n\nInput: nums = [0,1,1,1,0,0,1,1,0]\nOutput: 2\nExplanation: Here are a few of the ways to group all the 1's together:\n[1,1,1,0,0,0,0,1,1] using 2 swaps (using the circular property of the array).\n[1,1,1,1,1,0,0,0,0] using 2 swaps.\nThere is no way to group all 1's together with 0 or 1 swaps.\nThus, the minimum number of swaps required is 2.\nExample 3:\n\nInput: nums = [1,1,0,0,1]\nOutput: 0\nExplanation: All the 1's are already grouped together due to the circular property of the array.\nThus, the minimum number of swaps required is 0.\n\nConstraints:\n\n1 <= nums.length <= 105\nnums[i] is either 0 or 1.",
+          "timestamp": "2024-08-02T21:52:01+02:00",
+          "tree_id": "3dffad9abba2bc3c343475e1b8d4a00e041fc692",
+          "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/9197beb33a05f4c7e53656ea01c67fbd097518fe"
+        },
+        "date": 1722628373289,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "Benchmark_delNodes",
+            "value": 604,
+            "unit": "ns/op",
+            "extra": "1658715 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkHeightShelves",
+            "value": 0.3122,
+            "unit": "ns/op",
+            "extra": "1000000000 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_findTheCity",
+            "value": 1078,
+            "unit": "ns/op",
+            "extra": "1000000 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkNumTeams",
+            "value": 12.79,
+            "unit": "ns/op",
+            "extra": "90241555 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_frequencySort",
+            "value": 204.4,
+            "unit": "ns/op",
+            "extra": "5880802 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkMinDel",
+            "value": 9.116,
+            "unit": "ns/op",
+            "extra": "130096868 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_secondMinimum",
+            "value": 807.8,
+            "unit": "ns/op",
+            "extra": "1481478 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_getDirections",
+            "value": 305.4,
+            "unit": "ns/op",
+            "extra": "3914290 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_sortJumbled",
+            "value": 238.4,
+            "unit": "ns/op",
+            "extra": "5028319 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkCreateBinaryTree",
+            "value": 445.7,
+            "unit": "ns/op",
+            "extra": "2694633 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_buildMatrix",
+            "value": 1097,
+            "unit": "ns/op",
+            "extra": "1000000 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_sortPeople",
+            "value": 40.54,
+            "unit": "ns/op",
+            "extra": "28551657 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_1",
+            "value": 57.78,
+            "unit": "ns/op",
+            "extra": "20302192 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_2",
+            "value": 92.39,
+            "unit": "ns/op",
+            "extra": "12766398 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_4",
+            "value": 148.6,
+            "unit": "ns/op",
+            "extra": "8820927 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_8",
+            "value": 239.9,
+            "unit": "ns/op",
+            "extra": "4995134 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_16",
+            "value": 1363,
+            "unit": "ns/op",
+            "extra": "782808 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_32",
+            "value": 3085,
+            "unit": "ns/op",
+            "extra": "363880 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_64",
+            "value": 6538,
+            "unit": "ns/op",
+            "extra": "179137 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_128",
+            "value": 13190,
+            "unit": "ns/op",
+            "extra": "89674 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_countOfAtoms",
+            "value": 1030,
+            "unit": "ns/op",
+            "extra": "1000000 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_sortArray",
+            "value": 3974381,
+            "unit": "ns/op",
+            "extra": "300 times\n2 procs"
           }
         ]
       }
