@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1722628374976,
+  "lastUpdate": 1722716069532,
   "repoUrl": "https://github.com/DziedzicGrzegorz/GoPatterns",
   "entries": {
     "Go Benchmark": [
@@ -10668,6 +10668,162 @@ window.BENCHMARK_DATA = {
             "value": 3974381,
             "unit": "ns/op",
             "extra": "300 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Grzegorz Dziedzic",
+            "username": "DziedzicGrzegorz"
+          },
+          "committer": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Grzegorz Dziedzic",
+            "username": "DziedzicGrzegorz"
+          },
+          "distinct": true,
+          "id": "56a8fd2321c2643f0b75c03eece765cbbd6f298b",
+          "message": "feat(1460): Easy\n\nYou are given two integer arrays of equal length target and arr. In one step, you can select any non-empty subarray of arr and reverse it. You are allowed to make any number of steps.\n\nReturn true if you can make arr equal to target or false otherwise.\n\nExample 1:\n\nInput: target = [1,2,3,4], arr = [2,4,1,3]\nOutput: true\nExplanation: You can follow the next steps to convert arr to target:\n1- Reverse subarray [2,4,1], arr becomes [1,4,2,3]\n2- Reverse subarray [4,2], arr becomes [1,2,4,3]\n3- Reverse subarray [4,3], arr becomes [1,2,3,4]\nThere are multiple ways to convert arr to target, this is not the only way to do so.\nExample 2:\n\nInput: target = [7], arr = [7]\nOutput: true\nExplanation: arr is equal to target without any reverses.\nExample 3:\n\nInput: target = [3,7,9], arr = [3,7,11]\nOutput: false\nExplanation: arr does not have value 9 and it can never be converted to target.\n\nConstraints:\n\ntarget.length == arr.length\n1 <= target.length <= 1000\n1 <= target[i] <= 1000\n1 <= arr[i] <= 1000",
+          "timestamp": "2024-08-03T22:13:19+02:00",
+          "tree_id": "58f4d3fce97cfec05d28cee47685729b4ce41b21",
+          "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/56a8fd2321c2643f0b75c03eece765cbbd6f298b"
+        },
+        "date": 1722716068222,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "Benchmark_delNodes",
+            "value": 602.7,
+            "unit": "ns/op",
+            "extra": "1769901 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkHeightShelves",
+            "value": 0.3108,
+            "unit": "ns/op",
+            "extra": "1000000000 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_findTheCity",
+            "value": 1078,
+            "unit": "ns/op",
+            "extra": "1000000 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkNumTeams",
+            "value": 13.57,
+            "unit": "ns/op",
+            "extra": "90545139 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_frequencySort",
+            "value": 208.9,
+            "unit": "ns/op",
+            "extra": "5162187 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkMinDel",
+            "value": 9.167,
+            "unit": "ns/op",
+            "extra": "132794643 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_secondMinimum",
+            "value": 841.9,
+            "unit": "ns/op",
+            "extra": "1444268 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_getDirections",
+            "value": 306.3,
+            "unit": "ns/op",
+            "extra": "3898507 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_sortJumbled",
+            "value": 238.4,
+            "unit": "ns/op",
+            "extra": "5047249 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkCreateBinaryTree",
+            "value": 430.4,
+            "unit": "ns/op",
+            "extra": "2791065 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_buildMatrix",
+            "value": 1092,
+            "unit": "ns/op",
+            "extra": "988394 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_sortPeople",
+            "value": 40.89,
+            "unit": "ns/op",
+            "extra": "28600797 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_1",
+            "value": 57.87,
+            "unit": "ns/op",
+            "extra": "20338675 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_2",
+            "value": 94.44,
+            "unit": "ns/op",
+            "extra": "12583357 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_4",
+            "value": 148.8,
+            "unit": "ns/op",
+            "extra": "7981016 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_8",
+            "value": 252.9,
+            "unit": "ns/op",
+            "extra": "4731237 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_16",
+            "value": 1360,
+            "unit": "ns/op",
+            "extra": "775862 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_32",
+            "value": 3085,
+            "unit": "ns/op",
+            "extra": "357650 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_64",
+            "value": 6984,
+            "unit": "ns/op",
+            "extra": "179895 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_128",
+            "value": 13208,
+            "unit": "ns/op",
+            "extra": "90505 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_countOfAtoms",
+            "value": 1048,
+            "unit": "ns/op",
+            "extra": "1000000 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_sortArray",
+            "value": 4047924,
+            "unit": "ns/op",
+            "extra": "290 times\n2 procs"
           }
         ]
       }
