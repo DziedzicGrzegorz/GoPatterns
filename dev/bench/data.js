@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1722794383686,
+  "lastUpdate": 1722794385007,
   "repoUrl": "https://github.com/DziedzicGrzegorz/GoPatterns",
   "entries": {
     "Go Benchmark": [
@@ -11003,6 +11003,162 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/dd1e5b978dd22a05aa35bbecab4fe93b3dd66e89"
         },
         "date": 1722794382721,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "BenchmarkHeightShelves",
+            "value": 0.3761,
+            "unit": "ns/op",
+            "extra": "1000000000 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_findTheCity",
+            "value": 1063,
+            "unit": "ns/op",
+            "extra": "1000000 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkNumTeams",
+            "value": 12.81,
+            "unit": "ns/op",
+            "extra": "90264187 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_frequencySort",
+            "value": 204.5,
+            "unit": "ns/op",
+            "extra": "5885540 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkMinDel",
+            "value": 9.003,
+            "unit": "ns/op",
+            "extra": "129984526 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_secondMinimum",
+            "value": 815.7,
+            "unit": "ns/op",
+            "extra": "1466029 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_getDirections",
+            "value": 302.8,
+            "unit": "ns/op",
+            "extra": "3958233 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_sortJumbled",
+            "value": 249.6,
+            "unit": "ns/op",
+            "extra": "5027409 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkCreateBinaryTree",
+            "value": 429.7,
+            "unit": "ns/op",
+            "extra": "2800999 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_buildMatrix",
+            "value": 1093,
+            "unit": "ns/op",
+            "extra": "1000000 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_sortPeople",
+            "value": 40.56,
+            "unit": "ns/op",
+            "extra": "28436580 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkCountSeniors",
+            "value": 2.669,
+            "unit": "ns/op",
+            "extra": "466336275 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_1",
+            "value": 57.57,
+            "unit": "ns/op",
+            "extra": "18917607 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_2",
+            "value": 92.9,
+            "unit": "ns/op",
+            "extra": "12876469 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_4",
+            "value": 142.8,
+            "unit": "ns/op",
+            "extra": "8827226 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_8",
+            "value": 248.5,
+            "unit": "ns/op",
+            "extra": "5011844 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_16",
+            "value": 1357,
+            "unit": "ns/op",
+            "extra": "783655 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_32",
+            "value": 3067,
+            "unit": "ns/op",
+            "extra": "373882 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_64",
+            "value": 6567,
+            "unit": "ns/op",
+            "extra": "180256 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_128",
+            "value": 13048,
+            "unit": "ns/op",
+            "extra": "90834 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_countOfAtoms",
+            "value": 1034,
+            "unit": "ns/op",
+            "extra": "1000000 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_sortArray",
+            "value": 3969068,
+            "unit": "ns/op",
+            "extra": "298 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "DziedzicGrzegorz",
+            "username": "DziedzicGrzegorz"
+          },
+          "committer": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "DziedzicGrzegorz",
+            "username": "DziedzicGrzegorz"
+          },
+          "distinct": true,
+          "id": "dd1e5b978dd22a05aa35bbecab4fe93b3dd66e89",
+          "message": "feat(1508): Medium\n\nYou are given the array nums consisting of n positive integers. You computed the sum of all non-empty continuous subarrays from the array and then sorted them in non-decreasing order, creating a new array of n * (n + 1) / 2 numbers.\n\nReturn the sum of the numbers from index left to index right (indexed from 1), inclusive, in the new array. Since the answer can be a huge number return it modulo 109 + 7.\n\nExample 1:\n\nInput: nums = [1,2,3,4], n = 4, left = 1, right = 5\nOutput: 13\nExplanation: All subarray sums are 1, 3, 6, 10, 2, 5, 9, 3, 7, 4. After sorting them in non-decreasing order we have the new array [1, 2, 3, 3, 4, 5, 6, 7, 9, 10]. The sum of the numbers from index le = 1 to ri = 5 is 1 + 2 + 3 + 3 + 4 = 13.\nExample 2:\n\nInput: nums = [1,2,3,4], n = 4, left = 3, right = 4\nOutput: 6\nExplanation: The given array is the same as example 1. We have the new array [1, 2, 3, 3, 4, 5, 6, 7, 9, 10]. The sum of the numbers from index le = 3 to ri = 4 is 3 + 3 = 6.\nExample 3:\n\nInput: nums = [1,2,3,4], n = 4, left = 1, right = 10\nOutput: 50\n\nConstraints:\n\nn == nums.length\n1 <= nums.length <= 1000\n1 <= nums[i] <= 100\n1 <= left <= right <= n * (n + 1) / 2",
+          "timestamp": "2024-08-04T19:58:33+02:00",
+          "tree_id": "912b476466550ad091adf0b459454f12829d9b86",
+          "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/dd1e5b978dd22a05aa35bbecab4fe93b3dd66e89"
+        },
+        "date": 1722794384417,
         "tool": "go",
         "benches": [
           {
