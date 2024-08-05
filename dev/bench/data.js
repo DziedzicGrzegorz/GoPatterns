@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1722886700971,
+  "lastUpdate": 1722886702057,
   "repoUrl": "https://github.com/DziedzicGrzegorz/GoPatterns",
   "entries": {
     "Go Benchmark": [
@@ -11315,6 +11315,174 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/7f23906dcecc56918ead5b5e1284c4f5d18eee8c"
         },
         "date": 1722886700323,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "Benchmark_delNodes",
+            "value": 600.7,
+            "unit": "ns/op",
+            "extra": "1996149 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkHeightShelves",
+            "value": 0.3116,
+            "unit": "ns/op",
+            "extra": "1000000000 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_findTheCity",
+            "value": 1073,
+            "unit": "ns/op",
+            "extra": "1000000 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkNumTeams",
+            "value": 12.84,
+            "unit": "ns/op",
+            "extra": "90402589 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_frequencySort",
+            "value": 205.3,
+            "unit": "ns/op",
+            "extra": "5836545 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkMinDel",
+            "value": 9.048,
+            "unit": "ns/op",
+            "extra": "134029360 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_secondMinimum",
+            "value": 827,
+            "unit": "ns/op",
+            "extra": "1448762 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_KthDistinct",
+            "value": 63.84,
+            "unit": "ns/op",
+            "extra": "18744979 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_getDirections",
+            "value": 304.9,
+            "unit": "ns/op",
+            "extra": "3921264 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_sortJumbled",
+            "value": 237.2,
+            "unit": "ns/op",
+            "extra": "5038654 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkCreateBinaryTree",
+            "value": 442.1,
+            "unit": "ns/op",
+            "extra": "2717038 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_buildMatrix",
+            "value": 1097,
+            "unit": "ns/op",
+            "extra": "1000000 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_sortPeople",
+            "value": 40.55,
+            "unit": "ns/op",
+            "extra": "29353298 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkCountSeniors",
+            "value": 2.701,
+            "unit": "ns/op",
+            "extra": "413863786 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_1",
+            "value": 57.64,
+            "unit": "ns/op",
+            "extra": "20566918 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_2",
+            "value": 93.1,
+            "unit": "ns/op",
+            "extra": "12855858 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_4",
+            "value": 135.1,
+            "unit": "ns/op",
+            "extra": "8853315 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_8",
+            "value": 240.6,
+            "unit": "ns/op",
+            "extra": "4892320 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_16",
+            "value": 1399,
+            "unit": "ns/op",
+            "extra": "797480 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_32",
+            "value": 3067,
+            "unit": "ns/op",
+            "extra": "372823 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_64",
+            "value": 6536,
+            "unit": "ns/op",
+            "extra": "179082 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_128",
+            "value": 13818,
+            "unit": "ns/op",
+            "extra": "90628 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_countOfAtoms",
+            "value": 1084,
+            "unit": "ns/op",
+            "extra": "1000000 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_sortArray",
+            "value": 3965829,
+            "unit": "ns/op",
+            "extra": "291 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "DziedzicGrzegorz",
+            "username": "DziedzicGrzegorz"
+          },
+          "committer": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "DziedzicGrzegorz",
+            "username": "DziedzicGrzegorz"
+          },
+          "distinct": true,
+          "id": "7f23906dcecc56918ead5b5e1284c4f5d18eee8c",
+          "message": "feat(2053): Easy\n\nA distinct string is a string that is present only once in an array.\n\nGiven an array of strings arr, and an integer k, return the kth distinct string present in arr. If there are fewer than k distinct strings, return an empty string \"\".\n\nNote that the strings are considered in the order in which they appear in the array.\n\nExample 1:\n\nInput: arr = [\"d\",\"b\",\"c\",\"b\",\"c\",\"a\"], k = 2\nOutput: \"a\"\nExplanation:\nThe only distinct strings in arr are \"d\" and \"a\".\n\"d\" appears 1st, so it is the 1st distinct string.\n\"a\" appears 2nd, so it is the 2nd distinct string.\nSince k == 2, \"a\" is returned.\nExample 2:\n\nInput: arr = [\"aaa\",\"aa\",\"a\"], k = 1\nOutput: \"aaa\"\nExplanation:\nAll strings in arr are distinct, so the 1st string \"aaa\" is returned.\nExample 3:\n\nInput: arr = [\"a\",\"b\",\"a\"], k = 3\nOutput: \"\"\nExplanation:\nThe only distinct string is \"b\". Since there are fewer than 3 distinct strings, we return an empty string \"\".\n\nConstraints:\n\n1 <= k <= arr.length <= 1000\n1 <= arr[i].length <= 5\narr[i] consists of lowercase English letters.",
+          "timestamp": "2024-08-05T21:37:14+02:00",
+          "tree_id": "e5d3071ac6c90e506078db4ad1f1dd8e1cd8bfdb",
+          "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/7f23906dcecc56918ead5b5e1284c4f5d18eee8c"
+        },
+        "date": 1722886701687,
         "tool": "go",
         "benches": [
           {
