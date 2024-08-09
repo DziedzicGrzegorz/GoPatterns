@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1723232468041,
+  "lastUpdate": 1723232469965,
   "repoUrl": "https://github.com/DziedzicGrzegorz/GoPatterns",
   "entries": {
     "Go Benchmark": [
@@ -11651,6 +11651,156 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/e4c288f2a6ad49df4ea27ba9c3842afa2333573d"
         },
         "date": 1723232466720,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "BenchmarkHeightShelves",
+            "value": 0.3914,
+            "unit": "ns/op",
+            "extra": "1000000000 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_findTheCity",
+            "value": 1079,
+            "unit": "ns/op",
+            "extra": "1000000 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkNumTeams",
+            "value": 12.82,
+            "unit": "ns/op",
+            "extra": "87620340 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_frequencySort",
+            "value": 212.2,
+            "unit": "ns/op",
+            "extra": "5866134 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkMinDel",
+            "value": 9.617,
+            "unit": "ns/op",
+            "extra": "133097726 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_secondMinimum",
+            "value": 803.4,
+            "unit": "ns/op",
+            "extra": "1484852 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_getDirections",
+            "value": 302.9,
+            "unit": "ns/op",
+            "extra": "3907082 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_sortJumbled",
+            "value": 239.7,
+            "unit": "ns/op",
+            "extra": "5020563 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkCreateBinaryTree",
+            "value": 431,
+            "unit": "ns/op",
+            "extra": "2801095 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_buildMatrix",
+            "value": 1090,
+            "unit": "ns/op",
+            "extra": "996063 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_sortPeople",
+            "value": 40.49,
+            "unit": "ns/op",
+            "extra": "29342706 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_1",
+            "value": 61,
+            "unit": "ns/op",
+            "extra": "20545159 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_2",
+            "value": 95.98,
+            "unit": "ns/op",
+            "extra": "12780978 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_4",
+            "value": 136.1,
+            "unit": "ns/op",
+            "extra": "8849157 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_8",
+            "value": 240.5,
+            "unit": "ns/op",
+            "extra": "4743246 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_16",
+            "value": 1405,
+            "unit": "ns/op",
+            "extra": "799990 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_32",
+            "value": 3067,
+            "unit": "ns/op",
+            "extra": "372295 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_64",
+            "value": 6558,
+            "unit": "ns/op",
+            "extra": "181896 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_128",
+            "value": 13194,
+            "unit": "ns/op",
+            "extra": "90979 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_countOfAtoms",
+            "value": 1031,
+            "unit": "ns/op",
+            "extra": "1000000 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_sortArray",
+            "value": 4006845,
+            "unit": "ns/op",
+            "extra": "290 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Grzegorz Dziedzic",
+            "username": "DziedzicGrzegorz"
+          },
+          "committer": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Grzegorz Dziedzic",
+            "username": "DziedzicGrzegorz"
+          },
+          "distinct": true,
+          "id": "e4c288f2a6ad49df4ea27ba9c3842afa2333573d",
+          "message": "feat(840): Medium\n\nA 3 x 3 magic square is a 3 x 3 grid filled with distinct numbers from 1 to 9 such that each row, column, and both diagonals all have the same sum.\n\nGiven a row x col grid of integers, how many 3 x 3 contiguous magic square subgrids are there?\n\nNote: while a magic square can only contain numbers from 1 to 9, grid may contain numbers up to 15.\n\nExample 1:\n\nInput: grid = [[4,3,8,4],[9,5,1,9],[2,7,6,2]]\nOutput: 1\nExplanation:\nThe following subgrid is a 3 x 3 magic square:\n\nwhile this one is not:\n\nIn total, there is only one magic square inside the given grid.\nExample 2:\n\nInput: grid = [[8]]\nOutput: 0",
+          "timestamp": "2024-08-09T21:40:10+02:00",
+          "tree_id": "f0f13868a7f9b98d91d7563fdddc255d3c37327c",
+          "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/e4c288f2a6ad49df4ea27ba9c3842afa2333573d"
+        },
+        "date": 1723232469012,
         "tool": "go",
         "benches": [
           {
