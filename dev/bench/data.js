@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1723232469965,
+  "lastUpdate": 1723314336985,
   "repoUrl": "https://github.com/DziedzicGrzegorz/GoPatterns",
   "entries": {
     "Go Benchmark": [
@@ -11926,6 +11926,162 @@ window.BENCHMARK_DATA = {
           {
             "name": "Benchmark_sortArray",
             "value": 4006845,
+            "unit": "ns/op",
+            "extra": "290 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Grzegorz Dziedzic",
+            "username": "DziedzicGrzegorz"
+          },
+          "committer": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Grzegorz Dziedzic",
+            "username": "DziedzicGrzegorz"
+          },
+          "distinct": true,
+          "id": "39d4b5c017dd862593feb728a825175096994b2e",
+          "message": "feat(959): Medium\n\nAn n x n grid is composed of 1 x 1 squares where each 1 x 1 square consists of a '/', '\\', or blank space ' '. These characters divide the square into contiguous regions.\n\nGiven the grid grid represented as a string array, return the number of regions.\n\nNote that backslash characters are escaped, so a '\\' is represented as '\\\\'.\n\nExample 1:\n\nInput: grid = [\" /\",\"/ \"]\nOutput: 2\nExample 2:\n\nInput: grid = [\" /\",\"  \"]\nOutput: 1\nExample 3:\n\nInput: grid = [\"/\\\\\",\"\\\\/\"]\nOutput: 5\nExplanation: Recall that because \\ characters are escaped, \"\\\\/\" refers to \\/, and \"/\\\\\" refers to /\\.\n\nConstraints:\n\nn == grid.length == grid[i].length\n1 <= n <= 30\ngrid[i][j] is either '/', '\\', or ' '.",
+          "timestamp": "2024-08-10T20:24:39+02:00",
+          "tree_id": "a9ce0686297881552c748ddb0ca5fea81b3ef46a",
+          "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/39d4b5c017dd862593feb728a825175096994b2e"
+        },
+        "date": 1723314336167,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "Benchmark_delNodes",
+            "value": 602,
+            "unit": "ns/op",
+            "extra": "1980993 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkHeightShelves",
+            "value": 0.3115,
+            "unit": "ns/op",
+            "extra": "1000000000 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_findTheCity",
+            "value": 1082,
+            "unit": "ns/op",
+            "extra": "1000000 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkNumTeams",
+            "value": 12.91,
+            "unit": "ns/op",
+            "extra": "90042350 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_frequencySort",
+            "value": 204.5,
+            "unit": "ns/op",
+            "extra": "5866922 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkMinDel",
+            "value": 9.579,
+            "unit": "ns/op",
+            "extra": "132851610 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_secondMinimum",
+            "value": 839.5,
+            "unit": "ns/op",
+            "extra": "1464806 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_getDirections",
+            "value": 305.8,
+            "unit": "ns/op",
+            "extra": "3919849 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_sortJumbled",
+            "value": 237.2,
+            "unit": "ns/op",
+            "extra": "5040396 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkCreateBinaryTree",
+            "value": 430.9,
+            "unit": "ns/op",
+            "extra": "2784889 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_buildMatrix",
+            "value": 1098,
+            "unit": "ns/op",
+            "extra": "1000000 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_sortPeople",
+            "value": 40.49,
+            "unit": "ns/op",
+            "extra": "29397001 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_1",
+            "value": 59.73,
+            "unit": "ns/op",
+            "extra": "20495006 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_2",
+            "value": 92.75,
+            "unit": "ns/op",
+            "extra": "12746542 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_4",
+            "value": 135,
+            "unit": "ns/op",
+            "extra": "8356293 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_8",
+            "value": 242.9,
+            "unit": "ns/op",
+            "extra": "4996609 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_16",
+            "value": 1351,
+            "unit": "ns/op",
+            "extra": "790050 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_32",
+            "value": 3060,
+            "unit": "ns/op",
+            "extra": "361303 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_64",
+            "value": 6538,
+            "unit": "ns/op",
+            "extra": "179828 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_128",
+            "value": 13070,
+            "unit": "ns/op",
+            "extra": "90590 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_countOfAtoms",
+            "value": 1059,
+            "unit": "ns/op",
+            "extra": "1000000 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_sortArray",
+            "value": 4078621,
             "unit": "ns/op",
             "extra": "290 times\n2 procs"
           }
