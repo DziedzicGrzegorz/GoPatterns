@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1723405567822,
+  "lastUpdate": 1723405569224,
   "repoUrl": "https://github.com/DziedzicGrzegorz/GoPatterns",
   "entries": {
     "Go Benchmark": [
@@ -12263,6 +12263,162 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/71f832f027527566bfebdb92dc06af0a9ec2afa8"
         },
         "date": 1723405566793,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "Benchmark_delNodes",
+            "value": 602.5,
+            "unit": "ns/op",
+            "extra": "1990280 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkHeightShelves",
+            "value": 0.3114,
+            "unit": "ns/op",
+            "extra": "1000000000 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_findTheCity",
+            "value": 1072,
+            "unit": "ns/op",
+            "extra": "1000000 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkNumTeams",
+            "value": 12.84,
+            "unit": "ns/op",
+            "extra": "90690972 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_frequencySort",
+            "value": 204.9,
+            "unit": "ns/op",
+            "extra": "5789161 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkMinDel",
+            "value": 9.001,
+            "unit": "ns/op",
+            "extra": "129706022 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_secondMinimum",
+            "value": 871.5,
+            "unit": "ns/op",
+            "extra": "1480792 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_getDirections",
+            "value": 306.3,
+            "unit": "ns/op",
+            "extra": "3933082 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_sortJumbled",
+            "value": 237.4,
+            "unit": "ns/op",
+            "extra": "5048800 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkCreateBinaryTree",
+            "value": 443.3,
+            "unit": "ns/op",
+            "extra": "2712631 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_buildMatrix",
+            "value": 1091,
+            "unit": "ns/op",
+            "extra": "1000000 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_sortPeople",
+            "value": 41.37,
+            "unit": "ns/op",
+            "extra": "29143489 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_1",
+            "value": 57.8,
+            "unit": "ns/op",
+            "extra": "20649802 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_2",
+            "value": 93.43,
+            "unit": "ns/op",
+            "extra": "12761908 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_4",
+            "value": 136.3,
+            "unit": "ns/op",
+            "extra": "8637422 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_8",
+            "value": 240.6,
+            "unit": "ns/op",
+            "extra": "4883196 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_16",
+            "value": 1362,
+            "unit": "ns/op",
+            "extra": "786418 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_32",
+            "value": 3176,
+            "unit": "ns/op",
+            "extra": "373369 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_64",
+            "value": 6554,
+            "unit": "ns/op",
+            "extra": "180105 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_128",
+            "value": 13596,
+            "unit": "ns/op",
+            "extra": "76063 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_countOfAtoms",
+            "value": 1033,
+            "unit": "ns/op",
+            "extra": "1000000 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_sortArray",
+            "value": 4078429,
+            "unit": "ns/op",
+            "extra": "291 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Grzegorz Dziedzic",
+            "username": "DziedzicGrzegorz"
+          },
+          "committer": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Grzegorz Dziedzic",
+            "username": "DziedzicGrzegorz"
+          },
+          "distinct": true,
+          "id": "71f832f027527566bfebdb92dc06af0a9ec2afa8",
+          "message": "feat(1568): Hard\n\nYou are given an m x n binary grid grid where 1 represents land and 0 represents water. An island is a maximal 4-directionally (horizontal or vertical) connected group of 1's.\n\nThe grid is said to be connected if we have exactly one island, otherwise is said disconnected.\n\nIn one day, we are allowed to change any single land cell (1) into a water cell (0).\n\nReturn the minimum number of days to disconnect the grid.\n\nExample 1:\n\nInput: grid = [[0,1,1,0],[0,1,1,0],[0,0,0,0]]\n\nOutput: 2\nExplanation: We need at least 2 days to get a disconnected grid.\nChange land grid[1][1] and grid[0][2] to water and get 2 disconnected island.\nExample 2:\n\nInput: grid = [[1,1]]\nOutput: 2\nExplanation: Grid of full water is also disconnected ([[1,1]] -> [[0,0]]), 0 islands.\n\nConstraints:\n\nm == grid.length\nn == grid[i].length\n1 <= m, n <= 30\ngrid[i][j] is either 0 or 1.",
+          "timestamp": "2024-08-11T21:45:10+02:00",
+          "tree_id": "33de48c81e37e1ef2149d44b1467f4c8dbf55a16",
+          "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/71f832f027527566bfebdb92dc06af0a9ec2afa8"
+        },
+        "date": 1723405568585,
         "tool": "go",
         "benches": [
           {
