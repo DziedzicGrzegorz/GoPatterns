@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1723465217774,
+  "lastUpdate": 1723465218862,
   "repoUrl": "https://github.com/DziedzicGrzegorz/GoPatterns",
   "entries": {
     "Go Benchmark": [
@@ -12575,6 +12575,162 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/fb899258a3b4d7920cbe300155c6e1f8b8f2ff45"
         },
         "date": 1723465217198,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "Benchmark_delNodes",
+            "value": 605.7,
+            "unit": "ns/op",
+            "extra": "1933569 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkHeightShelves",
+            "value": 0.3245,
+            "unit": "ns/op",
+            "extra": "1000000000 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_findTheCity",
+            "value": 1104,
+            "unit": "ns/op",
+            "extra": "988394 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkNumTeams",
+            "value": 13.38,
+            "unit": "ns/op",
+            "extra": "90146702 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_frequencySort",
+            "value": 211.1,
+            "unit": "ns/op",
+            "extra": "5677797 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkMinDel",
+            "value": 9.38,
+            "unit": "ns/op",
+            "extra": "126005172 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_secondMinimum",
+            "value": 831.7,
+            "unit": "ns/op",
+            "extra": "1451991 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_getDirections",
+            "value": 310.2,
+            "unit": "ns/op",
+            "extra": "3916720 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_sortJumbled",
+            "value": 242.4,
+            "unit": "ns/op",
+            "extra": "4247000 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkCreateBinaryTree",
+            "value": 465.9,
+            "unit": "ns/op",
+            "extra": "2639299 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_buildMatrix",
+            "value": 1119,
+            "unit": "ns/op",
+            "extra": "986599 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_sortPeople",
+            "value": 41.72,
+            "unit": "ns/op",
+            "extra": "29184153 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_1",
+            "value": 59.75,
+            "unit": "ns/op",
+            "extra": "20073141 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_2",
+            "value": 95.93,
+            "unit": "ns/op",
+            "extra": "12314106 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_4",
+            "value": 139.3,
+            "unit": "ns/op",
+            "extra": "8507954 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_8",
+            "value": 247.4,
+            "unit": "ns/op",
+            "extra": "4755171 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_16",
+            "value": 1370,
+            "unit": "ns/op",
+            "extra": "738234 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_32",
+            "value": 3312,
+            "unit": "ns/op",
+            "extra": "317942 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_64",
+            "value": 6574,
+            "unit": "ns/op",
+            "extra": "179262 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_128",
+            "value": 13707,
+            "unit": "ns/op",
+            "extra": "87661 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_countOfAtoms",
+            "value": 999.8,
+            "unit": "ns/op",
+            "extra": "1203788 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_sortArray",
+            "value": 4257931,
+            "unit": "ns/op",
+            "extra": "272 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Grzegorz Dziedzic",
+            "username": "DziedzicGrzegorz"
+          },
+          "committer": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Grzegorz Dziedzic",
+            "username": "DziedzicGrzegorz"
+          },
+          "distinct": true,
+          "id": "fb899258a3b4d7920cbe300155c6e1f8b8f2ff45",
+          "message": "feat(703): Easy\n\nDesign a class to find the kth largest element in a stream. Note that it is the kth largest element in the sorted order, not the kth distinct element.\n\nImplement KthLargest class:\n\nKthLargest(int k, int[] nums) Initializes the object with the integer k and the stream of integers nums.\nint add(int val) Appends the integer val to the stream and returns the element representing the kth largest element in the stream.\n\nExample 1:\n\nInput\n[\"KthLargest\", \"add\", \"add\", \"add\", \"add\", \"add\"]\n[[3, [4, 5, 8, 2]], [3], [5], [10], [9], [4]]\nOutput\n[null, 4, 5, 5, 8, 8]\n\nExplanation\nKthLargest kthLargest = new KthLargest(3, [4, 5, 8, 2]);\nkthLargest.add(3);   // return 4\nkthLargest.add(5);   // return 5\nkthLargest.add(10);  // return 5\nkthLargest.add(9);   // return 8\nkthLargest.add(4);   // return 8\n\nConstraints:\n\n1 <= k <= 104\n0 <= nums.length <= 104\n-104 <= nums[i] <= 104\n-104 <= val <= 104\nAt most 104 calls will be made to add.\nIt is guaranteed that there will be at least k elements in the array when you search for the kth element.",
+          "timestamp": "2024-08-12T14:19:15+02:00",
+          "tree_id": "4ca2f1f4a4578d6ffc00ceacd25491168c607be9",
+          "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/fb899258a3b4d7920cbe300155c6e1f8b8f2ff45"
+        },
+        "date": 1723465218494,
         "tool": "go",
         "benches": [
           {
