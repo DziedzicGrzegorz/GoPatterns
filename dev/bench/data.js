@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1723465218862,
+  "lastUpdate": 1723579743504,
   "repoUrl": "https://github.com/DziedzicGrzegorz/GoPatterns",
   "entries": {
     "Go Benchmark": [
@@ -12864,6 +12864,162 @@ window.BENCHMARK_DATA = {
             "value": 4257931,
             "unit": "ns/op",
             "extra": "272 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Grzegorz Dziedzic",
+            "username": "DziedzicGrzegorz"
+          },
+          "committer": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Grzegorz Dziedzic",
+            "username": "DziedzicGrzegorz"
+          },
+          "distinct": true,
+          "id": "9a28956b1c300f5507128e16afc0ed6882d18e9f",
+          "message": "feat(40): Medium\n\nGiven a collection of candidate numbers (candidates) and a target number (target), find all unique combinations in candidates where the candidate numbers sum to target.\n\nEach number in candidates may only be used once in the combination.\n\nNote: The solution set must not contain duplicate combinations.\n\nExample 1:\n\nInput: candidates = [10,1,2,7,6,1,5], target = 8\nOutput:\n[\n[1,1,6],\n[1,2,5],\n[1,7],\n[2,6]\n]\nExample 2:\n\nInput: candidates = [2,5,2,1,2], target = 5\nOutput:\n[\n[1,2,2],\n[5]\n]\n\nConstraints:\n\n1 <= candidates.length <= 100\n1 <= candidates[i] <= 50\n1 <= target <= 30",
+          "timestamp": "2024-08-13T21:57:06+02:00",
+          "tree_id": "573640a72802fac68a369dc066b87b353ef70c9a",
+          "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/9a28956b1c300f5507128e16afc0ed6882d18e9f"
+        },
+        "date": 1723579742054,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "Benchmark_delNodes",
+            "value": 609,
+            "unit": "ns/op",
+            "extra": "1700846 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkHeightShelves",
+            "value": 0.3113,
+            "unit": "ns/op",
+            "extra": "1000000000 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_findTheCity",
+            "value": 1085,
+            "unit": "ns/op",
+            "extra": "1000000 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkNumTeams",
+            "value": 12.83,
+            "unit": "ns/op",
+            "extra": "88417700 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_frequencySort",
+            "value": 204.8,
+            "unit": "ns/op",
+            "extra": "5758063 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkMinDel",
+            "value": 10.09,
+            "unit": "ns/op",
+            "extra": "132345778 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_secondMinimum",
+            "value": 827.6,
+            "unit": "ns/op",
+            "extra": "1429350 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_getDirections",
+            "value": 306.3,
+            "unit": "ns/op",
+            "extra": "3902964 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_sortJumbled",
+            "value": 238.4,
+            "unit": "ns/op",
+            "extra": "5022134 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkCreateBinaryTree",
+            "value": 442.8,
+            "unit": "ns/op",
+            "extra": "2695375 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_buildMatrix",
+            "value": 1098,
+            "unit": "ns/op",
+            "extra": "1000000 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_sortPeople",
+            "value": 40.52,
+            "unit": "ns/op",
+            "extra": "29183678 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_1",
+            "value": 58.01,
+            "unit": "ns/op",
+            "extra": "20384172 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_2",
+            "value": 96.43,
+            "unit": "ns/op",
+            "extra": "12734307 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_4",
+            "value": 136,
+            "unit": "ns/op",
+            "extra": "8413104 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_8",
+            "value": 241.1,
+            "unit": "ns/op",
+            "extra": "4909687 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_16",
+            "value": 1345,
+            "unit": "ns/op",
+            "extra": "783854 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_32",
+            "value": 3156,
+            "unit": "ns/op",
+            "extra": "336732 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_64",
+            "value": 6617,
+            "unit": "ns/op",
+            "extra": "178730 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_128",
+            "value": 13291,
+            "unit": "ns/op",
+            "extra": "89857 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_countOfAtoms",
+            "value": 1062,
+            "unit": "ns/op",
+            "extra": "1000000 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_sortArray",
+            "value": 4134174,
+            "unit": "ns/op",
+            "extra": "286 times\n2 procs"
           }
         ]
       }
