@@ -1,6 +1,7 @@
 package _1110
 
 import (
+	"sort"
 	"testing"
 )
 
@@ -16,6 +17,26 @@ func isSameTree(p *TreeNode, q *TreeNode) bool {
 		return false
 	}
 	return isSameTree(p.Left, q.Left) && isSameTree(p.Right, q.Right)
+}
+
+// Funkcja, która porównuje dwie listy drzew binarnych
+func compareTreeSlices(got, want []*TreeNode) bool {
+	if len(got) != len(want) {
+		return false
+	}
+	for i := range got {
+		if !isSameTree(got[i], want[i]) {
+			return false
+		}
+	}
+	return true
+}
+
+// Sortowanie drzew binarnych według wartości korzenia
+func sortTreeSliceByValue(trees []*TreeNode) {
+	sort.Slice(trees, func(i, j int) bool {
+		return trees[i].Val < trees[j].Val
+	})
 }
 
 func Test_delNodes(t *testing.T) {
@@ -78,13 +99,13 @@ func Test_delNodes(t *testing.T) {
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
 			got := delNodes(tt.args.root, tt.args.to_delete)
-			if len(got) != len(tt.want) {
+
+			// Sort both slices before comparison
+			sortTreeSliceByValue(got)
+			sortTreeSliceByValue(tt.want)
+
+			if !compareTreeSlices(got, tt.want) {
 				t.Errorf("delNodes() = %v, want %v", got, tt.want)
-			}
-			for i := range got {
-				if !isSameTree(got[i], tt.want[i]) {
-					t.Errorf("delNodes() = %v, want %v", got[i], tt.want[i])
-				}
 			}
 		})
 	}
