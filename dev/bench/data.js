@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1723658232606,
+  "lastUpdate": 1723658249215,
   "repoUrl": "https://github.com/DziedzicGrzegorz/GoPatterns",
   "entries": {
     "Go Benchmark": [
@@ -17040,6 +17040,174 @@ window.BENCHMARK_DATA = {
             "value": 4106810,
             "unit": "ns/op",
             "extra": "278 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Dziedzic Grzegorz",
+            "username": "DziedzicGrzegorz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "147004843a4c5922966bce5b4a2d6aad54b77b3f",
+          "message": "Merge pull request #52 from DziedzicGrzegorz/feat/Leetcode-1568\n\nfeat(1568): Hard",
+          "timestamp": "2024-08-14T19:56:25+02:00",
+          "tree_id": "2508c7a8102fe24b1a6e2c8eefdddbd689b08f28",
+          "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/147004843a4c5922966bce5b4a2d6aad54b77b3f"
+        },
+        "date": 1723658247876,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "Benchmark_delNodes",
+            "value": 623,
+            "unit": "ns/op",
+            "extra": "1922938 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkHeightShelves",
+            "value": 0.3123,
+            "unit": "ns/op",
+            "extra": "1000000000 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_findTheCity",
+            "value": 1086,
+            "unit": "ns/op",
+            "extra": "1000000 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkNumTeams",
+            "value": 13.43,
+            "unit": "ns/op",
+            "extra": "86136513 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_frequencySort",
+            "value": 202.9,
+            "unit": "ns/op",
+            "extra": "5805064 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkMinDel",
+            "value": 12.13,
+            "unit": "ns/op",
+            "extra": "100000000 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_secondMinimum",
+            "value": 810.5,
+            "unit": "ns/op",
+            "extra": "1455772 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_KthDistinct",
+            "value": 57.74,
+            "unit": "ns/op",
+            "extra": "20580368 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_getDirections",
+            "value": 308.4,
+            "unit": "ns/op",
+            "extra": "3845350 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_sortJumbled",
+            "value": 232,
+            "unit": "ns/op",
+            "extra": "5186340 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkCreateBinaryTree",
+            "value": 444.8,
+            "unit": "ns/op",
+            "extra": "2693446 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_buildMatrix",
+            "value": 1191,
+            "unit": "ns/op",
+            "extra": "963128 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_sortPeople",
+            "value": 42.48,
+            "unit": "ns/op",
+            "extra": "29328286 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkCountSeniors",
+            "value": 2.826,
+            "unit": "ns/op",
+            "extra": "427872290 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_1",
+            "value": 57.85,
+            "unit": "ns/op",
+            "extra": "20408102 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_2",
+            "value": 112.8,
+            "unit": "ns/op",
+            "extra": "11930828 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_4",
+            "value": 138.9,
+            "unit": "ns/op",
+            "extra": "8598724 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_8",
+            "value": 251.7,
+            "unit": "ns/op",
+            "extra": "4785146 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_16",
+            "value": 1395,
+            "unit": "ns/op",
+            "extra": "759932 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_32",
+            "value": 3415,
+            "unit": "ns/op",
+            "extra": "368292 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_64",
+            "value": 6842,
+            "unit": "ns/op",
+            "extra": "172588 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_128",
+            "value": 13531,
+            "unit": "ns/op",
+            "extra": "88544 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_countOfAtoms",
+            "value": 994.5,
+            "unit": "ns/op",
+            "extra": "1231818 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_sortArray",
+            "value": 4121689,
+            "unit": "ns/op",
+            "extra": "285 times\n2 procs"
           }
         ]
       }
