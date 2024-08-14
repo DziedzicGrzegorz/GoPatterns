@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1723658419975,
+  "lastUpdate": 1723658786684,
   "repoUrl": "https://github.com/DziedzicGrzegorz/GoPatterns",
   "entries": {
     "Go Benchmark": [
@@ -17710,6 +17710,174 @@ window.BENCHMARK_DATA = {
           {
             "name": "Benchmark_sortArray",
             "value": 4004812,
+            "unit": "ns/op",
+            "extra": "297 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Grzegorz Dziedzic",
+            "username": "DziedzicGrzegorz"
+          },
+          "committer": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "DziedzicGrzegorz",
+            "username": "DziedzicGrzegorz"
+          },
+          "distinct": true,
+          "id": "14130d73fcd52e73a2f67bd5588c8f31729e4811",
+          "message": "feat(1568): Hard\n\nYou are given an m x n binary grid grid where 1 represents land and 0 represents water. An island is a maximal 4-directionally (horizontal or vertical) connected group of 1's.\n\nThe grid is said to be connected if we have exactly one island, otherwise is said disconnected.\n\nIn one day, we are allowed to change any single land cell (1) into a water cell (0).\n\nReturn the minimum number of days to disconnect the grid.\n\nExample 1:\n\nInput: grid = [[0,1,1,0],[0,1,1,0],[0,0,0,0]]\n\nOutput: 2\nExplanation: We need at least 2 days to get a disconnected grid.\nChange land grid[1][1] and grid[0][2] to water and get 2 disconnected island.\nExample 2:\n\nInput: grid = [[1,1]]\nOutput: 2\nExplanation: Grid of full water is also disconnected ([[1,1]] -> [[0,0]]), 0 islands.\n\nConstraints:\n\nm == grid.length\nn == grid[i].length\n1 <= m, n <= 30\ngrid[i][j] is either 0 or 1.",
+          "timestamp": "2024-08-14T20:04:31+02:00",
+          "tree_id": "d280f94c960d2f952430079a4e73e14f0a431e6c",
+          "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/14130d73fcd52e73a2f67bd5588c8f31729e4811"
+        },
+        "date": 1723658785955,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "Benchmark_delNodes",
+            "value": 650.5,
+            "unit": "ns/op",
+            "extra": "1962202 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkHeightShelves",
+            "value": 0.3798,
+            "unit": "ns/op",
+            "extra": "1000000000 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_findTheCity",
+            "value": 1093,
+            "unit": "ns/op",
+            "extra": "1000000 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkNumTeams",
+            "value": 13.44,
+            "unit": "ns/op",
+            "extra": "88802210 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_frequencySort",
+            "value": 202.8,
+            "unit": "ns/op",
+            "extra": "5929242 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkMinDel",
+            "value": 10.98,
+            "unit": "ns/op",
+            "extra": "100000000 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_secondMinimum",
+            "value": 857.8,
+            "unit": "ns/op",
+            "extra": "1413808 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_KthDistinct",
+            "value": 57.81,
+            "unit": "ns/op",
+            "extra": "20651397 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_getDirections",
+            "value": 304.6,
+            "unit": "ns/op",
+            "extra": "3944799 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_sortJumbled",
+            "value": 232.2,
+            "unit": "ns/op",
+            "extra": "5184172 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkCreateBinaryTree",
+            "value": 451,
+            "unit": "ns/op",
+            "extra": "2651178 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_buildMatrix",
+            "value": 1130,
+            "unit": "ns/op",
+            "extra": "985938 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_sortPeople",
+            "value": 40.33,
+            "unit": "ns/op",
+            "extra": "29574837 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkCountSeniors",
+            "value": 2.843,
+            "unit": "ns/op",
+            "extra": "404484514 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_1",
+            "value": 58.12,
+            "unit": "ns/op",
+            "extra": "20453740 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_2",
+            "value": 99.59,
+            "unit": "ns/op",
+            "extra": "11555767 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_4",
+            "value": 138.4,
+            "unit": "ns/op",
+            "extra": "8651082 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_8",
+            "value": 252.7,
+            "unit": "ns/op",
+            "extra": "4628596 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_16",
+            "value": 1371,
+            "unit": "ns/op",
+            "extra": "879660 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_32",
+            "value": 3081,
+            "unit": "ns/op",
+            "extra": "367737 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_64",
+            "value": 7068,
+            "unit": "ns/op",
+            "extra": "171468 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_128",
+            "value": 13026,
+            "unit": "ns/op",
+            "extra": "82478 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_countOfAtoms",
+            "value": 976.9,
+            "unit": "ns/op",
+            "extra": "1239464 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_sortArray",
+            "value": 4009697,
             "unit": "ns/op",
             "extra": "297 times\n2 procs"
           }
