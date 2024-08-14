@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1723658119915,
+  "lastUpdate": 1723658121136,
   "repoUrl": "https://github.com/DziedzicGrzegorz/GoPatterns",
   "entries": {
     "Go Benchmark": [
@@ -15095,6 +15095,162 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/6e8c6e337bce5c707e75714c033f988479518ea4"
         },
         "date": 1723658119085,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "Benchmark_delNodes",
+            "value": 602.3,
+            "unit": "ns/op",
+            "extra": "1677118 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkHeightShelves",
+            "value": 0.3116,
+            "unit": "ns/op",
+            "extra": "1000000000 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_findTheCity",
+            "value": 1100,
+            "unit": "ns/op",
+            "extra": "1000000 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkNumTeams",
+            "value": 12.82,
+            "unit": "ns/op",
+            "extra": "89656232 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_frequencySort",
+            "value": 204.4,
+            "unit": "ns/op",
+            "extra": "5847190 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkMinDel",
+            "value": 8.901,
+            "unit": "ns/op",
+            "extra": "132030746 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_secondMinimum",
+            "value": 1040,
+            "unit": "ns/op",
+            "extra": "1000000 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_getDirections",
+            "value": 310.1,
+            "unit": "ns/op",
+            "extra": "3534369 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_sortJumbled",
+            "value": 242.1,
+            "unit": "ns/op",
+            "extra": "4903099 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkCreateBinaryTree",
+            "value": 456.2,
+            "unit": "ns/op",
+            "extra": "2771342 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_buildMatrix",
+            "value": 1113,
+            "unit": "ns/op",
+            "extra": "975813 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_sortPeople",
+            "value": 40.86,
+            "unit": "ns/op",
+            "extra": "29321706 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_1",
+            "value": 63,
+            "unit": "ns/op",
+            "extra": "19007337 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_2",
+            "value": 93.06,
+            "unit": "ns/op",
+            "extra": "12752563 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_4",
+            "value": 135.4,
+            "unit": "ns/op",
+            "extra": "8824842 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_8",
+            "value": 240.9,
+            "unit": "ns/op",
+            "extra": "4974075 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_16",
+            "value": 1361,
+            "unit": "ns/op",
+            "extra": "769774 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_32",
+            "value": 3285,
+            "unit": "ns/op",
+            "extra": "369106 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_64",
+            "value": 6526,
+            "unit": "ns/op",
+            "extra": "180630 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_128",
+            "value": 13074,
+            "unit": "ns/op",
+            "extra": "91237 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_countOfAtoms",
+            "value": 1034,
+            "unit": "ns/op",
+            "extra": "1000000 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_sortArray",
+            "value": 4000151,
+            "unit": "ns/op",
+            "extra": "296 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "DziedzicGrzegorz",
+            "username": "DziedzicGrzegorz"
+          },
+          "committer": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "DziedzicGrzegorz",
+            "username": "DziedzicGrzegorz"
+          },
+          "distinct": true,
+          "id": "6e8c6e337bce5c707e75714c033f988479518ea4",
+          "message": "fix(1460_Tests): Easy\n\nfix wanted result and add new case",
+          "timestamp": "2024-08-14T19:54:19+02:00",
+          "tree_id": "f3427888ddf1e3b850fc5fd7c783fcf74a4cf890",
+          "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/6e8c6e337bce5c707e75714c033f988479518ea4"
+        },
+        "date": 1723658120598,
         "tool": "go",
         "benches": [
           {
