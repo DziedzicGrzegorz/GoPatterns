@@ -28,6 +28,14 @@ func Test_canBeEqual(t *testing.T) {
 				target: []int{7},
 				arr:    []int{7},
 			},
+			want: true,
+		},
+		{
+			name: "Test case 2",
+			args: args{
+				target: []int{3, 7, 9},
+				arr:    []int{3, 7, 11},
+			},
 			want: false,
 		},
 	}
