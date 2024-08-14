@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1723657401718,
+  "lastUpdate": 1723657403368,
   "repoUrl": "https://github.com/DziedzicGrzegorz/GoPatterns",
   "entries": {
     "Go Benchmark": [
@@ -13823,6 +13823,162 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/b79222ad7200e67f576c92b07175b1b9979c5402"
         },
         "date": 1723657400626,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "Benchmark_delNodes",
+            "value": 591.7,
+            "unit": "ns/op",
+            "extra": "2029375 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkHeightShelves",
+            "value": 0.3115,
+            "unit": "ns/op",
+            "extra": "1000000000 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_findTheCity",
+            "value": 1079,
+            "unit": "ns/op",
+            "extra": "1000000 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkNumTeams",
+            "value": 13.41,
+            "unit": "ns/op",
+            "extra": "86018668 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_frequencySort",
+            "value": 202.3,
+            "unit": "ns/op",
+            "extra": "5928068 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkMinDel",
+            "value": 10.83,
+            "unit": "ns/op",
+            "extra": "100000000 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_secondMinimum",
+            "value": 804.9,
+            "unit": "ns/op",
+            "extra": "1505649 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_getDirections",
+            "value": 318.7,
+            "unit": "ns/op",
+            "extra": "3972159 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_sortJumbled",
+            "value": 228.4,
+            "unit": "ns/op",
+            "extra": "5272822 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkCreateBinaryTree",
+            "value": 438.9,
+            "unit": "ns/op",
+            "extra": "2727757 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_buildMatrix",
+            "value": 1131,
+            "unit": "ns/op",
+            "extra": "949960 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_sortPeople",
+            "value": 40.33,
+            "unit": "ns/op",
+            "extra": "29541754 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_1",
+            "value": 58.6,
+            "unit": "ns/op",
+            "extra": "20430148 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_2",
+            "value": 99.37,
+            "unit": "ns/op",
+            "extra": "11953650 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_4",
+            "value": 147.5,
+            "unit": "ns/op",
+            "extra": "8647123 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_8",
+            "value": 248.8,
+            "unit": "ns/op",
+            "extra": "4813309 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_16",
+            "value": 1382,
+            "unit": "ns/op",
+            "extra": "773488 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_32",
+            "value": 3470,
+            "unit": "ns/op",
+            "extra": "363319 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_64",
+            "value": 6880,
+            "unit": "ns/op",
+            "extra": "178312 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_128",
+            "value": 13254,
+            "unit": "ns/op",
+            "extra": "89944 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_countOfAtoms",
+            "value": 1021,
+            "unit": "ns/op",
+            "extra": "1243318 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_sortArray",
+            "value": 4072825,
+            "unit": "ns/op",
+            "extra": "291 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "DziedzicGrzegorz",
+            "username": "DziedzicGrzegorz"
+          },
+          "committer": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "DziedzicGrzegorz",
+            "username": "DziedzicGrzegorz"
+          },
+          "distinct": true,
+          "id": "b79222ad7200e67f576c92b07175b1b9979c5402",
+          "message": "chore: update build-release-stage to alpine 3.20.2 and golang:1.23.0-alpine for build stage (yesterday was unavailable)",
+          "timestamp": "2024-08-14T19:42:09+02:00",
+          "tree_id": "1c4252767d959d4d42f95940293e9cb794215cff",
+          "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/b79222ad7200e67f576c92b07175b1b9979c5402"
+        },
+        "date": 1723657402594,
         "tool": "go",
         "benches": [
           {
