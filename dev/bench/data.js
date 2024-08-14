@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1723659374084,
+  "lastUpdate": 1723659375124,
   "repoUrl": "https://github.com/DziedzicGrzegorz/GoPatterns",
   "entries": {
     "Go Benchmark": [
@@ -19079,6 +19079,156 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/fb899258a3b4d7920cbe300155c6e1f8b8f2ff45"
         },
         "date": 1723659373386,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "BenchmarkHeightShelves",
+            "value": 0.3822,
+            "unit": "ns/op",
+            "extra": "1000000000 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_findTheCity",
+            "value": 1079,
+            "unit": "ns/op",
+            "extra": "1000000 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkNumTeams",
+            "value": 12.85,
+            "unit": "ns/op",
+            "extra": "92739186 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_frequencySort",
+            "value": 215.1,
+            "unit": "ns/op",
+            "extra": "5845155 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkMinDel",
+            "value": 9.088,
+            "unit": "ns/op",
+            "extra": "131801065 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_secondMinimum",
+            "value": 822.7,
+            "unit": "ns/op",
+            "extra": "1466346 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_getDirections",
+            "value": 303.5,
+            "unit": "ns/op",
+            "extra": "3912493 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_sortJumbled",
+            "value": 236.3,
+            "unit": "ns/op",
+            "extra": "5048900 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkCreateBinaryTree",
+            "value": 446,
+            "unit": "ns/op",
+            "extra": "2781256 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_buildMatrix",
+            "value": 1107,
+            "unit": "ns/op",
+            "extra": "1000000 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_sortPeople",
+            "value": 42.58,
+            "unit": "ns/op",
+            "extra": "29049626 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_1",
+            "value": 58.07,
+            "unit": "ns/op",
+            "extra": "20534192 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_2",
+            "value": 92.53,
+            "unit": "ns/op",
+            "extra": "12516891 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_4",
+            "value": 135,
+            "unit": "ns/op",
+            "extra": "8505049 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_8",
+            "value": 240.9,
+            "unit": "ns/op",
+            "extra": "4899542 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_16",
+            "value": 1352,
+            "unit": "ns/op",
+            "extra": "806904 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_32",
+            "value": 3059,
+            "unit": "ns/op",
+            "extra": "375430 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_64",
+            "value": 6522,
+            "unit": "ns/op",
+            "extra": "180489 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_128",
+            "value": 14692,
+            "unit": "ns/op",
+            "extra": "87084 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_countOfAtoms",
+            "value": 989.7,
+            "unit": "ns/op",
+            "extra": "1217734 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_sortArray",
+            "value": 3949164,
+            "unit": "ns/op",
+            "extra": "300 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Grzegorz Dziedzic",
+            "username": "DziedzicGrzegorz"
+          },
+          "committer": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Grzegorz Dziedzic",
+            "username": "DziedzicGrzegorz"
+          },
+          "distinct": true,
+          "id": "fb899258a3b4d7920cbe300155c6e1f8b8f2ff45",
+          "message": "feat(703): Easy\n\nDesign a class to find the kth largest element in a stream. Note that it is the kth largest element in the sorted order, not the kth distinct element.\n\nImplement KthLargest class:\n\nKthLargest(int k, int[] nums) Initializes the object with the integer k and the stream of integers nums.\nint add(int val) Appends the integer val to the stream and returns the element representing the kth largest element in the stream.\n\nExample 1:\n\nInput\n[\"KthLargest\", \"add\", \"add\", \"add\", \"add\", \"add\"]\n[[3, [4, 5, 8, 2]], [3], [5], [10], [9], [4]]\nOutput\n[null, 4, 5, 5, 8, 8]\n\nExplanation\nKthLargest kthLargest = new KthLargest(3, [4, 5, 8, 2]);\nkthLargest.add(3);   // return 4\nkthLargest.add(5);   // return 5\nkthLargest.add(10);  // return 5\nkthLargest.add(9);   // return 8\nkthLargest.add(4);   // return 8\n\nConstraints:\n\n1 <= k <= 104\n0 <= nums.length <= 104\n-104 <= nums[i] <= 104\n-104 <= val <= 104\nAt most 104 calls will be made to add.\nIt is guaranteed that there will be at least k elements in the array when you search for the kth element.",
+          "timestamp": "2024-08-12T14:19:15+02:00",
+          "tree_id": "4ca2f1f4a4578d6ffc00ceacd25491168c607be9",
+          "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/fb899258a3b4d7920cbe300155c6e1f8b8f2ff45"
+        },
+        "date": 1723659374791,
         "tool": "go",
         "benches": [
           {
