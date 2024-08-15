@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1723750689693,
+  "lastUpdate": 1723750690718,
   "repoUrl": "https://github.com/DziedzicGrzegorz/GoPatterns",
   "entries": {
     "Go Benchmark": [
@@ -19715,6 +19715,174 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/10086ffcd9a46903a0b65c8f9a31927de83d0450"
         },
         "date": 1723750688917,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "Benchmark_delNodes",
+            "value": 651.4,
+            "unit": "ns/op",
+            "extra": "1953309 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkHeightShelves",
+            "value": 0.3834,
+            "unit": "ns/op",
+            "extra": "1000000000 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_findTheCity",
+            "value": 1173,
+            "unit": "ns/op",
+            "extra": "989373 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkNumTeams",
+            "value": 13.38,
+            "unit": "ns/op",
+            "extra": "89177148 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_frequencySort",
+            "value": 202.9,
+            "unit": "ns/op",
+            "extra": "5911022 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkMinDel",
+            "value": 10.9,
+            "unit": "ns/op",
+            "extra": "98280138 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_secondMinimum",
+            "value": 792.2,
+            "unit": "ns/op",
+            "extra": "1492243 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_KthDistinct",
+            "value": 57.53,
+            "unit": "ns/op",
+            "extra": "20233238 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_getDirections",
+            "value": 295.7,
+            "unit": "ns/op",
+            "extra": "3950505 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_sortJumbled",
+            "value": 232.4,
+            "unit": "ns/op",
+            "extra": "5334516 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkCreateBinaryTree",
+            "value": 444.6,
+            "unit": "ns/op",
+            "extra": "2716118 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_buildMatrix",
+            "value": 1127,
+            "unit": "ns/op",
+            "extra": "1000000 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_sortPeople",
+            "value": 40.19,
+            "unit": "ns/op",
+            "extra": "29940279 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkCountSeniors",
+            "value": 2.846,
+            "unit": "ns/op",
+            "extra": "428288857 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_1",
+            "value": 57.61,
+            "unit": "ns/op",
+            "extra": "20647867 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_2",
+            "value": 105.5,
+            "unit": "ns/op",
+            "extra": "11831140 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_4",
+            "value": 136.8,
+            "unit": "ns/op",
+            "extra": "8125588 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_8",
+            "value": 253.9,
+            "unit": "ns/op",
+            "extra": "4873850 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_16",
+            "value": 1380,
+            "unit": "ns/op",
+            "extra": "782170 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_32",
+            "value": 3078,
+            "unit": "ns/op",
+            "extra": "372940 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_64",
+            "value": 6543,
+            "unit": "ns/op",
+            "extra": "180182 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_128",
+            "value": 13254,
+            "unit": "ns/op",
+            "extra": "91593 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_countOfAtoms",
+            "value": 956.8,
+            "unit": "ns/op",
+            "extra": "1261264 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_sortArray",
+            "value": 3949804,
+            "unit": "ns/op",
+            "extra": "300 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Grzegorz Dziedzic",
+            "username": "DziedzicGrzegorz"
+          },
+          "committer": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Grzegorz Dziedzic",
+            "username": "DziedzicGrzegorz"
+          },
+          "distinct": true,
+          "id": "10086ffcd9a46903a0b65c8f9a31927de83d0450",
+          "message": "feat(860): Easy\n\nAt a lemonade stand, each lemonade costs $5. Customers are standing in a queue to buy from you and order one at a time (in the order specified by bills). Each customer will only buy one lemonade and pay with either a $5, $10, or $20 bill. You must provide the correct change to each customer so that the net transaction is that the customer pays $5.\n\nNote that you do not have any change in hand at first.\n\nGiven an integer array bills where bills[i] is the bill the ith customer pays, return true if you can provide every customer with the correct change, or false otherwise.\n\nExample 1:\n\nInput: bills = [5,5,5,10,20]\nOutput: true\nExplanation:\nFrom the first 3 customers, we collect three $5 bills in order.\nFrom the fourth customer, we collect a $10 bill and give back a $5.\nFrom the fifth customer, we give a $10 bill and a $5 bill.\nSince all customers got correct change, we output true.\nExample 2:\n\nInput: bills = [5,5,10,10,20]\nOutput: false\nExplanation:\nFrom the first two customers in order, we collect two $5 bills.\nFor the next two customers in order, we collect a $10 bill and give back a $5 bill.\nFor the last customer, we can not give the change of $15 back because we only have two $10 bills.\nSince not every customer received the correct change, the answer is false.\n\nConstraints:\n\n1 <= bills.length <= 105\nbills[i] is either 5, 10, or 20.",
+          "timestamp": "2024-08-15T21:36:38+02:00",
+          "tree_id": "41a5e52863cfb5aa2ed1e48bf24d7a91754d11be",
+          "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/10086ffcd9a46903a0b65c8f9a31927de83d0450"
+        },
+        "date": 1723750690328,
         "tool": "go",
         "benches": [
           {
