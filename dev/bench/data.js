@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1723750760436,
+  "lastUpdate": 1723838312633,
   "repoUrl": "https://github.com/DziedzicGrzegorz/GoPatterns",
   "entries": {
     "Go Benchmark": [
@@ -20364,6 +20364,174 @@ window.BENCHMARK_DATA = {
             "value": 3996215,
             "unit": "ns/op",
             "extra": "296 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Grzegorz Dziedzic",
+            "username": "DziedzicGrzegorz"
+          },
+          "committer": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Grzegorz Dziedzic",
+            "username": "DziedzicGrzegorz"
+          },
+          "distinct": true,
+          "id": "c02224fd2e514eb32546db8593a9e68dfea2fe2a",
+          "message": "feat(624): Medium\n\nYou are given m arrays, where each array is sorted in ascending order.\n\nYou can pick up two integers from two different arrays (each array picks one) and calculate the distance. We define the distance between two integers a and b to be their absolute difference |a - b|.\n\nReturn the maximum distance.\n\nExample 1:\n\nInput: arrays = [[1,2,3],[4,5],[1,2,3]]\nOutput: 4\nExplanation: One way to reach the maximum distance 4 is to pick 1 in the first or third array and pick 5 in the second array.\nExample 2:\n\nInput: arrays = [[1],[1]]\nOutput: 0\n\nConstraints:\n\nm == arrays.length\n2 <= m <= 105\n1 <= arrays[i].length <= 500\n-104 <= arrays[i][j] <= 104\narrays[i] is sorted in ascending order.\nThere will be at most 105 integers in all the arrays.",
+          "timestamp": "2024-08-16T21:56:57+02:00",
+          "tree_id": "9ab9c842a5645ba24953bdc146e3aa7eee333635",
+          "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/c02224fd2e514eb32546db8593a9e68dfea2fe2a"
+        },
+        "date": 1723838311096,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "Benchmark_delNodes",
+            "value": 613,
+            "unit": "ns/op",
+            "extra": "1928998 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkHeightShelves",
+            "value": 0.3112,
+            "unit": "ns/op",
+            "extra": "1000000000 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_findTheCity",
+            "value": 1068,
+            "unit": "ns/op",
+            "extra": "1000000 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkNumTeams",
+            "value": 13.39,
+            "unit": "ns/op",
+            "extra": "85986130 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_frequencySort",
+            "value": 205.8,
+            "unit": "ns/op",
+            "extra": "5873080 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkMinDel",
+            "value": 11,
+            "unit": "ns/op",
+            "extra": "100000000 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_secondMinimum",
+            "value": 854.3,
+            "unit": "ns/op",
+            "extra": "1485914 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_KthDistinct",
+            "value": 58.91,
+            "unit": "ns/op",
+            "extra": "20563688 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_getDirections",
+            "value": 302.7,
+            "unit": "ns/op",
+            "extra": "3936808 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_sortJumbled",
+            "value": 239.5,
+            "unit": "ns/op",
+            "extra": "5265433 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkCreateBinaryTree",
+            "value": 444.4,
+            "unit": "ns/op",
+            "extra": "2669766 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_buildMatrix",
+            "value": 1152,
+            "unit": "ns/op",
+            "extra": "990694 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_sortPeople",
+            "value": 41.27,
+            "unit": "ns/op",
+            "extra": "29606101 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkCountSeniors",
+            "value": 2.825,
+            "unit": "ns/op",
+            "extra": "364955511 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_1",
+            "value": 57.97,
+            "unit": "ns/op",
+            "extra": "20366686 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_2",
+            "value": 101.7,
+            "unit": "ns/op",
+            "extra": "11909108 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_4",
+            "value": 137.1,
+            "unit": "ns/op",
+            "extra": "8646312 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_8",
+            "value": 250.3,
+            "unit": "ns/op",
+            "extra": "4825624 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_16",
+            "value": 1394,
+            "unit": "ns/op",
+            "extra": "756958 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_32",
+            "value": 3178,
+            "unit": "ns/op",
+            "extra": "366760 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_64",
+            "value": 6693,
+            "unit": "ns/op",
+            "extra": "169174 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_128",
+            "value": 14072,
+            "unit": "ns/op",
+            "extra": "90536 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_countOfAtoms",
+            "value": 979.6,
+            "unit": "ns/op",
+            "extra": "1248313 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_sortArray",
+            "value": 4076702,
+            "unit": "ns/op",
+            "extra": "289 times\n2 procs"
           }
         ]
       }
