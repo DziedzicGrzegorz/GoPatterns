@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1723838314502,
+  "lastUpdate": 1723921244091,
   "repoUrl": "https://github.com/DziedzicGrzegorz/GoPatterns",
   "entries": {
     "Go Benchmark": [
@@ -20700,6 +20700,174 @@ window.BENCHMARK_DATA = {
             "value": 4076702,
             "unit": "ns/op",
             "extra": "289 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Grzegorz Dziedzic",
+            "username": "DziedzicGrzegorz"
+          },
+          "committer": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Grzegorz Dziedzic",
+            "username": "DziedzicGrzegorz"
+          },
+          "distinct": true,
+          "id": "50c7463b1279635570fa71e88d104bebd3f50502",
+          "message": "feat(1937): Medium\n\nYou are given an m x n integer matrix points (0-indexed). Starting with 0 points, you want to maximize the number of points you can get from the matrix.\n\nTo gain points, you must pick one cell in each row. Picking the cell at coordinates (r, c) will add points[r][c] to your score.\n\nHowever, you will lose points if you pick a cell too far from the cell that you picked in the previous row. For every two adjacent rows r and r + 1 (where 0 <= r < m - 1), picking cells at coordinates (r, c1) and (r + 1, c2) will subtract abs(c1 - c2) from your score.\n\nReturn the maximum number of points you can achieve.\n\nabs(x) is defined as:\n\nx for x >= 0.\n-x for x < 0.\n\nExample 1:\n\nInput: points = [[1,2,3],[1,5,1],[3,1,1]]\nOutput: 9\nExplanation:\nThe blue cells denote the optimal cells to pick, which have coordinates (0, 2), (1, 1), and (2, 0).\nYou add 3 + 5 + 3 = 11 to your score.\nHowever, you must subtract abs(2 - 1) + abs(1 - 0) = 2 from your score.\nYour final score is 11 - 2 = 9.\nExample 2:\n\nInput: points = [[1,5],[2,3],[4,2]]\nOutput: 11\nExplanation:\nThe blue cells denote the optimal cells to pick, which have coordinates (0, 1), (1, 1), and (2, 0).\nYou add 5 + 3 + 4 = 12 to your score.\nHowever, you must subtract abs(1 - 1) + abs(1 - 0) = 1 from your score.\nYour final score is 12 - 1 = 11.\n\nConstraints:\n\nm == points.length\nn == points[r].length\n1 <= m, n <= 105\n1 <= m * n <= 105\n0 <= points[r][c] <= 105",
+          "timestamp": "2024-08-17T20:59:17+02:00",
+          "tree_id": "df02052ebb4815fa3bd12af76757f4a8e3eec162",
+          "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/50c7463b1279635570fa71e88d104bebd3f50502"
+        },
+        "date": 1723921243401,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "Benchmark_delNodes",
+            "value": 743.1,
+            "unit": "ns/op",
+            "extra": "1921838 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkHeightShelves",
+            "value": 0.3123,
+            "unit": "ns/op",
+            "extra": "1000000000 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_findTheCity",
+            "value": 1073,
+            "unit": "ns/op",
+            "extra": "1000000 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkNumTeams",
+            "value": 13.43,
+            "unit": "ns/op",
+            "extra": "84603078 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_frequencySort",
+            "value": 202.5,
+            "unit": "ns/op",
+            "extra": "5853418 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkMinDel",
+            "value": 11.12,
+            "unit": "ns/op",
+            "extra": "100000000 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_secondMinimum",
+            "value": 803.7,
+            "unit": "ns/op",
+            "extra": "1496526 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_KthDistinct",
+            "value": 57.59,
+            "unit": "ns/op",
+            "extra": "20939424 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_getDirections",
+            "value": 329.4,
+            "unit": "ns/op",
+            "extra": "3938660 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_sortJumbled",
+            "value": 233.2,
+            "unit": "ns/op",
+            "extra": "5264518 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkCreateBinaryTree",
+            "value": 443.5,
+            "unit": "ns/op",
+            "extra": "2715045 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_buildMatrix",
+            "value": 1134,
+            "unit": "ns/op",
+            "extra": "980544 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_sortPeople",
+            "value": 40.69,
+            "unit": "ns/op",
+            "extra": "29508001 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkCountSeniors",
+            "value": 2.812,
+            "unit": "ns/op",
+            "extra": "426956750 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_1",
+            "value": 57.95,
+            "unit": "ns/op",
+            "extra": "20586066 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_2",
+            "value": 106.6,
+            "unit": "ns/op",
+            "extra": "11535498 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_4",
+            "value": 139.6,
+            "unit": "ns/op",
+            "extra": "8695678 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_8",
+            "value": 251.8,
+            "unit": "ns/op",
+            "extra": "4769607 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_16",
+            "value": 1381,
+            "unit": "ns/op",
+            "extra": "785271 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_32",
+            "value": 3096,
+            "unit": "ns/op",
+            "extra": "371623 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_64",
+            "value": 6675,
+            "unit": "ns/op",
+            "extra": "178627 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_128",
+            "value": 13277,
+            "unit": "ns/op",
+            "extra": "90104 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_countOfAtoms",
+            "value": 1010,
+            "unit": "ns/op",
+            "extra": "1245861 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_sortArray",
+            "value": 3988141,
+            "unit": "ns/op",
+            "extra": "276 times\n2 procs"
           }
         ]
       }
