@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724009523711,
+  "lastUpdate": 1724012269229,
   "repoUrl": "https://github.com/DziedzicGrzegorz/GoPatterns",
   "entries": {
     "Go Benchmark": [
@@ -27084,6 +27084,174 @@ window.BENCHMARK_DATA = {
             "value": 3979948,
             "unit": "ns/op",
             "extra": "298 times\n4 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Grzegorz Dziedzic",
+            "username": "DziedzicGrzegorz"
+          },
+          "committer": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Grzegorz Dziedzic",
+            "username": "DziedzicGrzegorz"
+          },
+          "distinct": true,
+          "id": "caa9640f1bd1884a34547badc6d65281d2ef01fc",
+          "message": "feat(264): Medium\n\nAn ugly number is a positive integer whose prime factors are limited to 2, 3, and 5.\n\nGiven an integer n, return the nth ugly number.\n\nExample 1:\n\nInput: n = 10\nOutput: 12\nExplanation: [1, 2, 3, 4, 5, 6, 8, 9, 10, 12] is the sequence of the first 10 ugly numbers.\nExample 2:\n\nInput: n = 1\nOutput: 1\nExplanation: 1 has no prime factors, therefore all of its prime factors are limited to 2, 3, and 5.\n\nConstraints:\n\n1 <= n <= 1690",
+          "timestamp": "2024-08-18T22:16:42+02:00",
+          "tree_id": "b5de658afbc7806e948232b6330edcab130ebb01",
+          "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/caa9640f1bd1884a34547badc6d65281d2ef01fc"
+        },
+        "date": 1724012268132,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "Benchmark_delNodes",
+            "value": 608.5,
+            "unit": "ns/op",
+            "extra": "1860708 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkHeightShelves",
+            "value": 0.3113,
+            "unit": "ns/op",
+            "extra": "1000000000 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_findTheCity",
+            "value": 1097,
+            "unit": "ns/op",
+            "extra": "1000000 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkNumTeams",
+            "value": 13.39,
+            "unit": "ns/op",
+            "extra": "89007406 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_frequencySort",
+            "value": 201.4,
+            "unit": "ns/op",
+            "extra": "5937081 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkMinDel",
+            "value": 10.92,
+            "unit": "ns/op",
+            "extra": "100000000 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_secondMinimum",
+            "value": 784.8,
+            "unit": "ns/op",
+            "extra": "1523616 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_KthDistinct",
+            "value": 58.87,
+            "unit": "ns/op",
+            "extra": "20910159 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_getDirections",
+            "value": 298.6,
+            "unit": "ns/op",
+            "extra": "4049209 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_sortJumbled",
+            "value": 225.3,
+            "unit": "ns/op",
+            "extra": "5350683 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkCreateBinaryTree",
+            "value": 434.2,
+            "unit": "ns/op",
+            "extra": "2780816 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_buildMatrix",
+            "value": 1105,
+            "unit": "ns/op",
+            "extra": "1000000 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_sortPeople",
+            "value": 40,
+            "unit": "ns/op",
+            "extra": "29629862 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkCountSeniors",
+            "value": 2.792,
+            "unit": "ns/op",
+            "extra": "429820374 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_1",
+            "value": 57.28,
+            "unit": "ns/op",
+            "extra": "20974010 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_2",
+            "value": 98.53,
+            "unit": "ns/op",
+            "extra": "12147620 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_4",
+            "value": 135.4,
+            "unit": "ns/op",
+            "extra": "8752666 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_8",
+            "value": 245.9,
+            "unit": "ns/op",
+            "extra": "4844910 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_16",
+            "value": 1357,
+            "unit": "ns/op",
+            "extra": "773044 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_32",
+            "value": 3061,
+            "unit": "ns/op",
+            "extra": "369910 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_64",
+            "value": 6731,
+            "unit": "ns/op",
+            "extra": "180004 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_128",
+            "value": 13038,
+            "unit": "ns/op",
+            "extra": "91321 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_countOfAtoms",
+            "value": 945.1,
+            "unit": "ns/op",
+            "extra": "1272050 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_sortArray",
+            "value": 3968003,
+            "unit": "ns/op",
+            "extra": "300 times\n4 procs"
           }
         ]
       }
