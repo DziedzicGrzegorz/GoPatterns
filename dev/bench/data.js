@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724446741171,
+  "lastUpdate": 1724446742396,
   "repoUrl": "https://github.com/DziedzicGrzegorz/GoPatterns",
   "entries": {
     "Go Benchmark": [
@@ -29795,6 +29795,174 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/f13f561aa286969e5eddb2ac7660d52eeea738b8"
         },
         "date": 1724446740251,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "Benchmark_delNodes",
+            "value": 604.7,
+            "unit": "ns/op",
+            "extra": "1972989 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkHeightShelves",
+            "value": 0.3101,
+            "unit": "ns/op",
+            "extra": "1000000000 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_findTheCity",
+            "value": 1055,
+            "unit": "ns/op",
+            "extra": "1000000 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkNumTeams",
+            "value": 13.37,
+            "unit": "ns/op",
+            "extra": "88322973 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_frequencySort",
+            "value": 201.4,
+            "unit": "ns/op",
+            "extra": "5926066 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkMinDel",
+            "value": 10.99,
+            "unit": "ns/op",
+            "extra": "100000000 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_secondMinimum",
+            "value": 789.8,
+            "unit": "ns/op",
+            "extra": "1510689 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_KthDistinct",
+            "value": 57.19,
+            "unit": "ns/op",
+            "extra": "20975364 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_getDirections",
+            "value": 297.4,
+            "unit": "ns/op",
+            "extra": "4052334 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_sortJumbled",
+            "value": 226,
+            "unit": "ns/op",
+            "extra": "5316723 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkCreateBinaryTree",
+            "value": 436,
+            "unit": "ns/op",
+            "extra": "2595264 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_buildMatrix",
+            "value": 1117,
+            "unit": "ns/op",
+            "extra": "1000000 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_sortPeople",
+            "value": 39.99,
+            "unit": "ns/op",
+            "extra": "29632514 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkCountSeniors",
+            "value": 2.795,
+            "unit": "ns/op",
+            "extra": "429595251 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_1",
+            "value": 57.37,
+            "unit": "ns/op",
+            "extra": "20684912 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_2",
+            "value": 99.62,
+            "unit": "ns/op",
+            "extra": "11901381 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_4",
+            "value": 136.1,
+            "unit": "ns/op",
+            "extra": "8639176 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_8",
+            "value": 255.7,
+            "unit": "ns/op",
+            "extra": "4862905 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_16",
+            "value": 1386,
+            "unit": "ns/op",
+            "extra": "770601 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_32",
+            "value": 3271,
+            "unit": "ns/op",
+            "extra": "369919 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_64",
+            "value": 6524,
+            "unit": "ns/op",
+            "extra": "180272 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_128",
+            "value": 13212,
+            "unit": "ns/op",
+            "extra": "90742 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_countOfAtoms",
+            "value": 969.4,
+            "unit": "ns/op",
+            "extra": "1255090 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_sortArray",
+            "value": 4090319,
+            "unit": "ns/op",
+            "extra": "292 times\n4 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Dziedzic Grzegorz",
+            "username": "DziedzicGrzegorz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f13f561aa286969e5eddb2ac7660d52eeea738b8",
+          "message": "feat(664): Hard (#67)\n\n* feat(664): Hard\r\n\r\nThere is a strange printer with the following two special properties:\r\n\r\nThe printer can only print a sequence of the same character each time.\r\nAt each turn, the printer can print new characters starting from and ending at any place and will cover the original existing characters.\r\nGiven a string s, return the minimum number of turns the printer needed to print it.\r\n\r\nExample 1:\r\n\r\nInput: s = \"aaabbb\"\r\nOutput: 2\r\nExplanation: Print \"aaa\" first and then print \"bbb\".\r\nExample 2:\r\n\r\nInput: s = \"aba\"\r\nOutput: 2\r\nExplanation: Print \"aaa\" first and then print \"b\" from the second place of the string, which will cover the existing character 'a'.\r\n\r\nConstraints:\r\n\r\n1 <= s.length <= 100\r\ns consists of lowercase English letters.\r\n\r\n* test(664): Medium",
+          "timestamp": "2024-08-23T22:58:05+02:00",
+          "tree_id": "fc0fe083cb2a2a6e63466ec7a60175666894223e",
+          "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/f13f561aa286969e5eddb2ac7660d52eeea738b8"
+        },
+        "date": 1724446742011,
         "tool": "go",
         "benches": [
           {
