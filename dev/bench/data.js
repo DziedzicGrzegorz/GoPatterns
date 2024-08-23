@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724447181682,
+  "lastUpdate": 1724447182764,
   "repoUrl": "https://github.com/DziedzicGrzegorz/GoPatterns",
   "entries": {
     "Go Benchmark": [
@@ -30803,6 +30803,174 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/ee396f50365e934026a2e8d4cbb4b16f38261680"
         },
         "date": 1724447181046,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "Benchmark_delNodes",
+            "value": 604.1,
+            "unit": "ns/op",
+            "extra": "1982577 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkHeightShelves",
+            "value": 0.3098,
+            "unit": "ns/op",
+            "extra": "1000000000 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_findTheCity",
+            "value": 1053,
+            "unit": "ns/op",
+            "extra": "1000000 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkNumTeams",
+            "value": 13.34,
+            "unit": "ns/op",
+            "extra": "88976514 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_frequencySort",
+            "value": 205.2,
+            "unit": "ns/op",
+            "extra": "5854489 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkMinDel",
+            "value": 10.78,
+            "unit": "ns/op",
+            "extra": "100000000 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_secondMinimum",
+            "value": 783.3,
+            "unit": "ns/op",
+            "extra": "1534054 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_KthDistinct",
+            "value": 57.11,
+            "unit": "ns/op",
+            "extra": "20766196 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_getDirections",
+            "value": 297.7,
+            "unit": "ns/op",
+            "extra": "4086406 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_sortJumbled",
+            "value": 225.2,
+            "unit": "ns/op",
+            "extra": "5334961 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkCreateBinaryTree",
+            "value": 434.2,
+            "unit": "ns/op",
+            "extra": "2775946 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_buildMatrix",
+            "value": 1127,
+            "unit": "ns/op",
+            "extra": "1000000 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_sortPeople",
+            "value": 40.04,
+            "unit": "ns/op",
+            "extra": "29838672 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkCountSeniors",
+            "value": 3.385,
+            "unit": "ns/op",
+            "extra": "353448560 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_1",
+            "value": 57.41,
+            "unit": "ns/op",
+            "extra": "20656226 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_2",
+            "value": 98.48,
+            "unit": "ns/op",
+            "extra": "12002396 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_4",
+            "value": 136,
+            "unit": "ns/op",
+            "extra": "8634241 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_8",
+            "value": 249.5,
+            "unit": "ns/op",
+            "extra": "4115989 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_16",
+            "value": 1368,
+            "unit": "ns/op",
+            "extra": "789866 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_32",
+            "value": 3090,
+            "unit": "ns/op",
+            "extra": "337962 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_64",
+            "value": 6571,
+            "unit": "ns/op",
+            "extra": "179601 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_128",
+            "value": 13432,
+            "unit": "ns/op",
+            "extra": "89235 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_countOfAtoms",
+            "value": 950.1,
+            "unit": "ns/op",
+            "extra": "1267932 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_sortArray",
+            "value": 3980424,
+            "unit": "ns/op",
+            "extra": "296 times\n4 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Dziedzic Grzegorz",
+            "username": "DziedzicGrzegorz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ee396f50365e934026a2e8d4cbb4b16f38261680",
+          "message": "Dev (#70)\n\n* feat(624): Medium\r\n\r\nYou are given m arrays, where each array is sorted in ascending order.\r\n\r\nYou can pick up two integers from two different arrays (each array picks one) and calculate the distance. We define the distance between two integers a and b to be their absolute difference |a - b|.\r\n\r\nReturn the maximum distance.\r\n\r\nExample 1:\r\n\r\nInput: arrays = [[1,2,3],[4,5],[1,2,3]]\r\nOutput: 4\r\nExplanation: One way to reach the maximum distance 4 is to pick 1 in the first or third array and pick 5 in the second array.\r\nExample 2:\r\n\r\nInput: arrays = [[1],[1]]\r\nOutput: 0\r\n\r\nConstraints:\r\n\r\nm == arrays.length\r\n2 <= m <= 105\r\n1 <= arrays[i].length <= 500\r\n-104 <= arrays[i][j] <= 104\r\narrays[i] is sorted in ascending order.\r\nThere will be at most 105 integers in all the arrays.\r\n\r\n* feat(1937): Medium\r\n\r\nYou are given an m x n integer matrix points (0-indexed). Starting with 0 points, you want to maximize the number of points you can get from the matrix.\r\n\r\nTo gain points, you must pick one cell in each row. Picking the cell at coordinates (r, c) will add points[r][c] to your score.\r\n\r\nHowever, you will lose points if you pick a cell too far from the cell that you picked in the previous row. For every two adjacent rows r and r + 1 (where 0 <= r < m - 1), picking cells at coordinates (r, c1) and (r + 1, c2) will subtract abs(c1 - c2) from your score.\r\n\r\nReturn the maximum number of points you can achieve.\r\n\r\nabs(x) is defined as:\r\n\r\nx for x >= 0.\r\n-x for x < 0.\r\n\r\nExample 1:\r\n\r\nInput: points = [[1,2,3],[1,5,1],[3,1,1]]\r\nOutput: 9\r\nExplanation:\r\nThe blue cells denote the optimal cells to pick, which have coordinates (0, 2), (1, 1), and (2, 0).\r\nYou add 3 + 5 + 3 = 11 to your score.\r\nHowever, you must subtract abs(2 - 1) + abs(1 - 0) = 2 from your score.\r\nYour final score is 11 - 2 = 9.\r\nExample 2:\r\n\r\nInput: points = [[1,5],[2,3],[4,2]]\r\nOutput: 11\r\nExplanation:\r\nThe blue cells denote the optimal cells to pick, which have coordinates (0, 1), (1, 1), and (2, 0).\r\nYou add 5 + 3 + 4 = 12 to your score.\r\nHowever, you must subtract abs(1 - 1) + abs(1 - 0) = 1 from your score.\r\nYour final score is 12 - 1 = 11.\r\n\r\nConstraints:\r\n\r\nm == points.length\r\nn == points[r].length\r\n1 <= m, n <= 105\r\n1 <= m * n <= 105\r\n0 <= points[r][c] <= 105\r\n\r\n* feat(592): Medium (#68)\r\n\r\nGiven a string expression representing an expression of fraction addition and subtraction, return the calculation result in string format.\r\n\r\nThe final result should be an irreducible fraction. If your final result is an integer, change it to the format of a fraction that has a denominator 1. So in this case, 2 should be converted to 2/1.\r\n\r\nExample 1:\r\n\r\nInput: expression = \"-1/2+1/2\"\r\nOutput: \"0/1\"\r\nExample 2:\r\n\r\nInput: expression = \"-1/2+1/2+1/3\"\r\nOutput: \"1/3\"\r\nExample 3:\r\n\r\nInput: expression = \"1/3-1/2\"\r\nOutput: \"-1/6\"\r\n\r\nConstraints:\r\n\r\nThe input string only contains '0' to '9', '/', '+' and '-'. So does the output.\r\nEach fraction (input and output) has the format ±numerator/denominator. If the first input fraction or the output is positive, then '+' will be omitted.\r\nThe input only contains valid irreducible fractions, where the numerator and denominator of each fraction will always be in the range [1, 10]. If the denominator is 1, it means this fraction is actually an integer in a fraction format defined above.\r\nThe number of given fractions will be in the range [1, 10].\r\nThe numerator and denominator of the final result are guaranteed to be valid and in the range of 32-bit int.\r\n\r\nBREAKING CHANGE: c++ code\r\n\r\n* feat(664): Hard (#67)\r\n\r\n* feat(664): Hard\r\n\r\nThere is a strange printer with the following two special properties:\r\n\r\nThe printer can only print a sequence of the same character each time.\r\nAt each turn, the printer can print new characters starting from and ending at any place and will cover the original existing characters.\r\nGiven a string s, return the minimum number of turns the printer needed to print it.\r\n\r\nExample 1:\r\n\r\nInput: s = \"aaabbb\"\r\nOutput: 2\r\nExplanation: Print \"aaa\" first and then print \"bbb\".\r\nExample 2:\r\n\r\nInput: s = \"aba\"\r\nOutput: 2\r\nExplanation: Print \"aaa\" first and then print \"b\" from the second place of the string, which will cover the existing character 'a'.\r\n\r\nConstraints:\r\n\r\n1 <= s.length <= 100\r\ns consists of lowercase English letters.\r\n\r\n* test(664): Medium\r\n\r\n* feat(264): Medium (#69)\r\n\r\n* feat(264): Medium\r\n\r\nAn ugly number is a positive integer whose prime factors are limited to 2, 3, and 5.\r\n\r\nGiven an integer n, return the nth ugly number.\r\n\r\nExample 1:\r\n\r\nInput: n = 10\r\nOutput: 12\r\nExplanation: [1, 2, 3, 4, 5, 6, 8, 9, 10, 12] is the sequence of the first 10 ugly numbers.\r\nExample 2:\r\n\r\nInput: n = 1\r\nOutput: 1\r\nExplanation: 1 has no prime factors, therefore all of its prime factors are limited to 2, 3, and 5.\r\n\r\nConstraints:\r\n\r\n1 <= n <= 1690\r\n\r\n* test(264): Medium",
+          "timestamp": "2024-08-23T23:05:27+02:00",
+          "tree_id": "caec966b0c4d3b7af4897fba9b92f3560eef0043",
+          "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/ee396f50365e934026a2e8d4cbb4b16f38261680"
+        },
+        "date": 1724447182550,
         "tool": "go",
         "benches": [
           {
