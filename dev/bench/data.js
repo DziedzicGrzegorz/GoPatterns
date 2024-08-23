@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724267381256,
+  "lastUpdate": 1724446373885,
   "repoUrl": "https://github.com/DziedzicGrzegorz/GoPatterns",
   "entries": {
     "Go Benchmark": [
@@ -28764,6 +28764,174 @@ window.BENCHMARK_DATA = {
             "value": 4091787,
             "unit": "ns/op",
             "extra": "289 times\n4 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Grzegorz Dziedzic",
+            "username": "DziedzicGrzegorz"
+          },
+          "committer": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Grzegorz Dziedzic",
+            "username": "DziedzicGrzegorz"
+          },
+          "distinct": true,
+          "id": "f2a9bc8667738fe8ccdb0371312bbfd9846fc7d9",
+          "message": "feat(592): Medium\n\nGiven a string expression representing an expression of fraction addition and subtraction, return the calculation result in string format.\n\nThe final result should be an irreducible fraction. If your final result is an integer, change it to the format of a fraction that has a denominator 1. So in this case, 2 should be converted to 2/1.\n\nExample 1:\n\nInput: expression = \"-1/2+1/2\"\nOutput: \"0/1\"\nExample 2:\n\nInput: expression = \"-1/2+1/2+1/3\"\nOutput: \"1/3\"\nExample 3:\n\nInput: expression = \"1/3-1/2\"\nOutput: \"-1/6\"\n\nConstraints:\n\nThe input string only contains '0' to '9', '/', '+' and '-'. So does the output.\nEach fraction (input and output) has the format ±numerator/denominator. If the first input fraction or the output is positive, then '+' will be omitted.\nThe input only contains valid irreducible fractions, where the numerator and denominator of each fraction will always be in the range [1, 10]. If the denominator is 1, it means this fraction is actually an integer in a fraction format defined above.\nThe number of given fractions will be in the range [1, 10].\nThe numerator and denominator of the final result are guaranteed to be valid and in the range of 32-bit int.\n\nBREAKING CHANGE: c++ code",
+          "timestamp": "2024-08-23T22:51:42+02:00",
+          "tree_id": "24cbecda92e40272adb38e6de54138b383e37782",
+          "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/f2a9bc8667738fe8ccdb0371312bbfd9846fc7d9"
+        },
+        "date": 1724446373070,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "Benchmark_delNodes",
+            "value": 605.2,
+            "unit": "ns/op",
+            "extra": "1982047 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkHeightShelves",
+            "value": 0.3097,
+            "unit": "ns/op",
+            "extra": "1000000000 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_findTheCity",
+            "value": 1062,
+            "unit": "ns/op",
+            "extra": "1000000 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkNumTeams",
+            "value": 13.36,
+            "unit": "ns/op",
+            "extra": "89169753 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_frequencySort",
+            "value": 201.8,
+            "unit": "ns/op",
+            "extra": "5953923 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkMinDel",
+            "value": 10.91,
+            "unit": "ns/op",
+            "extra": "100000000 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_secondMinimum",
+            "value": 815.5,
+            "unit": "ns/op",
+            "extra": "1535731 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_KthDistinct",
+            "value": 57.22,
+            "unit": "ns/op",
+            "extra": "20974339 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_getDirections",
+            "value": 294.8,
+            "unit": "ns/op",
+            "extra": "4061445 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_sortJumbled",
+            "value": 224.7,
+            "unit": "ns/op",
+            "extra": "5285948 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkCreateBinaryTree",
+            "value": 433.8,
+            "unit": "ns/op",
+            "extra": "2769442 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_buildMatrix",
+            "value": 1104,
+            "unit": "ns/op",
+            "extra": "1000000 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_sortPeople",
+            "value": 40.01,
+            "unit": "ns/op",
+            "extra": "29559412 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkCountSeniors",
+            "value": 2.911,
+            "unit": "ns/op",
+            "extra": "429307719 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_1",
+            "value": 57.24,
+            "unit": "ns/op",
+            "extra": "20568171 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_2",
+            "value": 98.26,
+            "unit": "ns/op",
+            "extra": "12038556 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_4",
+            "value": 135.6,
+            "unit": "ns/op",
+            "extra": "8712824 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_8",
+            "value": 247.8,
+            "unit": "ns/op",
+            "extra": "4842669 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_16",
+            "value": 1366,
+            "unit": "ns/op",
+            "extra": "767682 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_32",
+            "value": 3087,
+            "unit": "ns/op",
+            "extra": "368203 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_64",
+            "value": 6520,
+            "unit": "ns/op",
+            "extra": "180997 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_128",
+            "value": 13176,
+            "unit": "ns/op",
+            "extra": "91314 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_countOfAtoms",
+            "value": 969.2,
+            "unit": "ns/op",
+            "extra": "1250792 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_sortArray",
+            "value": 4013193,
+            "unit": "ns/op",
+            "extra": "295 times\n4 procs"
           }
         ]
       }
