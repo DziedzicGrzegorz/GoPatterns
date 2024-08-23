@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724446843531,
+  "lastUpdate": 1724446911033,
   "repoUrl": "https://github.com/DziedzicGrzegorz/GoPatterns",
   "entries": {
     "Go Benchmark": [
@@ -30444,6 +30444,174 @@ window.BENCHMARK_DATA = {
             "value": 4078532,
             "unit": "ns/op",
             "extra": "291 times\n4 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Dziedzic Grzegorz",
+            "username": "DziedzicGrzegorz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "668a7edbc710cc5a5da2513700cb27f1e0cf407d",
+          "message": "feat(264): Medium (#69)\n\n* feat(264): Medium\r\n\r\nAn ugly number is a positive integer whose prime factors are limited to 2, 3, and 5.\r\n\r\nGiven an integer n, return the nth ugly number.\r\n\r\nExample 1:\r\n\r\nInput: n = 10\r\nOutput: 12\r\nExplanation: [1, 2, 3, 4, 5, 6, 8, 9, 10, 12] is the sequence of the first 10 ugly numbers.\r\nExample 2:\r\n\r\nInput: n = 1\r\nOutput: 1\r\nExplanation: 1 has no prime factors, therefore all of its prime factors are limited to 2, 3, and 5.\r\n\r\nConstraints:\r\n\r\n1 <= n <= 1690\r\n\r\n* test(264): Medium",
+          "timestamp": "2024-08-23T23:00:55+02:00",
+          "tree_id": "caec966b0c4d3b7af4897fba9b92f3560eef0043",
+          "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/668a7edbc710cc5a5da2513700cb27f1e0cf407d"
+        },
+        "date": 1724446910240,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "Benchmark_delNodes",
+            "value": 615.4,
+            "unit": "ns/op",
+            "extra": "1952450 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkHeightShelves",
+            "value": 0.3105,
+            "unit": "ns/op",
+            "extra": "1000000000 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_findTheCity",
+            "value": 1051,
+            "unit": "ns/op",
+            "extra": "1000000 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkNumTeams",
+            "value": 13.38,
+            "unit": "ns/op",
+            "extra": "88981488 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_frequencySort",
+            "value": 201.5,
+            "unit": "ns/op",
+            "extra": "5960731 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkMinDel",
+            "value": 10.83,
+            "unit": "ns/op",
+            "extra": "100000000 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_secondMinimum",
+            "value": 781.3,
+            "unit": "ns/op",
+            "extra": "1537634 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_KthDistinct",
+            "value": 57.11,
+            "unit": "ns/op",
+            "extra": "20936323 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_getDirections",
+            "value": 294.7,
+            "unit": "ns/op",
+            "extra": "4094512 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_sortJumbled",
+            "value": 225.9,
+            "unit": "ns/op",
+            "extra": "5316276 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkCreateBinaryTree",
+            "value": 439.4,
+            "unit": "ns/op",
+            "extra": "2553123 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_buildMatrix",
+            "value": 1103,
+            "unit": "ns/op",
+            "extra": "1000000 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_sortPeople",
+            "value": 40.02,
+            "unit": "ns/op",
+            "extra": "29905876 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkCountSeniors",
+            "value": 2.795,
+            "unit": "ns/op",
+            "extra": "428627588 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_1",
+            "value": 57.69,
+            "unit": "ns/op",
+            "extra": "20762443 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_2",
+            "value": 98.32,
+            "unit": "ns/op",
+            "extra": "12089758 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_4",
+            "value": 137.7,
+            "unit": "ns/op",
+            "extra": "8778416 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_8",
+            "value": 245.8,
+            "unit": "ns/op",
+            "extra": "4889594 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_16",
+            "value": 1427,
+            "unit": "ns/op",
+            "extra": "802562 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_32",
+            "value": 3066,
+            "unit": "ns/op",
+            "extra": "374923 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_64",
+            "value": 6599,
+            "unit": "ns/op",
+            "extra": "179701 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_128",
+            "value": 13045,
+            "unit": "ns/op",
+            "extra": "91525 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_countOfAtoms",
+            "value": 980.9,
+            "unit": "ns/op",
+            "extra": "1264202 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_sortArray",
+            "value": 3958071,
+            "unit": "ns/op",
+            "extra": "298 times\n4 procs"
           }
         ]
       }
