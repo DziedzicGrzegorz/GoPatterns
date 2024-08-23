@@ -19,6 +19,9 @@ jobs:
       with:
         go-version: '1.23.0'
 
+    - name: Build C++ shared library
+      run: make
+
     - name: Build
       run: go build -v ./...
 
