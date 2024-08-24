@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724526894897,
+  "lastUpdate": 1724530976759,
   "repoUrl": "https://github.com/DziedzicGrzegorz/GoPatterns",
   "entries": {
     "Go Benchmark": [
@@ -31452,6 +31452,174 @@ window.BENCHMARK_DATA = {
             "value": 3983610,
             "unit": "ns/op",
             "extra": "298 times\n4 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Grzegorz Dziedzic",
+            "username": "DziedzicGrzegorz"
+          },
+          "committer": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Grzegorz Dziedzic",
+            "username": "DziedzicGrzegorz"
+          },
+          "distinct": true,
+          "id": "df7b68b319e79718e7cda7b490bf33379522a33f",
+          "message": "feat(564): Hard\n\nGiven a string n representing an integer, return the closest integer (not including itself), which is a palindrome. If there is a tie, return the smaller one.\n\nThe closest is defined as the absolute difference minimized between two integers.\n\nExample 1:\n\nInput: n = \"123\"\nOutput: \"121\"\nExample 2:\n\nInput: n = \"1\"\nOutput: \"0\"\nExplanation: 0 and 2 are the closest palindromes but we return the smallest which is 0.\n\nConstraints:\n\n1 <= n.length <= 18\nn consists of only digits.\nn does not have leading zeros.\nn is representing an integer in the range [1, 1018 - 1].",
+          "timestamp": "2024-08-24T22:21:47+02:00",
+          "tree_id": "4eb0f1bec4d1dbe2902bdf9c65c5a1cd987e6ff3",
+          "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/df7b68b319e79718e7cda7b490bf33379522a33f"
+        },
+        "date": 1724530975361,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "Benchmark_delNodes",
+            "value": 604.2,
+            "unit": "ns/op",
+            "extra": "1982859 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkHeightShelves",
+            "value": 0.3099,
+            "unit": "ns/op",
+            "extra": "1000000000 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_findTheCity",
+            "value": 1052,
+            "unit": "ns/op",
+            "extra": "1000000 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkNumTeams",
+            "value": 13.32,
+            "unit": "ns/op",
+            "extra": "89955790 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_frequencySort",
+            "value": 201.1,
+            "unit": "ns/op",
+            "extra": "5940358 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkMinDel",
+            "value": 10.83,
+            "unit": "ns/op",
+            "extra": "100000000 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_secondMinimum",
+            "value": 782.4,
+            "unit": "ns/op",
+            "extra": "1540240 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_KthDistinct",
+            "value": 59.56,
+            "unit": "ns/op",
+            "extra": "20110597 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_getDirections",
+            "value": 304.4,
+            "unit": "ns/op",
+            "extra": "4079472 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_sortJumbled",
+            "value": 225.1,
+            "unit": "ns/op",
+            "extra": "5347080 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkCreateBinaryTree",
+            "value": 436.8,
+            "unit": "ns/op",
+            "extra": "2746983 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_buildMatrix",
+            "value": 1107,
+            "unit": "ns/op",
+            "extra": "1000000 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_sortPeople",
+            "value": 39.97,
+            "unit": "ns/op",
+            "extra": "29551225 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkCountSeniors",
+            "value": 2.787,
+            "unit": "ns/op",
+            "extra": "430441268 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_1",
+            "value": 57.08,
+            "unit": "ns/op",
+            "extra": "20808708 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_2",
+            "value": 102.8,
+            "unit": "ns/op",
+            "extra": "11954018 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_4",
+            "value": 142.6,
+            "unit": "ns/op",
+            "extra": "8744350 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_8",
+            "value": 248,
+            "unit": "ns/op",
+            "extra": "4811576 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_16",
+            "value": 1376,
+            "unit": "ns/op",
+            "extra": "776043 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_32",
+            "value": 3082,
+            "unit": "ns/op",
+            "extra": "362889 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_64",
+            "value": 6549,
+            "unit": "ns/op",
+            "extra": "178034 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_128",
+            "value": 13095,
+            "unit": "ns/op",
+            "extra": "90036 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_countOfAtoms",
+            "value": 941.8,
+            "unit": "ns/op",
+            "extra": "1254972 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_sortArray",
+            "value": 3951454,
+            "unit": "ns/op",
+            "extra": "300 times\n4 procs"
           }
         ]
       }
