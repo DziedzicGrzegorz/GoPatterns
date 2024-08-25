@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724534799501,
+  "lastUpdate": 1724621089019,
   "repoUrl": "https://github.com/DziedzicGrzegorz/GoPatterns",
   "entries": {
     "Go Benchmark": [
@@ -32124,6 +32124,174 @@ window.BENCHMARK_DATA = {
             "value": 3973444,
             "unit": "ns/op",
             "extra": "296 times\n4 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Grzegorz Dziedzic",
+            "username": "DziedzicGrzegorz"
+          },
+          "committer": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Grzegorz Dziedzic",
+            "username": "DziedzicGrzegorz"
+          },
+          "distinct": true,
+          "id": "55ac301d7124fa145b79d5fb8ed754cca02fbde4",
+          "message": "feat(145): Easy\n\nGiven the root of a binary tree, return the postorder traversal of its nodes' values.\n\nExample 1:\n\nInput: root = [1,null,2,3]\nOutput: [3,2,1]\nExample 2:\n\nInput: root = []\nOutput: []\nExample 3:\n\nInput: root = [1]\nOutput: [1]\n\nConstraints:\n\nThe number of the nodes in the tree is in the range [0, 100].\n-100 <= Node.val <= 100",
+          "timestamp": "2024-08-25T23:23:42+02:00",
+          "tree_id": "3f597e1eec688c8852f983421ab2e2f066fb101a",
+          "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/55ac301d7124fa145b79d5fb8ed754cca02fbde4"
+        },
+        "date": 1724621087866,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "Benchmark_delNodes",
+            "value": 605.7,
+            "unit": "ns/op",
+            "extra": "1838242 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkHeightShelves",
+            "value": 0.3104,
+            "unit": "ns/op",
+            "extra": "1000000000 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_findTheCity",
+            "value": 1055,
+            "unit": "ns/op",
+            "extra": "1000000 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkNumTeams",
+            "value": 13.33,
+            "unit": "ns/op",
+            "extra": "89312374 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_frequencySort",
+            "value": 201.2,
+            "unit": "ns/op",
+            "extra": "5933762 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkMinDel",
+            "value": 10.8,
+            "unit": "ns/op",
+            "extra": "100000000 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_secondMinimum",
+            "value": 788.1,
+            "unit": "ns/op",
+            "extra": "1526112 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_KthDistinct",
+            "value": 57.17,
+            "unit": "ns/op",
+            "extra": "20673674 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_getDirections",
+            "value": 296.1,
+            "unit": "ns/op",
+            "extra": "4077487 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_sortJumbled",
+            "value": 226.5,
+            "unit": "ns/op",
+            "extra": "4934692 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkCreateBinaryTree",
+            "value": 434.8,
+            "unit": "ns/op",
+            "extra": "2758530 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_buildMatrix",
+            "value": 1107,
+            "unit": "ns/op",
+            "extra": "999904 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_sortPeople",
+            "value": 40.49,
+            "unit": "ns/op",
+            "extra": "29892948 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkCountSeniors",
+            "value": 2.791,
+            "unit": "ns/op",
+            "extra": "429584755 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_1",
+            "value": 57.27,
+            "unit": "ns/op",
+            "extra": "20699863 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_2",
+            "value": 98.15,
+            "unit": "ns/op",
+            "extra": "11978709 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_4",
+            "value": 139.1,
+            "unit": "ns/op",
+            "extra": "8741491 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_8",
+            "value": 247.4,
+            "unit": "ns/op",
+            "extra": "4893232 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_16",
+            "value": 1416,
+            "unit": "ns/op",
+            "extra": "795732 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_32",
+            "value": 3084,
+            "unit": "ns/op",
+            "extra": "366249 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_64",
+            "value": 6508,
+            "unit": "ns/op",
+            "extra": "179474 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_128",
+            "value": 13044,
+            "unit": "ns/op",
+            "extra": "90601 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_countOfAtoms",
+            "value": 958.9,
+            "unit": "ns/op",
+            "extra": "1268704 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_sortArray",
+            "value": 3948871,
+            "unit": "ns/op",
+            "extra": "300 times\n4 procs"
           }
         ]
       }
