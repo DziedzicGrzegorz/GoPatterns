@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724707131727,
+  "lastUpdate": 1724793147213,
   "repoUrl": "https://github.com/DziedzicGrzegorz/GoPatterns",
   "entries": {
     "Go Benchmark": [
@@ -32794,6 +32794,174 @@ window.BENCHMARK_DATA = {
           {
             "name": "Benchmark_sortArray",
             "value": 3966086,
+            "unit": "ns/op",
+            "extra": "297 times\n4 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Grzegorz Dziedzic",
+            "username": "DziedzicGrzegorz"
+          },
+          "committer": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Grzegorz Dziedzic",
+            "username": "DziedzicGrzegorz"
+          },
+          "distinct": true,
+          "id": "b70073fac521b970682f7e7060e2ec2b5109e546",
+          "message": "feat(1514): Medium\n\nYou are given an undirected weighted graph of n nodes (0-indexed), represented by an edge list where edges[i] = [a, b] is an undirected edge connecting the nodes a and b with a probability of success of traversing that edge succProb[i].\n\nGiven two nodes start and end, find the path with the maximum probability of success to go from start to end and return its success probability.\n\nIf there is no path from start to end, return 0. Your answer will be accepted if it differs from the correct answer by at most 1e-5.\n\nExample 1:\n\nInput: n = 3, edges = [[0,1],[1,2],[0,2]], succProb = [0.5,0.5,0.2], start = 0, end = 2\nOutput: 0.25000\nExplanation: There are two paths from start to end, one having a probability of success = 0.2 and the other has 0.5 * 0.5 = 0.25.\nExample 2:\n\nInput: n = 3, edges = [[0,1],[1,2],[0,2]], succProb = [0.5,0.5,0.3], start = 0, end = 2\nOutput: 0.30000\nExample 3:\n\nInput: n = 3, edges = [[0,1]], succProb = [0.5], start = 0, end = 2\nOutput: 0.00000\nExplanation: There is no path between 0 and 2.\n\nConstraints:\n\n2 <= n <= 10^4\n0 <= start, end < n\nstart != end\n0 <= a, b < n\na != b\n0 <= succProb.length == edges.length <= 2*10^4\n0 <= succProb[i] <= 1\nThere is at most one edge between every two nodes.",
+          "timestamp": "2024-08-27T23:11:19+02:00",
+          "tree_id": "777bd1778e1d3fc0ae7aec280899ba53fdd6bbee",
+          "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/b70073fac521b970682f7e7060e2ec2b5109e546"
+        },
+        "date": 1724793146546,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "Benchmark_delNodes",
+            "value": 605.2,
+            "unit": "ns/op",
+            "extra": "1863988 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkHeightShelves",
+            "value": 0.3097,
+            "unit": "ns/op",
+            "extra": "1000000000 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_findTheCity",
+            "value": 1050,
+            "unit": "ns/op",
+            "extra": "1000000 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkNumTeams",
+            "value": 13.36,
+            "unit": "ns/op",
+            "extra": "89917754 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_frequencySort",
+            "value": 201.2,
+            "unit": "ns/op",
+            "extra": "5930040 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkMinDel",
+            "value": 10.72,
+            "unit": "ns/op",
+            "extra": "100000000 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_secondMinimum",
+            "value": 785.2,
+            "unit": "ns/op",
+            "extra": "1540345 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_KthDistinct",
+            "value": 59.71,
+            "unit": "ns/op",
+            "extra": "19889800 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_getDirections",
+            "value": 297.6,
+            "unit": "ns/op",
+            "extra": "4112488 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_sortJumbled",
+            "value": 224.6,
+            "unit": "ns/op",
+            "extra": "5334990 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkCreateBinaryTree",
+            "value": 436.6,
+            "unit": "ns/op",
+            "extra": "2763027 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_buildMatrix",
+            "value": 1156,
+            "unit": "ns/op",
+            "extra": "1000000 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_sortPeople",
+            "value": 40.04,
+            "unit": "ns/op",
+            "extra": "29867745 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkCountSeniors",
+            "value": 2.802,
+            "unit": "ns/op",
+            "extra": "429351951 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_1",
+            "value": 57.42,
+            "unit": "ns/op",
+            "extra": "20405378 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_2",
+            "value": 98.33,
+            "unit": "ns/op",
+            "extra": "11895697 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_4",
+            "value": 135.8,
+            "unit": "ns/op",
+            "extra": "8679699 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_8",
+            "value": 247.1,
+            "unit": "ns/op",
+            "extra": "4839097 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_16",
+            "value": 1377,
+            "unit": "ns/op",
+            "extra": "775012 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_32",
+            "value": 3122,
+            "unit": "ns/op",
+            "extra": "330540 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_64",
+            "value": 6646,
+            "unit": "ns/op",
+            "extra": "160166 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_128",
+            "value": 13081,
+            "unit": "ns/op",
+            "extra": "90754 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_countOfAtoms",
+            "value": 955.9,
+            "unit": "ns/op",
+            "extra": "1262518 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_sortArray",
+            "value": 4036330,
             "unit": "ns/op",
             "extra": "297 times\n4 procs"
           }
