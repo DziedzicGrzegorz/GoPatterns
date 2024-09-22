@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1727035354853,
+  "lastUpdate": 1727035356100,
   "repoUrl": "https://github.com/DziedzicGrzegorz/GoPatterns",
   "entries": {
     "Go Benchmark": [
@@ -36227,6 +36227,186 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/d1f6afcf233183cb04ba81fd3fabc7dfd1d148d4"
         },
         "date": 1727035353970,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "Benchmark_delNodes",
+            "value": 614.9,
+            "unit": "ns/op",
+            "extra": "1861852 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkHeightShelves",
+            "value": 0.3116,
+            "unit": "ns/op",
+            "extra": "1000000000 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_findTheCity",
+            "value": 1058,
+            "unit": "ns/op",
+            "extra": "1000000 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkNumTeams",
+            "value": 13.42,
+            "unit": "ns/op",
+            "extra": "87410020 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_frequencySort",
+            "value": 202.3,
+            "unit": "ns/op",
+            "extra": "5883805 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkMinDel",
+            "value": 10.99,
+            "unit": "ns/op",
+            "extra": "100000000 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_secondMinimum",
+            "value": 789.8,
+            "unit": "ns/op",
+            "extra": "1513424 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_KthDistinct",
+            "value": 60.08,
+            "unit": "ns/op",
+            "extra": "19927794 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_getDirections",
+            "value": 295.2,
+            "unit": "ns/op",
+            "extra": "4034064 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_sortJumbled",
+            "value": 227.1,
+            "unit": "ns/op",
+            "extra": "5291066 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkCreateBinaryTree",
+            "value": 468.2,
+            "unit": "ns/op",
+            "extra": "2735424 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkSpiralMatrix",
+            "value": 131.7,
+            "unit": "ns/op",
+            "extra": "9128522 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_buildMatrix",
+            "value": 1122,
+            "unit": "ns/op",
+            "extra": "1000000 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_sortPeople",
+            "value": 40.32,
+            "unit": "ns/op",
+            "extra": "29738042 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkCountSeniors",
+            "value": 2.805,
+            "unit": "ns/op",
+            "extra": "421839045 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_1",
+            "value": 57.59,
+            "unit": "ns/op",
+            "extra": "20726799 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_2",
+            "value": 98.68,
+            "unit": "ns/op",
+            "extra": "11251621 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_4",
+            "value": 136.3,
+            "unit": "ns/op",
+            "extra": "8741522 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_8",
+            "value": 253,
+            "unit": "ns/op",
+            "extra": "4801692 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_16",
+            "value": 1370,
+            "unit": "ns/op",
+            "extra": "750705 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_32",
+            "value": 3209,
+            "unit": "ns/op",
+            "extra": "363264 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_64",
+            "value": 6579,
+            "unit": "ns/op",
+            "extra": "174634 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_128",
+            "value": 13150,
+            "unit": "ns/op",
+            "extra": "90238 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkFindKthNumber",
+            "value": 220,
+            "unit": "ns/op",
+            "extra": "5451745 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_countOfAtoms",
+            "value": 954.9,
+            "unit": "ns/op",
+            "extra": "1231281 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_sortArray",
+            "value": 4096216,
+            "unit": "ns/op",
+            "extra": "297 times\n4 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Dziedzic Grzegorz",
+            "username": "DziedzicGrzegorz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d1f6afcf233183cb04ba81fd3fabc7dfd1d148d4",
+          "message": "feat(440): Hard (#77)\n\nGiven two integers n and k, return the kth lexicographically smallest integer in the range [1, n].\r\n\r\nExample 1:\r\n\r\nInput: n = 13, k = 2\r\nOutput: 10\r\nExplanation: The lexicographical order is [1, 10, 11, 12, 13, 2, 3, 4, 5, 6, 7, 8, 9], so the second smallest number is 10.\r\nExample 2:\r\n\r\nInput: n = 1, k = 1\r\nOutput: 1\r\n\r\nConstraints:\r\n\r\n1 <= k <= n <= 109",
+          "timestamp": "2024-09-22T22:01:37+02:00",
+          "tree_id": "ce82993dd2b3d5d7fa3f3b23ae17fecb6a78e783",
+          "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/d1f6afcf233183cb04ba81fd3fabc7dfd1d148d4"
+        },
+        "date": 1727035355751,
         "tool": "go",
         "benches": [
           {
