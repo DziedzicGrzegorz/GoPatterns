@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1727028608401,
+  "lastUpdate": 1727028609385,
   "repoUrl": "https://github.com/DziedzicGrzegorz/GoPatterns",
   "entries": {
     "Go Benchmark": [
@@ -35519,6 +35519,180 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/e4c440ca52d7913c32a19d1ca43b24ae364a87fd"
         },
         "date": 1727028607665,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "Benchmark_delNodes",
+            "value": 609.5,
+            "unit": "ns/op",
+            "extra": "1975158 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkHeightShelves",
+            "value": 0.311,
+            "unit": "ns/op",
+            "extra": "1000000000 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_findTheCity",
+            "value": 1055,
+            "unit": "ns/op",
+            "extra": "1000000 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkNumTeams",
+            "value": 13.8,
+            "unit": "ns/op",
+            "extra": "86616676 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_frequencySort",
+            "value": 202.8,
+            "unit": "ns/op",
+            "extra": "5927828 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkMinDel",
+            "value": 10.83,
+            "unit": "ns/op",
+            "extra": "100000000 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_secondMinimum",
+            "value": 791,
+            "unit": "ns/op",
+            "extra": "1469407 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_KthDistinct",
+            "value": 57.43,
+            "unit": "ns/op",
+            "extra": "20835961 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_getDirections",
+            "value": 304.3,
+            "unit": "ns/op",
+            "extra": "3995728 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_sortJumbled",
+            "value": 226,
+            "unit": "ns/op",
+            "extra": "5371822 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkCreateBinaryTree",
+            "value": 450.1,
+            "unit": "ns/op",
+            "extra": "2669048 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkSpiralMatrix",
+            "value": 134,
+            "unit": "ns/op",
+            "extra": "9018235 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_buildMatrix",
+            "value": 1170,
+            "unit": "ns/op",
+            "extra": "1000000 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_sortPeople",
+            "value": 40.17,
+            "unit": "ns/op",
+            "extra": "29773880 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkCountSeniors",
+            "value": 2.818,
+            "unit": "ns/op",
+            "extra": "427570903 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_1",
+            "value": 57.74,
+            "unit": "ns/op",
+            "extra": "20637442 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_2",
+            "value": 99.97,
+            "unit": "ns/op",
+            "extra": "11668447 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_4",
+            "value": 137.8,
+            "unit": "ns/op",
+            "extra": "8743224 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_8",
+            "value": 249.9,
+            "unit": "ns/op",
+            "extra": "4760814 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_16",
+            "value": 1371,
+            "unit": "ns/op",
+            "extra": "764083 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_32",
+            "value": 3119,
+            "unit": "ns/op",
+            "extra": "343658 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_64",
+            "value": 6558,
+            "unit": "ns/op",
+            "extra": "177859 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_survivedRobotsHealths/length_128",
+            "value": 13352,
+            "unit": "ns/op",
+            "extra": "89173 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_countOfAtoms",
+            "value": 964.3,
+            "unit": "ns/op",
+            "extra": "1262986 times\n4 procs"
+          },
+          {
+            "name": "Benchmark_sortArray",
+            "value": 4066694,
+            "unit": "ns/op",
+            "extra": "294 times\n4 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "grzegorzdziedzic198@gmail.com",
+            "name": "Dziedzic Grzegorz",
+            "username": "DziedzicGrzegorz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e4c440ca52d7913c32a19d1ca43b24ae364a87fd",
+          "message": "feat(2326): Medium (#76)\n\nou are given two integers m and n, which represent the dimensions of a matrix.\r\n\r\nYou are also given the head of a linked list of integers.\r\n\r\nGenerate an m x n matrix that contains the integers in the linked list presented in spiral order (clockwise), starting from the top-left of the matrix. If there are remaining empty spaces, fill them with -1.\r\n\r\nReturn the generated matrix.\r\n\r\nExample 1:\r\n\r\nInput: m = 3, n = 5, head = [3,0,2,6,8,1,7,9,4,2,5,5,0]\r\nOutput: [[3,0,2,6,8],[5,0,-1,-1,1],[5,2,4,9,7]]\r\nExplanation: The diagram above shows how the values are printed in the matrix.\r\nNote that the remaining spaces in the matrix are filled with -1.\r\nExample 2:\r\n\r\nInput: m = 1, n = 4, head = [0,1,2]\r\nOutput: [[0,1,2,-1]]\r\nExplanation: The diagram above shows how the values are printed from left to right in the matrix.\r\nThe last space in the matrix is set to -1.\r\n\r\nConstraints:\r\n\r\n1 <= m, n <= 105\r\n1 <= m * n <= 105\r\nThe number of nodes in the list is in the range [1, m * n].\r\n0 <= Node.val <= 1000",
+          "timestamp": "2024-09-22T20:09:01+02:00",
+          "tree_id": "e4fdd6fe1a65e62707a2fadb65954e684be810f6",
+          "url": "https://github.com/DziedzicGrzegorz/GoPatterns/commit/e4c440ca52d7913c32a19d1ca43b24ae364a87fd"
+        },
+        "date": 1727028609175,
         "tool": "go",
         "benches": [
           {
